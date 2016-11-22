@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-	<meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
+    <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport'/>
     <title>sp-codes</title>
     <link rel="shortcut icon" href="img/samuel.png">
 
@@ -13,6 +13,19 @@
 
     <script src="bower_components/jquery/dist/jquery.min.js"></script>
     <script src="bower_components/foundation-sites/dist/foundation.min.js"></script>
+    <script src="bower_components/flip/dist/jquery.flip.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            var card = $('#card');
+            card.css('cursor', 'pointer');
+            card.find('.back').removeClass('hide');
+            card.flip({
+                trigger: 'click',
+                speed: 500,
+                reverse: true
+            });
+        });
+    </script>
 
     <style>
         body {
@@ -21,13 +34,19 @@
             color: #fff;
         }
 
+        hr {
+            border-bottom: 1px solid #fff;
+        }
+
         .logo {
-            margin: 1rem;
             max-width: 256px;
             max-height: 256px;
+            background-color: #ffffff;
+            border-radius: 50%;
+            border: 1px solid #222222;
         }
-		
-		.logo.small {
+
+        .logo.small {
             max-width: 128px;
             max-height: 128px;
         }
@@ -39,6 +58,11 @@
         .menu a:hover {
             color: #fff;
         }
+
+        #card {
+            display: inline-block;
+            margin: 1rem;
+        }
     </style>
     <!-- Piwik -->
     <script type="text/javascript">
@@ -46,25 +70,43 @@
         _paq.push(["setDomains", ["*.www.sp-codes.de"]]);
         _paq.push(['trackPageView']);
         _paq.push(['enableLinkTracking']);
-        (function() {
-            var u="//piwik.sp-codes.de/";
-            _paq.push(['setTrackerUrl', u+'piwik.php']);
+        (function () {
+            var u = "//piwik.sp-codes.de/";
+            _paq.push(['setTrackerUrl', u + 'piwik.php']);
             _paq.push(['setSiteId', '3']);
-            var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
-            g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+            var d = document, g = d.createElement('script'), s = d.getElementsByTagName('script')[0];
+            g.type = 'text/javascript';
+            g.async = true;
+            g.defer = true;
+            g.src = u + 'piwik.js';
+            s.parentNode.insertBefore(g, s);
         })();
     </script>
-    <noscript><p><img src="//piwik.sp-codes.de/piwik.php?idsite=3" style="border:0;" alt="" /></p></noscript>
+    <noscript><p><img src="//piwik.sp-codes.de/piwik.php?idsite=3" style="border:0;" alt=""/></p></noscript>
     <!-- End Piwik Code -->
 </head>
 <body class="text-center">
-<img class="logo hide-for-small-only" src="img/samuel.png">
-<img class="logo small show-for-small-only" src="img/samuel.png">
+<div id="card">
+    <div class="front">
+        <img class="logo hide-for-small-only" src="img/samuel.png">
+        <img class="logo small show-for-small-only" src="img/samuel.png">
+    </div>
+    <div class="back hide">
+        <img class="logo hide-for-small-only" src="img/samuel.png">
+        <img class="logo small show-for-small-only" src="img/samuel.png">
+    </div>
+</div>
 
 <hr/>
 
-<h2>Herzlich willkommen bei sp-codes!</h2>
-<p>Mein Name ist Samuel Philipp und ich bin ein Softwareentwickler aus Karlsruhe. Nehmen Sie gerne Kontakt mit mir auf.</p>
+<div class="row columns">
+    <div class="medium-8 medium-centered">
+        <h2>Herzlich willkommen bei sp-codes!</h2>
+        <p>Mein Name ist Samuel Philipp und ich bin ein Softwareentwickler aus Karlsruhe. Nehmen Sie gerne Kontakt mit
+            mir
+            auf.</p>
+    </div>
+</div>
 
 <hr/>
 
@@ -91,15 +133,11 @@
     </ul>
 </div>
 
-<!--
-<hr/>
-
 <div class="menu-centered">
     <ul class="menu">
-        <li><a href="/privacy.html">Datenschutzerklärung</a></li>
+        <li><a href="https://www.samuel-philipp.de">www.samuel-philipp.de</a></li>
     </ul>
 </div>
--->
 
 <script>
     $(document).foundation();

@@ -3,6 +3,7 @@
   "dependencies": {
     "foundation-sites": "*",
     "jquery": "*",
-    "components-font-awesome": "*"
+    "components-font-awesome": "*",
+    "flip": "*"
   }
 }
