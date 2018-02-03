@@ -28,11 +28,17 @@
     </script>
 
     <style>
+        @font-face {
+            font-family: 'Minotaur';
+            src: local('Minotaur Phatte'), url(font/minotaur.ttf) format('truetype');
+        }
+
         body {
             background-image: url("img/bg.png");
             padding: 2%;
             color: #fff;
             -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+            font-size: 20px;
         }
 
         hr {
@@ -64,6 +70,11 @@
             display: inline-block;
             margin: 1rem;
         }
+
+        .sp-codes {
+            font-family: "Minotaur", monospace;
+            font-size: 5rem;
+        }
     </style>
     <!-- Matomo -->
     <script type="text/javascript">
@@ -71,15 +82,19 @@
         /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
         _paq.push(['trackPageView']);
         _paq.push(['enableLinkTracking']);
-        (function() {
-            var u="//matomo.sp-codes.de/";
-            _paq.push(['setTrackerUrl', u+'piwik.php']);
+        (function () {
+            var u = "//matomo.sp-codes.de/";
+            _paq.push(['setTrackerUrl', u + 'piwik.php']);
             _paq.push(['setSiteId', '2']);
-            var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
-            g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+            var d = document, g = d.createElement('script'), s = d.getElementsByTagName('script')[0];
+            g.type = 'text/javascript';
+            g.async = true;
+            g.defer = true;
+            g.src = u + 'piwik.js';
+            s.parentNode.insertBefore(g, s);
         })();
     </script>
-    <noscript><p><img src="//matomo.sp-codes.de/piwik.php?idsite=2&rec=1" style="border:0;" alt="" /></p></noscript>
+    <noscript><p><img src="//matomo.sp-codes.de/piwik.php?idsite=2&rec=1" style="border:0;" alt=""/></p></noscript>
     <!-- End Matomo Code -->
 </head>
 <body class="text-center">
@@ -98,10 +113,9 @@
 
 <div class="row columns">
     <div class="medium-8 medium-centered">
-        <h2>Herzlich willkommen bei sp-codes!</h2>
-        <p>Mein Name ist Samuel Philipp und ich bin ein Softwareentwickler aus Karlsruhe. Nehmen Sie gerne Kontakt mit
-            mir
-            auf.</p>
+        <h1 class="sp-codes">SP-CODES</h1>
+        <p>Hi, my name is Samuel Philipp and im a Software Engineer from Magdeburg, Germany. On this site you find my
+            GitHub profile and my Google Play developer page. Feel free to contact me.</p>
     </div>
 </div>
 
