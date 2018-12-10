@@ -1,9 +1,0 @@
-{
-  "name": "sp-codes",
-  "dependencies": {
-    "foundation-sites": "*",
-    "jquery": "*",
-    "components-font-awesome": "*",
-    "flip": "*"
-  }
-}

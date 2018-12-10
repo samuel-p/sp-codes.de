@@ -6,82 +6,12 @@
     <title>sp-codes</title>
     <link rel="shortcut icon" href="img/samuel.png">
 
-    <link rel="stylesheet" href="bower_components/components-font-awesome/css/font-awesome.min.css" type="text/css"
-          media="screen">
-    <link rel="stylesheet" href="bower_components/foundation-sites/dist/foundation.min.css" type="text/css"
-          media="screen">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+          integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+          integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css" type="text/css" media="screen">
 
-    <script src="bower_components/jquery/dist/jquery.min.js"></script>
-    <script src="bower_components/foundation-sites/dist/foundation.min.js"></script>
-    <script src="bower_components/flip/dist/jquery.flip.min.js"></script>
-    <script>
-        $(document).ready(function () {
-            var card = $('#card');
-            card.css('cursor', 'pointer');
-            card.find('.back').removeClass('hide');
-            card.flip({
-                trigger: 'click',
-                speed: 500,
-                reverse: false
-            });
-        });
-    </script>
-
-    <style>
-        @font-face {
-            font-family: 'Minotaur';
-            src: local('Minotaur Phatte'), url(font/minotaur.ttf) format('truetype');
-        }
-
-        body {
-            background-image: url("img/bg.png");
-            padding: 2%;
-            color: #fff;
-            -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-            font-size: 20px;
-        }
-
-        hr {
-            border-bottom: 1px solid #fff;
-        }
-
-        .logo {
-            max-width: 256px;
-            max-height: 256px;
-            background-color: #ffffff;
-            border-radius: 50%;
-            border: 1px solid #222222;
-        }
-
-        .logo.small {
-            max-width: 128px;
-            max-height: 128px;
-        }
-
-        .menu a {
-            color: #eee;
-        }
-
-        .menu a:hover {
-            color: #fff;
-        }
-
-        #card {
-            display: inline-block;
-            margin: 1rem;
-        }
-
-        .sp-codes {
-            font-family: "Minotaur", monospace;
-            font-size: 3rem;
-        }
-
-        @media screen and (min-width: 40em) {
-            .sp-codes {
-                font-size: 5rem;
-            }
-        }
-    </style>
     <!-- Matomo -->
     <script type="text/javascript">
         var _paq = _paq || [];
@@ -103,76 +33,52 @@
     <noscript><p><img src="//matomo.sp-codes.de/piwik.php?idsite=2&rec=1" style="border:0;" alt=""/></p></noscript>
     <!-- End Matomo Code -->
 </head>
-<body class="text-center">
-<div id="card">
-    <div class="front">
-        <img class="logo hide-for-small-only" src="img/samuel.png">
-        <img class="logo small show-for-small-only" src="img/samuel.png">
+<body class="d-flex flex-column">
+<div class="container flex-column flex-grow p-3">
+    <div class="row justify-content-center py-5">
+        <div class="col">
+            <img class="logo" src="img/samuel.png">
+        </div>
     </div>
-    <div class="back hide">
-        <img class="logo hide-for-small-only" src="img/samuel.png">
-        <img class="logo small show-for-small-only" src="img/samuel.png">
+
+    <div class="row justify-content-center py-4 border-top-bottom">
+        <div class="col-lg-8 col-md-10 col-12">
+            <h1 class="sp-codes">SP-CODES</h1>
+            <p class="lead text-center mb-2">Hi! My name is Samuel Philipp.
+                I'm a German software engineer from Magdeburg. On this site you find my
+                GitHub profile and my Google Play developer page. Feel free to contact me.</p>
+        </div>
     </div>
-</div>
 
-<hr/>
-
-<div class="row columns">
-    <div class="medium-8 medium-centered">
-        <h1 class="sp-codes">SP-CODES</h1>
-        <p>Hi! My name is Samuel Philipp. I'm a German software engineer from Magdeburg. On this site you find my
-            GitHub profile and my Google Play developer page. Feel free to contact me.</p>
+    <div class="d-flex justify-content-center flex-wrap my-3">
+        <div class="m-2"><a href="https://www.linkedin.com/in/samuel-philipp"><span
+                class="fab fa-fw fa-4x fa-linkedin"></span></a></div>
+        <div class="m-2"><a href="https://www.xing.com/profile/Samuel_Philipp"><span
+                class="fab fa-fw fa-4x fa-xing"></span></a></div>
+        <div class="m-2"><a href="https://gitlab.com/samuel-p"><span
+                class="fab fa-fw fa-4x fa-gitlab"></span></a></div>
+        <div class="m-2"><a href="https://github.com/samuel-p"><span
+                class="fab fa-fw fa-4x fa-github"></span></a></div>
+        <div class="m-2"><a href="https://play.google.com/store/apps/dev?id=8296137950626773262"><span
+                class="fab fa-fw fa-4x fa-android"></span></a></div>
+        <div class="m-2"><a href="https://plus.google.com/u/0/+SamuelPd"><span
+                class="fab fa-fw fa-4x fa-google-plus"></span></a></div>
+        <div class="m-2"><a href="mailto:mail@sp-codes.de"><span
+                class="fas fa-fw fa-4x fa-envelope"></span></a></div>
     </div>
-</div>
 
-<hr/>
+    <div class="d-flex justify-content-center mb-3">
+        <div class="lead text-center">
+            <a href="https://www.samuel-philipp.de">www.samuel-philipp.de</a>
+        </div>
+    </div>
 
-<div class="menu-centered hide-for-small-only">
-    <ul class="menu">
-        <li><a href="https://www.linkedin.com/in/samuel-philipp"><span
-                class="fa fa-4x fa-linkedin-square"></span></a></li>
-        <li><a href="https://www.xing.com/profile/Samuel_Philipp"><span
-                class="fa fa-4x fa-xing-square"></span></a></li>
-        <li><a href="https://github.com/samuel-p"><span
-                class="fa fa-4x fa-github"></span></a></li>
-        <li><a href="https://play.google.com/store/apps/dev?id=8296137950626773262"><span
-                class="fa fa-4x fa-android"></span></a></li>
-        <li><a href="https://plus.google.com/u/0/+SamuelPd"><span
-                class="fa fa-4x fa-google-plus-official"></span></a></li>
-        <li><a href="mailto:mail@sp-codes.de"><span
-                class="fa fa-4x fa-envelope"></span></a></li>
-    </ul>
 </div>
-<div class="menu-centered show-for-small-only">
-    <ul class="menu">
-        <li><a href="https://www.linkedin.com/in/samuel-philipp"><span
-                class="fa fa-2x fa-linkedin"></span></a></li>
-        <li><a href="https://www.xing.com/profile/Samuel_Philipp"><span
-                class="fa fa-2x fa-xing-square"></span></a></li>
-        <li><a href="https://plus.google.com/u/0/+SamuelPd"><span
-                class="fa fa-2x fa-google-plus-official"></span></a></li>
-        <li><a href="mailto:mail@sp-codes.de"><span
-                class="fa fa-2x fa-envelope"></span></a></li>
-    </ul>
+<div class="d-flex justify-content-end p-2 menu">
+    <div class="mr-3"><a href="https://www.samuel-philipp.de/imprint.html"><span
+            class="fas fa-info-circle mr-2"></span>Impressum</a></div>
+    <div><a href="privacy.html"><span
+            class="fas fa-user-secret mr-2"></span>Datenschutz</a></div>
 </div>
-<div class="menu-centered show-for-small-only">
-    <ul class="menu">
-        <li><a href="https://github.com/samuel-p"><span
-                class="fa fa-2x fa-github"></span></a></li>
-        <li><a href="https://play.google.com/store/apps/dev?id=8296137950626773262"><span
-                class="fa fa-2x fa-android"></span></a></li>
-    </ul>
-</div>
-
-<div class="menu-centered">
-    <ul class="menu">
-        <li><a href="https://www.samuel-philipp.de">www.samuel-philipp.de</a></li>
-    </ul>
-</div>
-
-<script>
-    $(document).foundation();
-</script>
-
 </body>
 </html>
