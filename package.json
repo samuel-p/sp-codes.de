@@ -1,0 +1,36 @@
+{
+  "name": "sp-codes.de",
+  "version": "1.0.0",
+  "description": "website for sp-codes.de",
+  "scripts": {
+    "start": "gulp watch",
+    "build": "gulp"
+  },
+  "author": "samuel-p",
+  "repository": {
+    "type": "git",
+    "url": "https://git.sp-codes.de/samuel-p/sp-codes.de"
+  },
+  "devDependencies": {
+    "gulp": "4.0.2",
+    "del": "3.0.0",
+    "lazypipe": "1.0.1",
+    "gulp-flatmap": "1.0.2",
+    "gulp-header": "2.0.5",
+    "gulp-rename": "1.4.0",
+    "gulp-concat": "2.6.1",
+    "gulp-terser": "1.1.7",
+    "gulp-optimize-js": "1.1.0",
+    "gulp-sass": "4.0.2",
+    "gulp-postcss": "8.0.0",
+    "cssnano": "4.1.10",
+    "autoprefixer": "9.6.1",
+    "browser-sync": "2.26.7",
+    "node-sass-tilde-importer": "^1.0.2"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.11.2",
+    "bootstrap": "^4.3.1",
+    "jquery": "^3.4.1"
+  }
+}

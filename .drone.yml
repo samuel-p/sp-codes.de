@@ -1,0 +1,22 @@
+kind: pipeline
+name: default
+
+steps:
+  - name: build
+    image: node
+    commands:
+      - npm install
+      - npm run build
+
+  - name: deploy
+    image: alpine
+    environment:
+      FTP_HOST:
+        from_secret: FTP_HOST
+      FTP_USERNAME:
+        from_secret: FTP_USERNAME
+      FTP_PASSWORD:
+        from_secret: FTP_PASSWORD
+    commands:
+      - which lftp || ( apk --update add lftp )
+      - lftp -e "mirror -R ./dist/ sp-codes.de/; bye" -u $FTP_USERNAME,$FTP_PASSWORD $FTP_HOST
