@@ -1,5 +1,7 @@
 # sp-codes.de
 
+[![Build Status](https://ci.sp-codes.de/api/badges/samuel-p/sp-codes.de/status.svg)](https://ci.sp-codes.de/samuel-p/sp-codes.de)
+
 Website for sp-codes.de
 
 [GitHub](https://github.com/samuel-p/sp-codes.de)

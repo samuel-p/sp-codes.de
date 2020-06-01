@@ -30,7 +30,7 @@ var paths = {
             'src/*.html',
 //            'src/.htaccess',
             'src/{img,font}/**/*',
-            'node_modules/@fortawesome/fontawesome-free/*fonts/**/*'
+            'node_modules/@fortawesome/fontawesome-free/webfonts/**/*'
         ],
         output: 'dist/'
     },

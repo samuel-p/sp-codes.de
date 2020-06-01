@@ -3,8 +3,14 @@
   "version": "1.0.0",
   "description": "website for sp-codes.de",
   "scripts": {
-    "start": "gulp watch",
-    "build": "gulp"
+    "start-old": "gulp watch",
+    "build-old": "gulp",
+    "copy-resources": "#cpx \"node_modules/@fortawesome/fontawesome-free/webfonts/*\" \"dist/font\"",
+    "compile-sass": "node-sass --output-style compressed --importer=node_modules/node-sass-tilde-importer scss/main.scss dist/css/main.css",
+    "watch:eleventy": "eleventy --serve",
+    "watch:sass": "npm run compile-sass -- --watch",
+    "start": "npm-run-all copy-resources compile-sass --parallel watch:*",
+    "build": "npm run copy-resources && compile-sass && eleventy"
   },
   "author": "samuel-p",
   "repository": {
@@ -12,25 +18,34 @@
     "url": "https://git.sp-codes.de/samuel-p/sp-codes.de"
   },
   "devDependencies": {
-    "gulp": "4.0.2",
-    "del": "3.0.0",
-    "lazypipe": "1.0.1",
-    "gulp-flatmap": "1.0.2",
-    "gulp-header": "2.0.5",
-    "gulp-rename": "1.4.0",
-    "gulp-concat": "2.6.1",
-    "gulp-terser": "1.1.7",
-    "gulp-optimize-js": "1.1.0",
-    "gulp-sass": "4.0.2",
-    "gulp-postcss": "8.0.0",
-    "cssnano": "4.1.10",
+    "@11ty/eleventy": "^0.10.0",
+    "@11ty/eleventy-navigation": "^0.1.5",
     "autoprefixer": "9.6.1",
     "browser-sync": "2.26.7",
-    "node-sass-tilde-importer": "^1.0.2"
+    "clean-css": "latest",
+    "cpx": "^1.5.0",
+    "cssnano": "4.1.10",
+    "del": "3.0.0",
+    "gulp": "4.0.2",
+    "gulp-concat": "2.6.1",
+    "gulp-flatmap": "1.0.2",
+    "gulp-header": "2.0.5",
+    "gulp-optimize-js": "1.1.0",
+    "gulp-postcss": "8.0.0",
+    "gulp-rename": "1.4.0",
+    "gulp-sass": "4.0.2",
+    "gulp-terser": "1.1.7",
+    "lazypipe": "1.0.1",
+    "node-sass": "^4.13.1",
+    "node-sass-tilde-importer": "^1.0.2",
+    "npm-run-all": "^4.1.5",
+    "nunjucks": "latest",
+    "sass": "^1.26.2"
   },
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.11.2",
     "bootstrap": "^4.3.1",
+    "flag-icon-css": "^3.4.6",
     "jquery": "^3.4.1"
   }
 }

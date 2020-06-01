@@ -1,0 +1,75 @@
+---
+title: sp-codes
+---
+<!doctype html>
+<html lang="{{ locale }}" prefix="og: http://ogp.me/ns#">
+<head>
+    <title>sp-codes - {{ title }}</title>
+    <base href="/">
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="fragment" content="!">
+    <meta name="target" content="all">
+    <meta name="audience" content="all">
+    <meta name="coverage" content="Worldwide">
+    <meta name="distribution" content="Global">
+    <meta name="rating" content="general">
+    <meta name="url" content="https://sp-codes.de/">
+    <meta name="subject" content="sp-codes">
+    <meta name="description" content="Samuel Philipp - Software Engineer from Magdeburg">
+    <meta name="author" content="Samuel Philipp">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="de">
+    <meta property="og:url" content="https://sp-codes.de/">
+    <meta property="og:title" content="sp-codes">
+    <meta property="og:description" content="Samuel Philipp - Software Engineer & Software Engineer">
+    <meta property="og:site_name" content="sp-codes">
+    <meta property="og:image" content="https://sp-codes.de/img/sp-codes.jpg">
+    <!--<meta property="og:updated_time" content="">-->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="sp-codes">
+    <meta name="twitter:description" content="Samuel Philipp - Software Engineer from Magdeburg">
+    <meta name="twitter:image" content="https://sp-codes.de/img/sp-codes.jpg">
+    <link rel="shortcut icon" href="img/samuel.png">
+    <link rel="stylesheet" href="/css/main.css">
+</head>
+  <body>
+    <div class="d-flex justify-content-start flex-wrap p-2 menu menu-top">
+    {%- for entry in collections.all | eleventyNavigation %}
+      {% if entry.url.includes(locale) %}
+        <div{% if entry.url == page.url %} class="active"{% endif %}>
+          <a href="{{ entry.url | url }}" class="mr-2">
+            {% if entry.icon %}<span class="fas fa-{{ entry.icon }} mr-2"></span>{% endif %}{{ entry.title }}
+          </a>
+        </div>
+      {% endif %}
+    {%- endfor %}
+    <div class="flex-grow-1"></div>
+    {% for language in site.languages %}
+      {% set translatedUrl = "/" + language.code + "/" %}
+      {% for item in collections.all %}
+        {% if item.data.key == key and item.data.locale == language.code %}
+          {% set translatedUrl = item.url %}
+        {% endif %}
+      {% endfor%}
+      <div{% if language.code == locale %} class="active"{% endif %}>
+        <a href="{{ translatedUrl | url }}" class="ml-3">
+          <span class="flag-icon flag-icon-{{ language.icon }}" title="{{ language.label }}"></span>
+        </a>
+      </div>
+    {% endfor %}
+    </div>
+    <div class="content">
+      {{ content | safe }}
+    </div>
+    <div class="d-flex justify-content-end flex-wrap p-2 menu menu-bottom">
+        <div class="mr-3"><span class="far fa-copyright mr-2"></span>Samuel Philipp</div>
+        <div class="flex-grow-1"></div>
+        <div><a href="imprint"><span class="fas fa-info-circle mr-2"></span>Impressum</a></div>
+        <div class="ml-3"><a href="privacy"><span class="fas fa-user-secret mr-2"></span>Datenschutz</a></div>
+        <div class="ml-3"><a target="_blank" href="https://git.sp-codes.de/samuel-p/sp-codes.de"><span class="fas fa-code mr-2"></span>Code</a></div>
+    </div>
+  </body>
+</html>

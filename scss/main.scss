@@ -4,25 +4,35 @@
 @import "~bootstrap/scss/utilities/spacing";
 @import "~bootstrap/scss/utilities/display";
 @import "~bootstrap/scss/utilities/text";
+$fa-font-path: "../font";
 @import "~@fortawesome/fontawesome-free/scss/fontawesome";
 @import "~@fortawesome/fontawesome-free/scss/solid";
 @import "~@fortawesome/fontawesome-free/scss/brands";
 @import "~@fortawesome/fontawesome-free/scss/regular";
+$flag-icon-rect-path: '';
+@import "~flag-icon-css/sass/flag-icon";
 
 @font-face {
   font-family: 'Minotaur';
   src: local('Minotaur Phatte'), url(../font/minotaur.ttf) format('truetype');
 }
 
+html, body {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
 body {
-  background-image: url("img/bg.png");
+  background-image: url("../img/bg.png");
   color: #fff;
   min-height: 100vh;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
 
-  &.legal {
-    padding: 2%;
-  }
+.content {
+  flex: 1;
+  padding: 2%;
 }
 
 .logo {
@@ -36,6 +46,16 @@ body {
 }
 
 .menu {
+  .active a {
+    font-weight: bold;
+  }
+}
+
+.menu-top {
+  border-bottom: 1px solid #ffffff;
+}
+
+.menu-bottom {
   border-top: 1px solid #ffffff;
 }
 
@@ -46,10 +66,10 @@ body {
 
 a {
   color: #ffffff;
-}
 
-a:hover {
-  color: #dddddd;
+  &:hover {
+    color: #dddddd;
+  }
 }
 
 .sp-codes {
