@@ -1,7 +1,6 @@
 module.exports = {
-    title: "Webstoemp",
-    description:
-        "",
+    title: "sp-codes",
+    description: "Samuel Philipp - Software Engineer from Magdeburg",
     url: "https://sp-codes.de",
     baseUrl: "/",
     author: "Samuel Philipp",

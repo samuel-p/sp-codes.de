@@ -5,6 +5,27 @@ title: Services
 eleventyNavigation:
   key: services
   title: Services
+  icon: server
   order: 2
 ---
-<h1>Services</h1>
+<div>
+    <a class="float-right mt-3" href="https://status.sp-codes.de"><i class="fas fa-heartbeat mr-2"></i>Status</a>
+    <h1>Services</h1>
+    <p>In my spare time I provide various open source services for free. Here you can find an overview of the individual
+        services and a short description for each of them. All services are hosted in Germany. Feel free to use it.</p>
+    <div class="row">
+        {%- for service in services %}
+        <div class="col-12 col-md-6 col-lg-4 p-3">
+            <div class="service">
+                <a class="link" href="/{{locale}}/services/{{service.id}}"></a>
+                <div class="inner">
+                    <i class="{{service.icon}} fa-4x"></i>
+                    <h2 class="mt-2">{{service.name}}{% if service.url %} <a href="{{service.url}}"><i
+                            class="fas fa-external-link-alt"></i></a>{% endif %}</h2>
+                    <div>{{service.summary[locale]}}</div>
+                </div>
+            </div>
+        </div>
+        {%- endfor %}
+    </div>
+</div>

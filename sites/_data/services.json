@@ -1,0 +1,60 @@
+[
+  {
+    "id": "searx",
+    "name": "Searx",
+    "icon": "fas fa-search",
+    "url": "https://searx.sp-codes.de",
+    "summary": {
+      "de": "Eine privatsphären-respektierende, hackbare Metasuchmaschine.",
+      "en": "A privacy-respecting, hackable metasearch engine."
+    }
+  },
+  {
+    "id": "invidious",
+    "name": "Invidious",
+    "icon": "fab fa-youtube",
+    "url": "https://invidious.sp-codes.de",
+    "summary": {
+      "de": "Ein alternatives YouTube-Frontend.",
+      "en": "An alternative YouTube-Frontend."
+    }
+  },
+  {
+    "id": "connectivitycheck",
+    "name": "Captive Portal Check",
+    "icon": "fas fa-wifi",
+    "summary": {
+      "de": "Eine datenschutzfreundliches Tool, um Anmeldeseiten in WLAN-Netzwerken zu erkennen.",
+      "en": "A privacy friendly Service to detect captive portals in WIFI networks."
+    }
+  },
+  {
+    "id": "matrix",
+    "name": "Matrix",
+    "icon": "fas fa-comments",
+    "url": "https://chat.sp-codes.de",
+    "summary": {
+      "de": "Ein offenes Netzwerk für sichere, dezentralisierte Kommunikation.",
+      "en": "An open network for secure, decentralized communication."
+    }
+  },
+  {
+    "id": "git",
+    "name": "Gitea",
+    "icon": "fas fa-code",
+    "url": "https://git.sp-codes.de",
+    "summary": {
+      "de": "Eine leichtgewichtige Code-Hosting-Plattform für git.",
+      "en": "A lightweight code hosting platform for git."
+    }
+  },
+  {
+    "id": "firefox-sync",
+    "name": "Firefox Sync",
+    "icon": "fab fa-firefox",
+    "summary": {
+      "de": "Ein Service um Firefox Einstellungen, Lesezeichen, offene Tabs und vieles mehr über verschiedene Geräte zu synchronisieren.",
+      "en": "A service to sync Firefox settings, bookmarks, open tabs and much more between multiple devices."
+    }
+  }
+]

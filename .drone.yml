@@ -1,6 +1,6 @@
 kind: pipeline
 type: docker
-name: default
+name: build
 
 steps:
   - name: build
@@ -9,6 +9,12 @@ steps:
       - npm install
       - npm run build
 
+---
+kind: pipeline
+type: docker
+name: deploy
+
+steps:
   - name: deploy
     image: alpine
     environment:
@@ -21,6 +27,9 @@ steps:
     commands:
       - which lftp || ( apk --update add lftp )
       - lftp -e "mirror -R ./dist/ sp-codes.de/; bye" -u $FTP_USERNAME,$FTP_PASSWORD $FTP_HOST
+
+depends_on:
+  - build
 
 trigger:
   branch:

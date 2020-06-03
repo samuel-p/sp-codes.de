@@ -24,7 +24,7 @@ title: sp-codes
     <meta property="og:locale" content="de">
     <meta property="og:url" content="https://sp-codes.de/">
     <meta property="og:title" content="sp-codes">
-    <meta property="og:description" content="Samuel Philipp - Software Engineer & Software Engineer">
+    <meta property="og:description" content="Samuel Philipp - Software Engineer from Magdeburg">
     <meta property="og:site_name" content="sp-codes">
     <meta property="og:image" content="https://sp-codes.de/img/sp-codes.jpg">
     <!--<meta property="og:updated_time" content="">-->
@@ -50,7 +50,7 @@ title: sp-codes
     {% for language in site.languages %}
       {% set translatedUrl = "/" + language.code + "/" %}
       {% for item in collections.all %}
-        {% if item.data.key == key and item.data.locale == language.code %}
+        {% if item.data.key == key and item.data.locale == language.code and not item.data.hidden %}
           {% set translatedUrl = item.url %}
         {% endif %}
       {% endfor%}
@@ -62,7 +62,9 @@ title: sp-codes
     {% endfor %}
     </div>
     <div class="content">
-      {{ content | safe }}
+      <div class="container">
+        {{ content | safe }}
+      </div>
     </div>
     <div class="d-flex justify-content-end flex-wrap p-2 menu menu-bottom">
         <div class="mr-3"><span class="far fa-copyright mr-2"></span>Samuel Philipp</div>
