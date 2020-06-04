@@ -1,8 +1,8 @@
 ---
 layout: base.njk
-key: searx
-title: Searx
+key: matrix
+title: Matrix
 ---
-# Searx
+# Matrix
 
-Die Beschreibung zu Searx folgt in Kürze.
+Die Beschreibung zu Matrix folgt in Kürze.
