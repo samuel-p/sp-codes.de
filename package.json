@@ -10,7 +10,7 @@
     "watch:eleventy": "eleventy --serve",
     "watch:sass": "npm run compile-sass -- --watch",
     "start": "npm-run-all copy-resources compile-sass --parallel watch:*",
-    "build": "npm run copy-resources && compile-sass && eleventy"
+    "build": "npm run copy-resources && npm run compile-sass && eleventy"
   },
   "author": "samuel-p",
   "repository": {
