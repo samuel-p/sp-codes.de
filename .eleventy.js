@@ -9,7 +9,6 @@ module.exports = function(eleventyConfig) {
         "img": "img",
         "font": "font",
         "node_modules/@fortawesome/fontawesome-free/webfonts/": "font",
-        "node_modules/fork-awesome/fonts/": "font",
         "node_modules/flag-icon-css/flags/4x3/(de|us)*": "flags"
     });
 
