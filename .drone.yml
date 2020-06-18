@@ -19,7 +19,7 @@ steps:
         from_secret: FTP_PASSWORD
     commands:
       - which lftp || ( apk --update add lftp )
-      - lftp -e "mirror -R ./dist/ dev.sp-codes.de/; bye" -u $FTP_USERNAME,$FTP_PASSWORD $FTP_HOST
+      - lftp -e "set ftp:ssl-force true; set ssl:verify-certificate no; mirror -R ./dist/ dev.sp-codes.de/; bye" -u $FTP_USERNAME,$FTP_PASSWORD $FTP_HOST
 
 trigger:
   branch:
@@ -47,7 +47,7 @@ steps:
         from_secret: FTP_PASSWORD
     commands:
       - which lftp || ( apk --update add lftp )
-      - lftp -e "mirror -R ./dist/ sp-codes.de/; bye" -u $FTP_USERNAME,$FTP_PASSWORD $FTP_HOST
+      - lftp -e "set ftp:ssl-force true; set ssl:verify-certificate no; mirror -R ./dist/ sp-codes.de/; bye" -u $FTP_USERNAME,$FTP_PASSWORD $FTP_HOST
 
 trigger:
   branch:
