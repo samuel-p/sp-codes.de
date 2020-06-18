@@ -1,35 +1,13 @@
 kind: pipeline
 type: docker
-name: build
+name: build-develop
 
 steps:
-  - name: test
-    image: alpine
-    commands:
-      - pwd
-      - ls -ashl
   - name: build
     image: node
     commands:
       - npm install
       - npm run build
-  - name: test2
-    image: alpine
-    commands:
-      - pwd
-      - ls -ashl
-
----
-kind: pipeline
-type: docker
-name: deploy-develop
-
-steps:
-  - name: test
-    image: alpine
-    commands:
-      - pwd
-      - ls -ashl
   - name: deploy
     image: alpine
     environment:
@@ -43,9 +21,6 @@ steps:
       - which lftp || ( apk --update add lftp )
       - lftp -e "mirror -R ./dist/ dev.sp-codes.de/; bye" -u $FTP_USERNAME,$FTP_PASSWORD $FTP_HOST
 
-depends_on:
-  - build
-
 trigger:
   branch:
     - develop
@@ -53,9 +28,14 @@ trigger:
 ---
 kind: pipeline
 type: docker
-name: deploy-master
+name: build-master
 
 steps:
+  - name: build
+    image: node
+    commands:
+      - npm install
+      - npm run build
   - name: deploy
     image: alpine
     environment:
@@ -68,9 +48,6 @@ steps:
     commands:
       - which lftp || ( apk --update add lftp )
       - lftp -e "mirror -R ./dist/ sp-codes.de/; bye" -u $FTP_USERNAME,$FTP_PASSWORD $FTP_HOST
-
-depends_on:
-  - build
 
 trigger:
   branch:
