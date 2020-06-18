@@ -5,11 +5,17 @@ title: Matrix
 ---
 # Matrix
 
-[Matrix](https://matrix.org) ist eine moderne Software für dezentrale Kommunikation (wie E-Mail).
+[Matrix](https://matrix.org) ist eine moderne, quelloffene Software für dezentrale Kommunikation (wie E-Mail). 
 
-Seit Ende 2019 betreibe ich einen öffentlichen Matrix-Server
 
-Weitere Informationen folgen...
+
+__Seit Ende 2019 betreibe ich einen öffentlichen Matrix-Server: [matrix.sp-codes.de](https://matrix.sp-codes.de/)__
+
+Melde dich gerne auf meinem Server an oder suche dir einen aus der unten verlinkten Liste aus. Ich freue mich auf deine Nachricht an [@samuel-p:matrix.sp-codes.de](https://matrix.to/#/@samuel-p:matrix.sp-codes.de).
+
+## Server Details
+
+Der Matrix-Homeserver läuft auf einem vServer von [Netcup](https://netcup.de/).
 
 ## Weitere nützliche Links
 

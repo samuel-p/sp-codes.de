@@ -5,6 +5,7 @@
 @import "~bootstrap/scss/utilities/display";
 @import "~bootstrap/scss/utilities/text";
 @import "~bootstrap/scss/utilities/float";
+
 $fa-font-path: "../font";
 @import "~@fortawesome/fontawesome-free/scss/fontawesome";
 @import "~@fortawesome/fontawesome-free/scss/solid";
@@ -36,6 +37,14 @@ body {
   padding: 2%;
 }
 
+a {
+  color: #fea500;
+
+  &:hover {
+    color: darken(#fea500, .5);
+  }
+}
+
 .logo {
   display: block;
   margin: 0 auto;
@@ -47,6 +56,10 @@ body {
 }
 
 .menu {
+  a {
+    color: #ffffff;
+  }
+
   .active a {
     font-weight: bold;
   }
@@ -69,14 +82,6 @@ body {
   border-top: 1px solid #ffffff;
 }
 
-a {
-  color: #ffffff;
-
-  &:hover {
-    color: #dddddd;
-  }
-}
-
 .sp-codes {
   font-family: "Minotaur", monospace;
   font-size: 5rem;
@@ -87,11 +92,11 @@ a {
   font-family: "Minotaur", monospace;
   font-size: 3rem;
   text-align: center;
-}
 
-//.row {
-//  margin: 0;
-//}
+  a {
+    color: #ffffff;
+  }
+}
 
 .flex-grow {
   flex: 1;
@@ -141,10 +146,16 @@ a {
   &.flat {
     .inner {
       flex-direction: row;
+      pointer-events: all;
+      text-decoration: none;
 
       h2 {
         margin-left: 0.5rem;
       }
     }
   }
+}
+
+.links a {
+  color: #ffffff;
 }
