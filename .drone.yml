@@ -3,11 +3,21 @@ type: docker
 name: build
 
 steps:
+  - name: test
+    image: alpine
+    commands:
+      - pwd
+      - ls -ashl
   - name: build
     image: node
     commands:
       - npm install
       - npm run build
+  - name: test2
+    image: alpine
+    commands:
+      - pwd
+      - ls -ashl
 
 ---
 kind: pipeline
@@ -15,6 +25,11 @@ type: docker
 name: deploy-develop
 
 steps:
+  - name: test
+    image: alpine
+    commands:
+      - pwd
+      - ls -ashl
   - name: deploy
     image: alpine
     environment:
