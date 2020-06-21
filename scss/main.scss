@@ -137,6 +137,7 @@ a {
     flex-direction: column;
     align-items: center;
     text-align: center;
+    height: 100%;
 
     a {
       pointer-events: all;
@@ -159,3 +160,17 @@ a {
 .contact-links a {
   color: #ffffff !important;
 }
+
+.matrix-icon {
+  margin: 0 8px;
+  width: 4em;
+  height: 4em;
+}
+
+@media (max-width: 767.98px) {
+  .matrix-icon {
+    width: 2em;
+    height: 2em;
+  }
+}
+
