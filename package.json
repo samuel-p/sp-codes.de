@@ -7,25 +7,28 @@
     "watch:eleventy": "eleventy --serve",
     "watch:sass": "npm run compile-sass -- --watch",
     "start": "npm-run-all compile-sass --parallel watch:*",
-    "build": "npm run compile-sass && eleventy"
+    "build": "npm run compile-sass && eleventy && npm run move-index",
+    "move-index": "cpx dist/de/index.html dist/"
   },
   "author": "samuel-p",
   "repository": {
     "type": "git",
     "url": "https://git.sp-codes.de/samuel-p/sp-codes.de"
   },
+  "optionalDependencies": {
+    "browser-sync": "2.26.7"
+  },
   "devDependencies": {
-    "@11ty/eleventy": "^0.10.0",
+    "@11ty/eleventy": "^0.11.0",
     "@11ty/eleventy-navigation": "^0.1.5",
-    "browser-sync": "2.26.7",
     "cpx": "^1.5.0",
-    "node-sass": "^4.13.1",
+    "node-sass": "^4.14.1",
     "node-sass-tilde-importer": "^1.0.2",
     "npm-run-all": "^4.1.5"
   },
   "dependencies": {
-    "@fortawesome/fontawesome-free": "^5.11.2",
-    "bootstrap": "^4.3.1",
-    "flag-icon-css": "^3.4.6"
+    "@fortawesome/fontawesome-free": "^5.13.1",
+    "bootstrap": "^4.5.0",
+    "flag-icon-css": "^3.5.0"
   }
 }

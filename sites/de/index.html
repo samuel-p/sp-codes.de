@@ -1,5 +1,5 @@
 ---
-layout: base.njk
+layout: home.njk
 key: home
 title: Home
 eleventyNavigation:
@@ -7,82 +7,31 @@ eleventyNavigation:
   title: Home
   icon: home
 ---
-<div class="d-flex flex-column">
-    <div class="flex-column flex-grow p-3">
-        <div class="row py-5">
-            <div class="col">
-                <img class="logo" src="/img/samuel.png">
-            </div>
-        </div>
-
-        <div class="row justify-content-center py-4 border-top">
-            <div class="col-lg-8 col-md-10 col-12">
-                <h1 class="sp-codes">SP-CODES</h1>
-                <p class="lead text-center mb-2">
-                    Herzlich willkommen bei sp-codes!
-                    Mein Name ist Samuel Philipp und ich bin ein Software Engineer aus Magdeburg.
-                    Auf dieser Seite findest du Informationen über mich und eine Übersicht über die von mir
-                    bereitgestellten Dienste. Schau dich gerne um oder nutze die verschiedenen Tools.
-                </p>
-            </div>
-        </div>
-        <div class="row justify-content-center py-4 border-top">
-            <div class="col-lg-8 col-md-10 col-12">
-                <h1 class="heading"><a href="/{{locale}}/services">Dienste</a></h1>
-                <div class="row">
-                    {%- for service in services %}
-                    <div class="col-12 col-md-6 p-3">
-                        <div class="service flat">
-                            <a class="link inner" href="/{{locale}}/services/{{service.id}}">
-                                <i class="{{service.icon}} fa-fw fa-2x"></i>
-                                <h2 class="mt-2">{{service.name}}</h2>
-                            </a>
-                        </div>
-                    </div>
-                    {%- endfor %}
-                </div>
-            </div>
-        </div>
-        <div class="row justify-content-center pt-4 border-top">
-            <div class="col-lg-8 col-md-10 col-12">
-                <h1 class="heading">Profile & Kontakt</h1>
-                <p class="lead text-center mb-2">
-                    Du hast einen Fehler gefunden, Verbesserungsvorschläge, oder eine andere Frage? Nimm gerne
-                    über eine der folgenden Plattformen Kontakt mit mir auf. Ich freue mich auf deine Nachricht!
-                </p>
-            </div>
-        </div>
-
-        <div class="d-flex justify-content-center flex-wrap my-3 contact-links">
-            <div class="m-2"><a href="mailto:mail@sp-codes.de"><span
-                    class="fas fa-fw fa-4x fa-envelope"></span></a></div>
-            <div class="m-2"><a href="https://matrix.to/#/@samuel-p:matrix.sp-codes.de">
-                <img class="matrix-icon" src="img/matrix.png" alt=""></a></div>
-            <div class="m-2"><a rel="me" href="https://social.tchncs.de/@samuel_p"><span
-                    class="fab fa-fw fa-4x fa-mastodon"></span></a></div>
-            <div class="m-2"><a href="https://stackoverflow.com/users/9662601/samuel-p"><span
-                    class="fab fa-fw fa-4x fa-stack-overflow"></span></a></div>
-            <div class="m-2"><a href="https://gitlab.com/samuel-p"><span
-                    class="fab fa-fw fa-4x fa-gitlab"></span></a></div>
-            <div class="m-2"><a href="https://github.com/samuel-p"><span
-                    class="fab fa-fw fa-4x fa-github"></span></a></div>
-            <div class="m-2"><a href="https://hub.docker.com/u/samuelph"><span
-                    class="fab fa-fw fa-4x fa-docker"></span></a></div>
-        </div>
-
-        <div class="d-flex justify-content-center mb-3">
-            <div class="text-center">
-                <a href="https://stackexchange.com/users/13389989/samuel-philipp"><img
-                        src="https://stackexchange.com/users/flair/13389989.png" width="208" height="58"
-                        alt="profile for Samuel Philipp on Stack Exchange, a network of free, community-driven Q&amp;A sites"
-                        title="profile for Samuel Philipp on Stack Exchange, a network of free, community-driven Q&amp;A sites"/></a>
-            </div>
-        </div>
-
-        <div class="d-flex justify-content-center mb-3">
-            <div class="lead text-center">
-                <a href="https://samuel-philipp.de">samuel-philipp.de</a>
-            </div>
+<div class="row justify-content-center py-4 border-top">
+    <div class="col-lg-8 col-md-10 col-12">
+        <h1 class="heading">Willkommen bei sp-codes!</h1>
+        <p class="lead text-center mb-2">
+            Schön, dass du hergefunden hast. Mein Name ist Samuel Philipp und ich bin ein Software Engineer aus
+            Magdeburg. Auf dieser Seite findest du Informationen über mich und eine Übersicht über die von mir
+            bereitgestellten Dienste. Schau dich gerne um oder nutze die verschiedenen Tools.
+        </p>
+    </div>
+</div>
+<div class="row justify-content-center py-4 border-top">
+    <div class="col-lg-8 col-md-10 col-12">
+        <h1 class="heading"><a href="/{{locale}}/services">Dienste</a></h1>
+        <div class="row">
+            {% include services-simple.html %}
         </div>
     </div>
 </div>
+<div class="row justify-content-center pt-4 border-top">
+    <div class="col-lg-8 col-md-10 col-12">
+        <h1 class="heading">Profile & Kontakt</h1>
+        <p class="lead text-center mb-2">
+            Du hast einen Fehler gefunden, Verbesserungsvorschläge, oder eine andere Frage? Nimm gerne
+            über eine der folgenden Plattformen Kontakt mit mir auf. Ich freue mich auf deine Nachricht!
+        </p>
+    </div>
+</div>
+{% include profiles.html %}

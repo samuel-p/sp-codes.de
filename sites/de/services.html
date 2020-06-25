@@ -1,5 +1,5 @@
 ---
-layout: base.njk
+layout: services.njk
 key: services
 title: Dienste
 eleventyNavigation:
@@ -8,25 +8,7 @@ eleventyNavigation:
   icon: server
   order: 2
 ---
-<div>
-    <a class="float-right mt-3" href="https://status.sp-codes.de"><i class="fas fa-heartbeat mr-2"></i>Status</a>
-    <h1>Dienste</h1>
-    <p>In meiner Freizeit stelle ich verschiedene quelloffene Dienste für die freie Nutzung bereit. Hier finden Sie eine
-        Übersicht der einzelnen Services und jeweils eine kurze Beschreibung. Alle Services werden in Deutschland
-        gehostet. Fühlen Sie sich frei davon Gebrauch zu machen.</p>
-    <div class="row">
-        {%- for service in services %}
-        <div class="col-12 col-md-6 col-lg-4 p-3">
-            <div class="service">
-                <a class="link" href="/{{locale}}/services/{{service.id}}"></a>
-                <div class="inner">
-                    <i class="{{service.icon}} fa-4x"></i>
-                    <h2 class="mt-2">{{service.name}}{% if service.url %} <a href="{{service.url}}" target="_blank"><i
-                            class="fas fa-external-link-alt"></i></a>{% endif %}</h2>
-                    <div>{{service.summary[locale]}}</div>
-                </div>
-            </div>
-        </div>
-        {%- endfor %}
-    </div>
-</div>
+<h1>Dienste</h1>
+<p>In meiner Freizeit stelle ich verschiedene quelloffene Dienste für die freie Nutzung bereit. Hier finden Sie eine
+    Übersicht der einzelnen Services und jeweils eine kurze Beschreibung. Alle Services werden in Deutschland
+    gehostet. Fühlen Sie sich frei davon Gebrauch zu machen.</p>

@@ -14,10 +14,10 @@ $fa-font-path: "../font";
 $flag-icon-rect-path: '';
 @import "~flag-icon-css/sass/flag-icon";
 
-@font-face {
-  font-family: 'Minotaur';
-  src: local('Minotaur Phatte'), url(../font/minotaur.ttf) format('truetype');
-}
+//@font-face {
+  //font-family: 'Minotaur';
+  //src: local('Minotaur Phatte'), url(../font/minotaur.ttf) format('truetype');
+//}
 
 html, body {
   height: 100%;
@@ -89,8 +89,8 @@ a {
 }
 
 .heading {
-  font-family: "Minotaur", monospace;
-  font-size: 3rem;
+  //font-family: "Minotaur", monospace;
+  //font-size: 3rem;
   text-align: center;
 
   a {

@@ -12,10 +12,6 @@ module.exports = function(eleventyConfig) {
         "node_modules/flag-icon-css/flags/4x3/(de|us)*": "flags"
     });
 
-    eleventyConfig.addCollection("sites_en", function(collection) {
-        return collection.getFilteredByGlob(".sites/en/posts/*.md");
-    });
-
     return {
         dir: {
             input: "sites",
