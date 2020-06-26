@@ -9,7 +9,7 @@ title: Matrix
 
 
 
-__Seit Ende 2019 betreibe ich einen öffentlichen Matrix-Server: [matrix.sp-codes.de](https://matrix.sp-codes.de/)__
+__Seit Anfang 2020 betreibe ich einen öffentlichen Matrix-Server: [matrix.sp-codes.de](https://matrix.sp-codes.de/)__
 
 Melde dich gerne auf meinem Server an oder suche dir einen aus der unten verlinkten Liste aus. Ich freue mich auf deine Nachricht an [@samuel-p:matrix.sp-codes.de](https://matrix.to/#/@samuel-p:matrix.sp-codes.de).
 
