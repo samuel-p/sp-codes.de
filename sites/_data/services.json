@@ -39,7 +39,7 @@
     }
   },
   {
-    "id": "git",
+    "id": "gitea",
     "name": "Gitea",
     "icon": "fas fa-code",
     "url": "https://git.sp-codes.de",
