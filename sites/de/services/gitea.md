@@ -18,3 +18,11 @@ Schau gerne mal vorbei und melde dich an, falls du Lust hast ein Projekt zu entw
 __Zu Gitea geht's hier lang: [git.sp-codes.de](https://git.sp-codes.de)__
 
 __Wenn du bei Drone vorbeischauen willst geht das hier: [ci.sp-codes.de](https://ci.sp-codes.de)__
+
+
+## Weitere nützliche Links
+
+* [Gitea Webseite](https://gitea.io/en-us/)
+* [Quellcode von Gitea](https://github.com/go-gitea/gitea)
+* [Drone Webseite](https://drone.io/)
+* [Quellcode von Drone](https://github.com/drone/drone)
