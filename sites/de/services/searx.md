@@ -12,7 +12,7 @@ Searx selber speichert ebenfalls keine Suchanfragen und stellt eine Vielzahl an 
 Beispielsweise können die Sprache und die verwendeten Suchmaschinen für jede Suchanfrage konfiguriert werden.
 
 Außerdem stellt Searx einen Proxy bereit über den viele Suchergebnisse auch anonym aufgerufen werden können. 
-Klicke dafür nicht auf den Direktlink, sonden auf _proxied_ in der unteren rechten Ecke des Suchergebnisses.
+Klicke dafür nicht auf den Direktlink, sonden auf `proxied` in der unteren rechten Ecke des Suchergebnisses.
 
 __Seit November 2019 betreibe ich eine öffentliche Searx Instanz.__ Schau gerne mal vorbei um Antworten auf deine Fragen zu erhalten. 
 Bei Fragen oder Problemen schreib mir gerne.
