@@ -7,7 +7,7 @@ title: Searx
 
 Searx ist eine freie Metasuchmaschine, das heißt sie nutzt für die Suche öffentliche Suchmaschinen, wie Google, DuckDuckGo, StartPage und viele andere. 
 
-Um die Privatsphäre der Benutzer zu schützen gibt Searx weder die IP-Adresse, noch die Suchhistorie an die Suchmaschinen weiter, von denen die Ergebnisse abgefragt werden.
+Um die Privatsphäre der Benutzer zu schützen, gibt Searx weder die IP-Adresse, noch die Suchhistorie an die Suchmaschinen weiter, von denen die Ergebnisse abgefragt werden.
 Searx selber speichert ebenfalls keine Suchanfragen und stellt eine Vielzahl an Einstellungsmöglichkeiten bereit. 
 Beispielsweise können die Sprache und die verwendeten Suchmaschinen für jede Suchanfrage konfiguriert werden.
 

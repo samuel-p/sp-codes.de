@@ -5,11 +5,11 @@ title: Matrix
 ---
 # Matrix
 
-[Matrix](https://matrix.org) ist eine moderne, quelloffene Software für dezentrale Kommunikation (wie E-Mail). 
+[Matrix](https://matrix.org) ist eine moderne, quelloffene Software für dezentrale Kommunikation (wie E-Mail). Matrix bietet von Haus aus Ende-zu-Ende Verschlüsselung, Sprach- und Videoanrufe und vieles mehr. Das Entscheidende ist aber, dass es nicht den einen Matrix-Server gibt, den alle Nutzer verwenden müssen, wie das beispielsweise bei WhatsApp, Telegram und vielen anderen verbreiteten Messengern der Fall ist.
 
+Da Matrix dezentral funktioniert können sich die Nutzer einen öffentlichen Server aussuchen oder ihren eigenen erstellen und trotzdem mit allen Matrix-Nutzern kommunizieren, nicht nur mit denen des eigenen Servers. Die verschickten Nachrichten werden so nur auf den beteiligten Servern gespeichert. Auch die Anrufe laufen nur über die beteiligten Server.
 
-
-__Seit Anfang 2020 betreibe ich einen öffentlichen Matrix-Server: [matrix.sp-codes.de](https://matrix.sp-codes.de/)__
+__Seit Anfang 2020 betreibe ich einen öffentlichen Matrix-Server: [matrix.sp-codes.de](https://matrix.sp-codes.de/) Und eine öffentliche Riot-Web Instanz: [chat.sp-codes.de](https://chat.sp-codes.de/)__
 
 Melde dich gerne auf meinem Server an oder suche dir einen aus der unten verlinkten Liste aus. Ich freue mich auf deine Nachricht an [@samuel-p:matrix.sp-codes.de](https://matrix.to/#/@samuel-p:matrix.sp-codes.de).
 
@@ -19,7 +19,6 @@ Der Matrix-Homeserver läuft auf einem vServer von [Netcup](https://netcup.de/).
 
 ## Weitere nützliche Links
 
-* [Riot Web](https://chat.sp-codes.de/)
 * [Verschiedene Apps](https://matrix.org/clients)
 * [Liste öffentlicher Räume](https://view.matrix.org/)
 * [Liste öffentlicher Matrix-Server](https://www.hello-matrix.net/public_servers.php)
