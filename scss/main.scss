@@ -167,3 +167,17 @@ code {
   padding: 1px 3px;
   border-radius: 4px;
 }
+
+
+pre {
+  background-color: #fea500;
+  color: #000000;
+  padding: 1px 3px;
+  border-radius: 4px;
+
+  code {
+    background-color: initial;
+    padding: initial;
+    border-radius: initial;
+  }
+}
