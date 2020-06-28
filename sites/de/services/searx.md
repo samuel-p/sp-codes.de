@@ -23,7 +23,7 @@ __Hier gehts zu Searx: [searx.sp-codes.de](https://searx.sp-codes.de)__
 
 * [Searx Webseite](https://asciimoo.github.io/searx/)
 * [Benutzer-Dokumentation](https://asciimoo.github.io/searx/user/index.html)
-* [Standardsuchmaschine in Firefox festlegen](https://support.mozilla.org/de/kb/suchmaschinen-verwalten-firefox-android#w_standardsuchmaschine-festlegen)
+* [Standardsuchmaschine in Firefox festlegen](https://support.mozilla.org/de/kb/suchmaschinen-in-firefox-hinzufuegen-oder-entfernen)
 * [Standardsuchmaschine in Chrome festlegen](https://support.google.com/chrome/answer/95426?co=GENIE.Platform%3DDesktop&hl=de)
 * [Liste weiterer öffentlicher Server](https://searx.space/)
 * [Quellcode von Searx](https://github.com/asciimoo/searx)
