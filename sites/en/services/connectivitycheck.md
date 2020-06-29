@@ -7,7 +7,7 @@ title: Captive Portal Check
 
 A captive portal is a login page in public WLAN networks to restrict Internet access to the approval of certain terms of use. When you see a login page on a public network, your device uses a captive portal check. This allows the device to find out whether you have direct Internet access or not. In Android, for example, your device sends a request to a Google server.
 
-Since mid 2019 I provide a free Captive Portal Check: [https://connectivitycheck.sp-codes.de/generate204](https://connectivitycheck.sp-codes.de/generate204) You are welcome to use it if you like.
+Since mid 2019 I provide a free Captive Portal Check: [https://connectivitycheck.sp-codes.de/generate204](https://connectivitycheck.sp-codes.de/generate204) You are welcome to use it.
 
 ## Setup in Android
 

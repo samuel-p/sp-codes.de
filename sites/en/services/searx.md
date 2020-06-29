@@ -7,9 +7,9 @@ title: Searx
 
 Searx is a free meta search engine, which uses other public search engines like Google, DuckDuckGo, StartPage and many others.
 
-In order to protect the privacy of the users, Searx does not give the IP address, or the search history to the search engines it retrieves the results from. Searx itself also does not store any search queries and offers a variety of settings. For example, the language and the search engines can be configured for each search query.
+In order to protect the privacy of the users, Searx does not give the IP address, or the search history to the search engines it retrieves the results from. Searx itself also does not store any search queries or other logs. Additional it offers a variety of settings, for example, the language and the search engines can be configured for each search query.
 
-Searx also provides a proxy through which many search results can be accessed anonymously. Do not click on the direct link, but on `proxied` in the bottom right corner of the search result.
+Searx also provides a proxy through which many search results can be accessed anonymously. Instead of clicking on the  direct link, use the `proxied` button in the bottom right corner of the search result.
 
 __Since November 2019 I run a public Searx instance.__ Feel free to check it out and get answers to your questions. If you have any questions or problems, feel free to contact me.
 

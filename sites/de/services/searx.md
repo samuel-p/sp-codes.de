@@ -7,15 +7,11 @@ title: Searx
 
 Searx ist eine freie Metasuchmaschine, das heißt sie nutzt für die Suche öffentliche Suchmaschinen, wie Google, DuckDuckGo, StartPage und viele andere. 
 
-Um die Privatsphäre der Benutzer zu schützen, gibt Searx weder die IP-Adresse, noch die Suchhistorie an die Suchmaschinen weiter, von denen die Ergebnisse abgefragt werden.
-Searx selber speichert ebenfalls keine Suchanfragen und stellt eine Vielzahl an Einstellungsmöglichkeiten bereit. 
-Beispielsweise können die Sprache und die verwendeten Suchmaschinen für jede Suchanfrage konfiguriert werden.
+Um die Privatsphäre der Benutzer zu schützen, gibt Searx weder die IP-Adresse, noch die Suchhistorie an die Suchmaschinen weiter, von denen die Ergebnisse abgefragt werden. Searx selber speichert ebenfalls keine Suchanfragen oder andere Logs. Zusätzlch stellt Searx eine Vielzahl an Einstellungsmöglichkeiten bereit, beispielsweise können die Sprache und die verwendeten Suchmaschinen für jede Suchanfrage konfiguriert werden.
 
-Außerdem stellt Searx einen Proxy bereit über den viele Suchergebnisse auch anonym aufgerufen werden können. 
-Klicke dafür nicht auf den Direktlink, sonden auf `proxied` in der unteren rechten Ecke des Suchergebnisses.
+Außerdem stellt Searx einen Proxy bereit über den viele Suchergebnisse auch anonym aufgerufen werden können. Klicke dafür nicht auf den Direktlink, sonden auf `proxied` in der unteren rechten Ecke des Suchergebnisses.
 
-__Seit November 2019 betreibe ich eine öffentliche Searx Instanz.__ Schau gerne mal vorbei um Antworten auf deine Fragen zu erhalten. 
-Bei Fragen oder Problemen schreib mir gerne.
+__Seit November 2019 betreibe ich eine öffentliche Searx Instanz.__ Schau gerne mal vorbei um Antworten auf deine Fragen zu erhalten. Bei Fragen oder Problemen schreib mir gerne.
 
 __Hier gehts zu Searx: [searx.sp-codes.de](https://searx.sp-codes.de)__
 

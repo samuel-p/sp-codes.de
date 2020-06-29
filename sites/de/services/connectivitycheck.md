@@ -29,7 +29,7 @@ Um `https` zu verwenden müssen die beiden folgenden Befehle genutzt werden:
 # settings put global captive_portal_https_url "https://connectivitycheck.sp-codes.de/generate204"
 ```
 
-Eventuell musst du dein gerät anschließend neu starten.
+Eventuell musst du dein Gerät anschließend neu starten.
 
 Wenn du AFWall+ verwendest musst du _[1000] Android-System_ und eventuell _[10040] CaptivePortalLogin_ Internetzugriff gewähren.
 
