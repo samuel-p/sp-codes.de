@@ -5,11 +5,7 @@ title: Gitea
 ---
 # Gitea
 
-Gitea ist eine einfache Code-Hosting-Plattform wie GitHub oder GitLab. 
-Sie ist opensource und wird kontinuierlich weiterentwickelt.
-__Seit Ende 2019 betreibe ich eine eigene Gitea Instanz, in der ich meine Projekte verwalte.__ 
-So zum Beispiel auch diese Webseite.
-Schau dir gerne mal den Quelltext an und lass ein bisschen Feedback da.
+Gitea ist eine einfache Code-Hosting-Plattform wie GitHub oder GitLab. Sie ist opensource und wird kontinuierlich weiterentwickelt. __Seit Ende 2019 betreibe ich eine eigene Gitea Instanz, in der ich meine Projekte verwalte.__ So zum Beispiel auch diese Webseite. Schau dir gerne mal den Quelltext an und lass mir Feedback da.
 
 Zusätzlich zu Gitea betreibe ich noch Drone, eine Plattform, die Gitea um viele Continuous Integration Funktionen erweitert und beispielsweise automatisierte Builds und Deploys ermöglicht.
 

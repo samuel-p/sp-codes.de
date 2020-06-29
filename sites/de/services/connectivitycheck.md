@@ -50,7 +50,7 @@ sudo service network-manager restart
 
 ## Einrichtung in Firefox
 
-Tippe [about:config](about:config) in die Adresszeile von Firefox und suche anschließend nach `captivedetect.canonicalURL` und `network.connectivity-service`. Setze die URL-Werte auf `https://connectivitycheck.sp-codes.de/generate204`, die Domain-Werte auf `connectivitycheck.sp-codes.de`. Das wars schon.
+Tippe [about:config](about:config) in die Adresszeile von Firefox und suche anschließend nach `captivedetect.canonicalURL` und `network.connectivity-service`. Setze die URL-Werte auf `https://connectivitycheck.sp-codes.de/generate204`, die Domain-Werte auf `connectivitycheck.sp-codes.de`. Das war es schon.
 
 ## Weitere nützliche Links
 
