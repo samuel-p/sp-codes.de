@@ -1,0 +1,13 @@
+{%- for service in services %}
+<div class="col-12 col-md-6 col-lg-4 p-3">
+    <div class="service">
+        <a class="link" href="/{{locale}}/services/{{service.id}}"></a>
+        <div class="inner">
+            <i class="{{service.icon}} fa-4x"></i>
+            <h2 class="mt-2">{{service.name}}{% if service.url %} <a href="{{service.url}}" target="_blank"><i
+                    class="fas fa-external-link-alt"></i></a>{% endif %}</h2>
+            <div>{{service.summary[locale]}}</div>
+        </div>
+    </div>
+</div>
+{%- endfor %}

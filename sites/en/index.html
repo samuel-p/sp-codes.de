@@ -1,0 +1,38 @@
+---
+layout: home.njk
+key: home
+title: Home
+eleventyNavigation:
+  key: home
+  title: Home
+  icon: home
+---
+<div class="row justify-content-center py-4 border-top">
+    <div class="col-lg-8 col-md-10 col-12">
+        <h1 class="heading">Welcome to sp&#8209;codes!</h1>
+        <p class="lead text-center mb-2">
+            Glad you found your way here. My name is Samuel Philipp and I am a software engineer from Magdeburg.
+            On this site you will find information about me and an overview of the services I provide. Feel free
+            to look around or use the various services.
+        </p>
+    </div>
+</div>
+<div class="row justify-content-center py-4 border-top">
+    <div class="col-lg-8 col-md-10 col-12">
+        <h1 class="heading"><a href="/{{locale}}/services">Services</a></h1>
+        <div class="row">
+            {% include services-simple.html %}
+        </div>
+    </div>
+</div>
+<div class="row justify-content-center pt-4 border-top">
+    <div class="col-lg-8 col-md-10 col-12">
+        <h1 class="heading">Profiles & Contact</h1>
+        <p class="lead text-center mb-2">
+            You have found a mistake, suggestions, or any other question? Feel free to contact me via one of the
+            following platforms. I look forward to your message!
+        </p>
+    </div>
+</div>
+
+{% include profiles.html %}

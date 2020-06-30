@@ -1,0 +1,10 @@
+{%- for service in services %}
+<div class="col-12 col-md-6 p-3">
+    <div class="service flat">
+        <a class="link inner" href="/{{locale}}/services/{{service.id}}">
+            <i class="{{service.icon}} fa-fw fa-2x"></i>
+            <h2 class="mt-2">{{service.name}}</h2>
+        </a>
+    </div>
+</div>
+{%- endfor %}
