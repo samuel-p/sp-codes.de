@@ -22,8 +22,7 @@ steps:
       - lftp -e "set ftp:ssl-force true; set ssl:verify-certificate no; mirror -R ./dist/ dev.sp-codes.de/; bye" -u $FTP_USERNAME,$FTP_PASSWORD $FTP_HOST
     when:
       event:
-        exclude:
-          - pull_request
+        - push
 
 trigger:
   branch:
@@ -54,8 +53,7 @@ steps:
       - lftp -e "set ftp:ssl-force true; set ssl:verify-certificate no; mirror -R ./dist/ sp-codes.de/; bye" -u $FTP_USERNAME,$FTP_PASSWORD $FTP_HOST
     when:
       event:
-        exclude:
-          - pull_request
+        - push
 
 trigger:
   branch:
