@@ -1,4 +1,9 @@
 {
-  "assignees": ["samuel-p"],
-  "baseBranches": ["develop"]
+  "assignees": [
+    "samuel-p"
+  ],
+  "baseBranches": [
+    "develop"
+  ],
+  "rangeStrategy": "bump"
 }
