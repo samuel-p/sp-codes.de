@@ -40,7 +40,7 @@ a {
   color: #fea500;
 
   &:hover {
-    color: darken(#fea500, .5);
+    color: #d78c00;
   }
 }
 
@@ -121,6 +121,24 @@ a {
     top: 0;
     bottom: 0;
     right: 0;
+    color: #fea500 !important;
+
+    &[href]:hover {
+      color: #d78c00 !important;
+    }
+  }
+
+  .beta {
+    position: absolute;
+    top: 1rem;
+    right: 0;
+    font-weight: bold;
+    background-color: #fea500;
+    color: #000000;
+    padding: .5rem 1rem;
+    border-radius: 10px;
+    transform: rotate(20deg);
+    box-shadow: -1px 8px 5px rgba(0, 0, 0, .7);
   }
 
   .inner {
@@ -147,6 +165,11 @@ a {
 
       h2 {
         margin-left: 0.5rem;
+      }
+
+      .beta {
+        top: 0;
+        right: -1rem;
       }
     }
   }

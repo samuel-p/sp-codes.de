@@ -51,10 +51,21 @@
   {
     "id": "firefox-sync",
     "name": "Firefox Sync",
-    "icon": "fab fa-firefox",
+    "icon": "fab fa-firefox-browser",
     "summary": {
       "de": "Ein Service um Firefox Einstellungen, Lesezeichen, offene Tabs und vieles mehr über verschiedene Geräte zu synchronisieren.",
       "en": "A service to sync Firefox settings, bookmarks, open tabs and much more between multiple devices."
+    }
+  },
+  {
+    "id": "jitsi",
+    "name": "Jitsi Meet",
+    "icon": "fas fa-users",
+    "url": "https://jitsi.sp-codes.de",
+    "beta": true,
+    "summary": {
+      "de": "Eine sichere, einfache und skalierbare Plattform für Videokonferenzen.",
+      "en": "A secure, simple and scalable platform for video conferencing."
     }
   }
 ]
