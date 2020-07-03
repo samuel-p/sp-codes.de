@@ -1,7 +1,10 @@
 {%- for service in services %}
 <div class="col-12 col-md-6 p-3">
     <div class="service flat">
-        <a class="link inner" href="/{{locale}}/services/{{service.id}}">
+        <a class="link inner" href="/{{locale}}/services{% if service.beta != true %}/{{service.id}}{% endif %}">
+            {% if service.beta == true %}
+            <div class="beta">TEST-PHASE</div>
+            {% endif %}
             <i class="{{service.icon}} fa-fw fa-2x"></i>
             <h2 class="mt-2">{{service.name}}</h2>
         </a>
