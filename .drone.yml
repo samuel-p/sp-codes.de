@@ -8,7 +8,7 @@ steps:
     commands:
       - npm install
       - npm run build
-  - name: deploy
+  - name: deploy-develop
     image: alpine
     environment:
       FTP_HOST:
@@ -25,7 +25,7 @@ steps:
         - develop
       event:
         - push
-  - name: deploy
+  - name: deploy-master
       image: alpine
       environment:
         FTP_HOST:
