@@ -1,6 +1,10 @@
 kind: pipeline
 type: docker
-name: build-develop
+name: default
+
+platform:
+  os: linux
+  arch: arm
 
 steps:
   - name: build
@@ -8,7 +12,7 @@ steps:
     commands:
       - npm install
       - npm run build
-  - name: deploy
+  - name: deploy-develop
     image: alpine
     environment:
       FTP_HOST:
@@ -21,25 +25,11 @@ steps:
       - which lftp || ( apk --update add lftp )
       - lftp -e "set ftp:ssl-force true; set ssl:verify-certificate no; mirror -R ./dist/ dev.sp-codes.de/; bye" -u $FTP_USERNAME,$FTP_PASSWORD $FTP_HOST
     when:
+      branch:
+        - develop
       event:
         - push
-
-trigger:
-  branch:
-    - develop
-
----
-kind: pipeline
-type: docker
-name: build-master
-
-steps:
-  - name: build
-    image: node
-    commands:
-      - npm install
-      - npm run build
-  - name: deploy
+  - name: deploy-master
     image: alpine
     environment:
       FTP_HOST:
@@ -52,9 +42,7 @@ steps:
       - which lftp || ( apk --update add lftp )
       - lftp -e "set ftp:ssl-force true; set ssl:verify-certificate no; mirror -R ./dist/ sp-codes.de/; bye" -u $FTP_USERNAME,$FTP_PASSWORD $FTP_HOST
     when:
+      branch:
+        - master
       event:
         - push
-
-trigger:
-  branch:
-    - master
