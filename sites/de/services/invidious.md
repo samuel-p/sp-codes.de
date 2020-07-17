@@ -6,9 +6,9 @@ title: Invidious
 # Invidious
 
 Invidious ist ein alternatives Frontend für YouTube. 
-Da nur die nötigsten Verbindungen zu YouTube aufgebaut werden und viele sogar vom Server selber übernommen werden erhöht Invidious die Privatsphäre der Nutzer.
+Da nur die nötigsten Verbindungen zu YouTube aufgebaut werden und viele sogar vom Server selber übernommen werden, erhöht Invidious die Privatsphäre der Nutzer:innen.
 
-__Seit Dezember 2019 betreibe ich eine öffentliche Invidious Instanz.__ Fühl dich frei dort ein paar Videos anzuschauen.
+__Seit Dezember 2019 betreibe ich eine öffentliche Invidious Instanz.__ Fühl dich frei, dort ein paar Videos anzuschauen.
 
 __Jetzt das erste Video schauen auf [invidious.sp-codes.de](https://invidious.sp-codes.de).__
 

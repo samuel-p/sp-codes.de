@@ -5,7 +5,7 @@ title: Captive Portal Check
 ---
 # Captive Portal Check
 
-Ein Captive Portal ist eine Anmeldeseite in öffentlichen WLAN-Netzwerken um den Internet-Zugriff an die Zustimmung bestimmter Nutzungsregeln zu binden. Wenn du in einem öffentlichen Netzwerk eine Anmeldeseite angezeigt bekommst, nutzt dein Gerät dafür einen Captive Portal Check. Dieser ermöglicht es dem Gerät herauszufinden, ob du einen direkten Internetzugang hast oder nicht. Unter Android wird hierfür beispielsweise eine Anfrage an einen Google-Server gestellt.
+Ein Captive Portal ist eine Anmeldeseite in öffentlichen WLAN-Netzwerken, um den Internet-Zugriff an die Zustimmung bestimmter Nutzungsregeln zu binden. Wenn du in einem öffentlichen Netzwerk eine Anmeldeseite angezeigt bekommst, nutzt dein Gerät dafür einen Captive Portal Check. Dieser ermöglicht es dem Gerät, herauszufinden, ob du einen direkten Internetzugang hast oder nicht. Unter Android wird hierfür beispielsweise eine Anfrage an einen Google-Server gestellt.
 
 __Seit Mitte 2019 stelle ich einen freien Captive Portal Check zur Verfügung: [https://connectivitycheck.sp-codes.de/generate204](https://connectivitycheck.sp-codes.de/generate204)__ Gerne kannst du ihn nutzen, wenn du möchtest.
 
@@ -21,7 +21,7 @@ Nun können die folgenden Befehle mit der jeweiligen Methode ausgeführt werden,
 ```
 
 
-Um `https` zu verwenden müssen die beiden folgenden Befehle genutzt werden:
+Um `https` zu verwenden, müssen die beiden folgenden Befehle genutzt werden:
 
 
 ```
@@ -31,11 +31,11 @@ Um `https` zu verwenden müssen die beiden folgenden Befehle genutzt werden:
 
 Eventuell musst du dein Gerät anschließend neu starten.
 
-Wenn du AFWall+ verwendest musst du _[1000] Android-System_ und eventuell _[10040] CaptivePortalLogin_ Internetzugriff gewähren.
+Wenn du AFWall+ verwendest, musst du _[1000] Android-System_ und eventuell _[10040] CaptivePortalLogin_ Internetzugriff gewähren.
 
 ## Einrichtung in Ubuntu
 
-Unter Ubuntu muss die Datei `/etc/NetworkManager/NetworkManager.conf` geändert werden. Füge die folgenden Zeilen hinzu, oder passe sie entsprechend an:
+Unter Ubuntu muss die Datei `/etc/NetworkManager/NetworkManager.conf` geändert werden. Füge die folgenden Zeilen hinzu oder passe sie entsprechend an:
 
 ```
 [connectivity]
