@@ -8,7 +8,7 @@ platform:
 
 steps:
   - name: build
-    image: node:alpine
+    image: node
     commands:
       - npm install
       - npm run build
