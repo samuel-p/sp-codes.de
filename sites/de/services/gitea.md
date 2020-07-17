@@ -9,11 +9,11 @@ Gitea ist eine einfache Code-Hosting-Plattform wie GitHub oder GitLab. Sie ist o
 
 Zusätzlich zu Gitea betreibe ich noch Drone, eine Plattform, die Gitea um viele Continuous Integration Funktionen erweitert und beispielsweise automatisierte Builds und Deploys ermöglicht.
 
-Schau gerne mal vorbei und melde dich an, falls du Lust hast ein Projekt zu entwickeln. Die Registrierung ist seit März 2020 geöffnet.
+Schau gerne mal vorbei und melde dich an, falls du Lust hast, ein Projekt zu entwickeln. Die Registrierung ist seit März 2020 geöffnet.
 
 __Zu Gitea geht's hier lang: [git.sp-codes.de](https://git.sp-codes.de)__
 
-__Wenn du bei Drone vorbeischauen willst geht das hier: [ci.sp-codes.de](https://ci.sp-codes.de)__
+__Wenn du bei Drone vorbeischauen willst, geht das hier: [ci.sp-codes.de](https://ci.sp-codes.de)__
 
 
 ## Weitere nützliche Links
