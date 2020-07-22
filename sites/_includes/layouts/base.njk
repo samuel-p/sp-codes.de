@@ -27,7 +27,6 @@ title: sp-codes
     <meta property="og:description" content="Samuel Philipp - Software Engineer from Magdeburg">
     <meta property="og:site_name" content="sp-codes">
     <meta property="og:image" content="https://sp-codes.de/img/sp-codes.jpg">
-    <!--<meta property="og:updated_time" content="">-->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="sp-codes">
     <meta name="twitter:description" content="Samuel Philipp - Software Engineer from Magdeburg">
@@ -40,7 +39,7 @@ title: sp-codes
     <div class="d-flex justify-content-start flex-wrap p-2 menu menu-top">
     {%- for entry in collections.all | eleventyNavigation %}
       {% if entry.url.includes(locale) %}
-        <div{% if entry.url == page.url %} class="active"{% endif %}>
+        <div {% if entry.url == page.url %} class="active"{% endif %}>
           <a href="{{ entry.url | url }}" class="mr-2">
             {% if entry.icon %}<span class="fas fa-{{ entry.icon }} mr-2"></span>{% endif %}{{ entry.title }}
           </a>
