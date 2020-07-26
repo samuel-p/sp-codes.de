@@ -27,19 +27,19 @@ title: sp-codes
     <meta property="og:description" content="Samuel Philipp - Software Engineer from Magdeburg">
     <meta property="og:site_name" content="sp-codes">
     <meta property="og:image" content="https://sp-codes.de/img/sp-codes.jpg">
-    <!--<meta property="og:updated_time" content="">-->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="sp-codes">
     <meta name="twitter:description" content="Samuel Philipp - Software Engineer from Magdeburg">
     <meta name="twitter:image" content="https://sp-codes.de/img/sp-codes.jpg">
     <link rel="shortcut icon" href="img/samuel.png">
     <link rel="stylesheet" href="/css/main.css">
+    <script async defer data-domain="sp-codes.de" src="https://plausible.sp-codes.de/js/plausible.js"></script>
 </head>
   <body>
     <div class="d-flex justify-content-start flex-wrap p-2 menu menu-top">
     {%- for entry in collections.all | eleventyNavigation %}
       {% if entry.url.includes(locale) %}
-        <div{% if entry.url == page.url %} class="active"{% endif %}>
+        <div {% if entry.url == page.url %} class="active"{% endif %}>
           <a href="{{ entry.url | url }}" class="mr-2">
             {% if entry.icon %}<span class="fas fa-{{ entry.icon }} mr-2"></span>{% endif %}{{ entry.title }}
           </a>
@@ -75,7 +75,8 @@ title: sp-codes
         <div class="d-flex justify-content-sm-start flex-wrap">
             <div class="mr-3"><a href="/{{locale}}/imprint"><span class="fas fa-info-circle mr-2"></span>{{strings.imprint[locale]}}</a></div>
             <div class="mr-3"><a href="/{{locale}}/privacy"><span class="fas fa-user-secret mr-2"></span>{{strings.privacy[locale]}}</a></div>
-            <div><a target="_blank" href="https://git.sp-codes.de/samuel-p/sp-codes.de"><span class="fas fa-code mr-2"></span>Code</a></div>
+            <div class="mr-3"><a target="_blank" href="https://git.sp-codes.de/samuel-p/sp-codes.de"><span class="fas fa-code mr-2"></span>Code</a></div>
+            <div><a target="_blank" href="https://plausible.sp-codes.de/sp-codes.de"><span class="fas fa-chart-line mr-2"></span>Stats</a></div>
         </div>
     </div>
   </body>

@@ -19,7 +19,7 @@ Here is the link to Searx: [searx.sp-codes.de](https://searx.sp-codes.de)
 ## More useful links
 
 * [Searx Website](https://asciimoo.github.io/searx/)
-* [User-Documentation](https://asciimoo.github.io/searx/user/index.html)
+* [Documentation](https://asciimoo.github.io/searx/user/index.html)
 * [Set default search engine in Firefox](https://support.mozilla.org/en-US/kb/add-or-remove-search-engine-firefox)
 * [Set default search engine in Chrome](https://support.google.com/chrome/answer/95426?co=GENIE.Platform%3DDesktop&hl=en)
 * [List of other public servers](https://searx.space/)
