@@ -1,18 +1,18 @@
-@import "~bootstrap/scss/bootstrap-grid";
-@import "~bootstrap/scss/bootstrap-reboot";
-@import "~bootstrap/scss/utilities/align";
-@import "~bootstrap/scss/utilities/spacing";
-@import "~bootstrap/scss/utilities/display";
-@import "~bootstrap/scss/utilities/text";
-@import "~bootstrap/scss/utilities/float";
+@import "node_modules/bootstrap/scss/bootstrap-grid";
+@import "node_modules/bootstrap/scss/bootstrap-reboot";
+@import "node_modules/bootstrap/scss/utilities/align";
+@import "node_modules/bootstrap/scss/utilities/spacing";
+@import "node_modules/bootstrap/scss/utilities/display";
+@import "node_modules/bootstrap/scss/utilities/text";
+@import "node_modules/bootstrap/scss/utilities/float";
 
 $fa-font-path: "../font";
-@import "~@fortawesome/fontawesome-free/scss/fontawesome";
-@import "~@fortawesome/fontawesome-free/scss/solid";
-@import "~@fortawesome/fontawesome-free/scss/brands";
-@import "~@fortawesome/fontawesome-free/scss/regular";
+@import "node_modules/@fortawesome/fontawesome-free/scss/fontawesome";
+@import "node_modules/@fortawesome/fontawesome-free/scss/solid";
+@import "node_modules/@fortawesome/fontawesome-free/scss/brands";
+@import "node_modules/@fortawesome/fontawesome-free/scss/regular";
 $flag-icon-rect-path: '';
-@import "~flag-icon-css/sass/flag-icon";
+@import "node_modules/flag-icon-css/sass/flag-icon";
 
 html, body {
   height: 100%;
@@ -64,19 +64,6 @@ a {
   }
 }
 
-.menu-top {
-  border-bottom: 1px solid #ffffff;
-}
-
-.menu-bottom {
-  border-top: 1px solid #ffffff;
-}
-
-.border-top-bottom {
-  border-top: 1px solid #ffffff;
-  border-bottom: 1px solid #ffffff;
-}
-
 .border-top {
   border-top: 1px solid #ffffff;
 }
@@ -95,19 +82,6 @@ a {
 
 .flex-grow {
   flex: 1;
-}
-
-@media (max-width: 767.98px) {
-  .sp-codes {
-    font-size: 3rem;
-  }
-  .logo {
-    max-width: 128px;
-    max-height: 128px;
-  }
-  .fa-4x {
-    font-size: 2em;
-  }
 }
 
 .service {
@@ -179,19 +153,6 @@ a {
   color: #ffffff !important;
 }
 
-.matrix-icon {
-  margin: 0 8px;
-  width: 4em;
-  height: 4em;
-}
-
-@media (max-width: 767.98px) {
-  .matrix-icon {
-    width: 2em;
-    height: 2em;
-  }
-}
-
 code {
   background-color: #fea500;
   color: #000000;
@@ -209,5 +170,28 @@ pre {
     background-color: initial;
     padding: initial;
     border-radius: initial;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .logo {
+    max-width: 128px;
+    max-height: 128px;
+  }
+  .fa-4x {
+    font-size: 2em;
+  }
+}
+
+.matrix-icon {
+  margin: 0 8px;
+  width: 4em;
+  height: 4em;
+}
+
+@media (max-width: 767.98px) {
+  .matrix-icon {
+    width: 2em;
+    height: 2em;
   }
 }

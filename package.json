@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "website for sp-codes.de",
   "scripts": {
-    "compile-sass": "node-sass --output-style compressed --importer=node_modules/node-sass-tilde-importer scss/main.scss dist/css/main.css",
+    "compile-sass": "node-sass --output-style compressed --importer=node_modules/node-sass-tilde-importer src/scss/main.scss dist/css/main.css",
     "watch:eleventy": "eleventy --serve",
     "watch:sass": "npm run compile-sass -- --watch",
     "start": "npm-run-all compile-sass --parallel watch:*",
@@ -16,7 +16,7 @@
     "url": "https://git.sp-codes.de/samuel-p/sp-codes.de"
   },
   "optionalDependencies": {
-    "browser-sync": "^2.26.10"
+    "browser-sync": "^2.26.12"
   },
   "devDependencies": {
     "@11ty/eleventy": "^0.11.0",
