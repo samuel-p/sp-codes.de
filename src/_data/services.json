@@ -67,5 +67,16 @@
       "de": "Eine sichere, einfache und skalierbare Plattform für Videokonferenzen.",
       "en": "A secure, simple and scalable platform for video conferencing."
     }
+  },
+  {
+    "id": "shields",
+    "name": "Shields",
+    "icon": "fas fa-tags",
+    "url": "https://shields.sp-codes.de",
+    "beta": true,
+    "summary": {
+      "de": "Prägnante, konsistente und lesbare Badges im SVG- und Rasterformat.",
+      "en": "Concise, consistent, and legible badges in SVG and raster format."
+    }
   }
 ]
