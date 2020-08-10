@@ -62,7 +62,6 @@
     "name": "Jitsi Meet",
     "icon": "fas fa-users",
     "url": "https://jitsi.sp-codes.de",
-    "beta": true,
     "summary": {
       "de": "Eine sichere, einfache und skalierbare Plattform für Videokonferenzen.",
       "en": "A secure, simple and scalable platform for video conferencing."
