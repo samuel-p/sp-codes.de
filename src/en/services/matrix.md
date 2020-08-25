@@ -19,3 +19,4 @@ Feel free to create an account on my server or choose one from the list linked b
 * [List of public rooms](https://view.matrix.org/)
 * [List of public matrix servers](https://www.hello-matrix.net/public_servers.php)
 * [Matrix FAQ](https://matrix.org/faq/)
+* [Migrate Account](https://ems.element.io/tools/matrix-migration)

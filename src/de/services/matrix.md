@@ -19,3 +19,4 @@ Melde dich gerne auf meinem Server an oder suche dir einen aus der unten verlink
 * [Liste öffentlicher Räume](https://view.matrix.org/)
 * [Liste öffentlicher Matrix-Server](https://www.hello-matrix.net/public_servers.php)
 * [Matrix FAQ](https://matrix.org/faq/)
+* [Account umziehen](https://ems.element.io/tools/matrix-migration)
