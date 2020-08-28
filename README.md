@@ -12,7 +12,7 @@ Website for sp-codes.de
 The following Parameters are set directly on the Web-Server.
 
 ```
-Content-Security-Policy: default-src 'none'; script-src 'self' https://plausible.sp-codes.de; object-src 'none'; style-src 'self'; img-src 'self'; media-src 'none'; frame-src 'none'; font-src 'self'; connect-src 'self' https://plausible.sp-codes.de; require-trusted-types-for 'script'
+Content-Security-Policy: default-src 'none'; script-src 'self' https://plausible.sp-codes.de; object-src 'none'; style-src 'self'; img-src 'self'; media-src 'none'; frame-src 'none'; font-src 'self'; connect-src 'self' https://plausible.sp-codes.de
 Referrer-Policy: strict-origin-when-cross-origin
 Feature-Policy: sync-xhr 'self'
 Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
