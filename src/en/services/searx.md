@@ -15,6 +15,7 @@ __Since November 2019 I run a public Searx instance.__ Feel free to check it out
 
 Here is the link to Searx: [searx.sp-codes.de](https://searx.sp-codes.de)
 
+Tor Hidden Service: [searxbi3f73mmdeb.onion](http://searxbi3f73mmdeb.onion)
 
 ## More useful links
 
