@@ -15,6 +15,8 @@ __Seit November 2019 betreibe ich eine öffentliche Searx Instanz.__ Schau gerne
 
 __Hier gehts zu Searx: [searx.sp-codes.de](https://searx.sp-codes.de)__
 
+Tor Hidden Service: [searxbi3f73mmdeb.onion](http://searxbi3f73mmdeb.onion)
+
 ## Weitere nützliche Links
 
 * [Searx Webseite](https://asciimoo.github.io/searx/)
