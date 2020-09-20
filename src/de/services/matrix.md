@@ -17,5 +17,9 @@ Melde dich gerne auf meinem Server an oder suche dir einen aus der unten verlink
 
 * [Verschiedene Apps](https://matrix.org/clients)
 * [Liste öffentlicher Räume](https://view.matrix.org/)
-* [Liste öffentlicher Matrix-Server](https://www.hello-matrix.net/public_servers.php)
+* Listen mit öffentlichen Matrix-Servern
+  * [hello-matrix.net](https://www.hello-matrix.net/public_servers.php)
+  * [anchel.nl](https://www.anchel.nl/matrix-publiclist/)
+  * [the-federation.info](https://the-federation.info/protocol/matrix)
 * [Matrix FAQ](https://matrix.org/faq/)
+* [Account umziehen](https://ems.element.io/tools/matrix-migration)

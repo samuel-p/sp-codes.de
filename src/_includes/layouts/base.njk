@@ -38,7 +38,7 @@ title: sp-codes
   <body>
     <div class="d-flex justify-content-start flex-wrap p-2 menu border-bottom">
     {%- for entry in collections.all | eleventyNavigation %}
-      {% if entry.url.includes(locale) %}
+      {% if not entry.url.startsWith("https") and entry.url.includes(locale) or entry.locale == locale %}
         <div {% if entry.url == page.url %} class="active"{% endif %}>
           <a href="{{ entry.url | url }}" class="mr-2">
             {% if entry.icon %}<span class="fas fa-{{ entry.icon }} mr-2"></span>{% endif %}{{ entry.title }}
