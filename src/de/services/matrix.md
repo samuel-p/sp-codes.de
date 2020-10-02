@@ -13,6 +13,8 @@ __Seit Anfang 2020 betreibe ich einen öffentlichen Matrix-Server: [matrix.sp-co
 
 Melde dich gerne auf meinem Server an oder suche dir einen aus der unten verlinkten Liste heraus. Ich freue mich auf deine Nachricht an [@samuel-p:matrix.sp-codes.de](https://matrix.to/#/@samuel-p:matrix.sp-codes.de).
 
+Auf meinem Blog findest du einen einfachen Einstieg in das Matrix-Netzwerk: [Werde Teil der Matrix](https://blog.sp-codes.de/werde-teil-der-matrix-matrix-teil-1/)
+
 ## Weitere nützliche Links
 
 * [Verschiedene Apps](https://matrix.org/clients)

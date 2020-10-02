@@ -17,6 +17,8 @@ Here is the link to Searx: [searx.sp-codes.de](https://searx.sp-codes.de)
 
 Tor Hidden Service: [searxbi3f73mmdeb.onion](http://searxbi3f73mmdeb.onion)
 
+If you want to use Searx as your default search engine, you can find instructions on my blog (German): [Nur noch Searx](https://blog.sp-codes.de/nur-noch-searx/)
+
 ## More useful links
 
 * [Searx Website](https://asciimoo.github.io/searx/)

@@ -13,6 +13,8 @@ __Since the beginning of 2020 I run a public Matrix server: [matrix.sp-codes.de]
 
 Feel free to create an account on my server or choose one from the list linked below. I look forward to hear from you [@samuel-p:matrix.sp-codes.de](https://matrix.to/#/@samuel-p:matrix.sp-codes.de).
 
+On my blog (German) you will find a simple introduction to the Matrix network: [Werde Teil der Matrix](https://blog.sp-codes.de/werde-teil-der-matrix-matrix-teil-1/)
+
 ## More useful links
 
 * [Various Apps](https://matrix.org/clients)
