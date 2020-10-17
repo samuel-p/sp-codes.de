@@ -11,6 +11,8 @@ Da Matrix dezentral funktioniert, können sich die Nutzer:innen einen öffentlic
 
 __Seit Anfang 2020 betreibe ich einen öffentlichen Matrix-Server: [matrix.sp-codes.de](https://matrix.sp-codes.de/) und eine öffentliche Element-Web Instanz: [chat.sp-codes.de](https://chat.sp-codes.de/)__
 
+Die Serverregeln kannst du gerne [hier](https://matrix.sp-codes.de/_matrix/consent) nachlesen.
+
 Melde dich gerne auf meinem Server an oder suche dir einen aus der unten verlinkten Liste heraus. Ich freue mich auf deine Nachricht an [@samuel-p:matrix.sp-codes.de](https://matrix.to/#/@samuel-p:matrix.sp-codes.de).
 
 Auf meinem Blog findest du einen einfachen Einstieg in das Matrix-Netzwerk: [Werde Teil der Matrix](https://blog.sp-codes.de/werde-teil-der-matrix-matrix-teil-1/)
