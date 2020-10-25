@@ -19,7 +19,7 @@
     "browser-sync": "^2.26.13"
   },
   "devDependencies": {
-    "@11ty/eleventy": "^0.11.0",
+    "@11ty/eleventy": "^0.11.1",
     "@11ty/eleventy-navigation": "^0.1.6",
     "cpx": "^1.5.0",
     "node-sass": "^4.14.1",
