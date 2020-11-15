@@ -16,13 +16,13 @@
     "url": "https://git.sp-codes.de/samuel-p/sp-codes.de"
   },
   "optionalDependencies": {
-    "browser-sync": "^2.26.12"
+    "browser-sync": "^2.26.13"
   },
   "devDependencies": {
-    "@11ty/eleventy": "^0.11.0",
+    "@11ty/eleventy": "^0.11.1",
     "@11ty/eleventy-navigation": "^0.1.6",
     "cpx": "^1.5.0",
-    "node-sass": "^4.14.1",
+    "node-sass": "^5.0.0",
     "node-sass-tilde-importer": "^1.0.2",
     "npm-run-all": "^4.1.5"
   },
