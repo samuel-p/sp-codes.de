@@ -23,7 +23,8 @@ Auf meinem Blog findest du einen einfachen Einstieg in das Matrix-Netzwerk: [Wer
 * [Liste öffentlicher Räume](https://view.matrix.org/)
 * Listen mit öffentlichen Matrix-Servern
   * [hello-matrix.net](https://www.hello-matrix.net/public_servers.php)
-  * [anchel.nl](https://www.anchel.nl/matrix-publiclist/)
+  * [anchel.nl](https://publiclist.anchel.nl/)
   * [the-federation.info](https://the-federation.info/protocol/matrix)
+  * [FossMessenger](https://fediverse.blog/~/FossMessenger/matrix-server)
 * [Matrix FAQ](https://matrix.org/faq/)
 * [Account umziehen](https://ems.element.io/tools/matrix-migration)

@@ -11,7 +11,6 @@ Users can choose a public server or create their own and still communicate with 
 
 __Since the beginning of 2020 I run a public Matrix server: [matrix.sp-codes.de](https://matrix.sp-codes.de/) And a public Element-Web instance: [chat.sp-codes.de](https://chat.sp-codes.de/)__
 
-
 You can read the server rules [here](https://matrix.sp-codes.de/_matrix/consent).
 
 Feel free to create an account on my server or choose one from the list linked below. I look forward to hear from you [@samuel-p:matrix.sp-codes.de](https://matrix.to/#/@samuel-p:matrix.sp-codes.de).
@@ -24,7 +23,8 @@ On my blog (German) you will find a simple introduction to the Matrix network: [
 * [List of public rooms](https://view.matrix.org/)
 * Lists with public matrix servers
   * [hello-matrix.net](https://www.hello-matrix.net/public_servers.php)
-  * [anchel.nl](https://www.anchel.nl/matrix-publiclist/)
+  * [anchel.nl](https://publiclist.anchel.nl/)
   * [the-federation.info](https://the-federation.info/protocol/matrix)
+  * [FossMessenger](https://fediverse.blog/~/FossMessenger/matrix-server)
 * [Matrix FAQ](https://matrix.org/faq/)
 * [Migrate Account](https://ems.element.io/tools/matrix-migration)
