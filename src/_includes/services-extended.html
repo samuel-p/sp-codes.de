@@ -1,14 +1,21 @@
 {%- for service in services %}
 <div class="col-12 col-md-6 col-lg-4 p-3">
     <div class="service">
-        <a class="link" {% if service.beta != true %} href="/{{locale}}/services/{{service.id}}" {% endif %}></a>
+        <a class="link" {% if service.beta !=true %} href="/{{locale}}/services/{{service.id}}" {% endif %}></a>
         {% if service.beta == true %}
-          <div class="beta">TEST-PHASE</div>
+        <div class="beta">TEST-PHASE</div>
         {% endif %}
         <div class="inner">
             <i class="{{service.icon}} fa-4x"></i>
-            <h2 class="mt-2">{{service.name}}{% if service.url %} <a href="{{service.url}}" target="_blank"><i
+            <h2 class="mt-2 mb-1">{{service.name}}{% if service.url %} <a href="{{service.url}}" target="_blank"><i
                     class="fas fa-external-link-alt"></i></a>{% endif %}</h2>
+            {% if service.status %}
+            <div class="mb-2">
+                <a href="https://status.sp-codes.de" target="_blank">
+                    <img src="https://shields.sp-codes.de/endpoint?label={{strings.state[locale]}}&url=https%3A%2F%2Fstatus.sp-codes.de%2Fapi%2Fbadge%3Fservice%3D{{service.status}}%26operational%3D{{strings.operational[locale]}}%26outage%3D{{strings.outage[locale]}}%26maintenance%3D{{strings.maintenance[locale]}}">
+                </a>
+            </div>
+            {% endif %}
             <div>{{service.summary[locale]}}</div>
         </div>
     </div>

@@ -14,5 +14,21 @@
   "stats": {
     "de": "Statistiken",
     "en": "Stats"
+  },
+  "state": {
+    "de": "Status",
+    "en": "State"
+  },
+  "operational": {
+    "de": "Online",
+    "en": "Online"
+  },
+  "outage": {
+    "de": "Fehler",
+    "en": "Error"
+  },
+  "maintenance": {
+    "de": "Wartung",
+    "en": "Maintenance"
   }
 }

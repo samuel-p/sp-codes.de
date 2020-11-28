@@ -4,28 +4,10 @@
     "name": "Searx",
     "icon": "fas fa-search",
     "url": "https://searx.sp-codes.de",
+    "status": "https://searx.sp-codes.de",
     "summary": {
       "de": "Eine privatsphären-respektierende, hackbare Metasuchmaschine.",
       "en": "A privacy-respecting, hackable metasearch engine."
-    }
-  },
-  {
-    "id": "invidious",
-    "name": "Invidious",
-    "icon": "fab fa-youtube",
-    "url": "https://invidious.sp-codes.de",
-    "summary": {
-      "de": "Ein alternatives YouTube-Frontend.",
-      "en": "An alternative YouTube-Frontend."
-    }
-  },
-  {
-    "id": "connectivitycheck",
-    "name": "Captive Portal Check",
-    "icon": "fas fa-wifi",
-    "summary": {
-      "de": "Eine datenschutzfreundliches Tool, um Anmeldeseiten in WLAN-Netzwerken zu erkennen.",
-      "en": "A privacy friendly Service to detect captive portals in WIFI networks."
     }
   },
   {
@@ -33,28 +15,10 @@
     "name": "Matrix",
     "icon": "fas fa-comments",
     "url": "https://chat.sp-codes.de",
+    "status": "https://matrix.sp-codes.de/_matrix/static/",
     "summary": {
       "de": "Ein offenes Netzwerk für sichere, dezentralisierte Kommunikation.",
       "en": "An open network for secure, decentralized communication."
-    }
-  },
-  {
-    "id": "gitea",
-    "name": "Gitea",
-    "icon": "fas fa-code",
-    "url": "https://git.sp-codes.de",
-    "summary": {
-      "de": "Eine leichtgewichtige Code-Hosting-Plattform für git.",
-      "en": "A lightweight code hosting platform for git."
-    }
-  },
-  {
-    "id": "firefox-sync",
-    "name": "Firefox Sync",
-    "icon": "fab fa-firefox-browser",
-    "summary": {
-      "de": "Ein Service um Firefox Einstellungen, Lesezeichen, offene Tabs und vieles mehr über verschiedene Geräte zu synchronisieren.",
-      "en": "A service to sync Firefox settings, bookmarks, open tabs and much more between multiple devices."
     }
   },
   {
@@ -62,9 +26,76 @@
     "name": "Jitsi Meet",
     "icon": "fas fa-users",
     "url": "https://jitsi.sp-codes.de",
+    "status": "https://jitsi.sp-codes.de",
     "summary": {
       "de": "Eine sichere, einfache und skalierbare Plattform für Videokonferenzen.",
       "en": "A secure, simple and scalable platform for video conferencing."
+    }
+  },
+  {
+    "id": "gitea",
+    "name": "Gitea",
+    "icon": "fas fa-code",
+    "url": "https://git.sp-codes.de",
+    "status": "https://git.sp-codes.de",
+    "summary": {
+      "de": "Eine leichtgewichtige Code-Hosting-Plattform für git.",
+      "en": "A lightweight code hosting platform for git."
+    }
+  },
+  {
+    "id": "connectivitycheck",
+    "name": "Captive Portal Check",
+    "icon": "fas fa-wifi",
+    "status": "https://connectivitycheck.sp-codes.de/generate204",
+    "summary": {
+      "de": "Eine datenschutzfreundliches Tool, um Anmeldeseiten in WLAN-Netzwerken zu erkennen.",
+      "en": "A privacy friendly Service to detect captive portals in WIFI networks."
+    }
+  },
+  {
+    "id": "invidious",
+    "name": "Invidious",
+    "icon": "fab fa-youtube",
+    "url": "https://invidious.sp-codes.de",
+    "status": "https://invidious.sp-codes.de",
+    "summary": {
+      "de": "Ein alternatives YouTube-Frontend.",
+      "en": "An alternative YouTube-Frontend."
+    }
+  },
+  {
+    "id": "nitter",
+    "name": "Nitter",
+    "icon": "fab fa-twitter",
+    "url": "https://nitter.sp-codes.de",
+    "status": "https://nitter.sp-codes.de",
+    "beta": true,
+    "summary": {
+      "de": "Ein alternatives Twitter-Frontend.",
+      "en": "An alternative Twitter-Frontend."
+    }
+  },
+  {
+    "id": "yotter",
+    "name": "Yotter",
+    "icon": "fas fa-desktop",
+    "url": "https://yotter.sp-codes.de",
+    "status": "https://yotter.sp-codes.de",
+    "beta": true,
+    "summary": {
+      "de": "Ein alternatives Twitter- und YouTube-Frontend.",
+      "en": "An alternative Twitter- and YouTube-Frontend."
+    }
+  },
+  {
+    "id": "firefox-sync",
+    "name": "Firefox Sync",
+    "icon": "fab fa-firefox-browser",
+    "status": "https://sync.firefox.sp-codes.de/token/",
+    "summary": {
+      "de": "Ein Service um Firefox Einstellungen, Lesezeichen, offene Tabs und vieles mehr über verschiedene Geräte zu synchronisieren.",
+      "en": "A service to sync Firefox settings, bookmarks, open tabs and much more between multiple devices."
     }
   },
   {
@@ -72,6 +103,7 @@
     "name": "Shields",
     "icon": "fas fa-tags",
     "url": "https://shields.sp-codes.de",
+    "status": "https://shields.sp-codes.de",
     "beta": true,
     "summary": {
       "de": "Prägnante, konsistente und lesbare Badges im SVG- und Rasterformat.",
