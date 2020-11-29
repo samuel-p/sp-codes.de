@@ -91,7 +91,6 @@
     "icon": "fab fa-twitter",
     "url": "https://nitter.sp-codes.de",
     "status": "https://nitter.sp-codes.de",
-    "beta": true,
     "summary": {
       "de": "Ein alternatives Twitter-Frontend.",
       "en": "An alternative Twitter-Frontend."
