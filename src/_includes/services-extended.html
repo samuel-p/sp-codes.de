@@ -12,7 +12,7 @@
             {% if service.status %}
             <div class="mb-2">
                 <a href="https://status.sp-codes.de" target="_blank">
-                    <img src="https://shields.sp-codes.de/endpoint?label={{strings.state[locale]}}&url=https%3A%2F%2Fstatus.sp-codes.de%2Fapi%2Fbadge%3Fservice%3D{{service.status}}%26operational%3D{{strings.operational[locale]}}%26outage%3D{{strings.outage[locale]}}%26maintenance%3D{{strings.maintenance[locale]}}">
+                    <img alt="{{strings.state[locale]}}" src="https://shields.sp-codes.de/endpoint?label={{strings.state[locale]}}&url=https%3A%2F%2Fstatus.sp-codes.de%2Fapi%2Fbadge%3Fservice%3D{{service.status}}%26operational%3D{{strings.operational[locale]}}%26outage%3D{{strings.outage[locale]}}%26maintenance%3D{{strings.maintenance[locale]}}">
                 </a>
             </div>
             {% endif %}

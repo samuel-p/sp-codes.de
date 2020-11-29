@@ -104,7 +104,6 @@
     "icon": "fas fa-tags",
     "url": "https://shields.sp-codes.de",
     "status": "https://shields.sp-codes.de",
-    "beta": true,
     "summary": {
       "de": "Prägnante, konsistente und lesbare Badges im SVG- und Rasterformat.",
       "en": "Concise, consistent, and legible badges in SVG and raster format."
