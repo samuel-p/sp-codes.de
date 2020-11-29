@@ -54,6 +54,27 @@
     }
   },
   {
+    "id": "firefox-sync",
+    "name": "Firefox Sync",
+    "icon": "fab fa-firefox-browser",
+    "status": "https://sync.firefox.sp-codes.de/token/",
+    "summary": {
+      "de": "Ein Service um Firefox Einstellungen, Lesezeichen, offene Tabs und vieles mehr über verschiedene Geräte zu synchronisieren.",
+      "en": "A service to sync Firefox settings, bookmarks, open tabs and much more between multiple devices."
+    }
+  },
+  {
+    "id": "shields",
+    "name": "Shields",
+    "icon": "fas fa-tags",
+    "url": "https://shields.sp-codes.de",
+    "status": "https://shields.sp-codes.de",
+    "summary": {
+      "de": "Prägnante, konsistente und lesbare Badges im SVG- und Rasterformat.",
+      "en": "Concise, consistent, and legible badges in SVG and raster format."
+    }
+  },
+  {
     "id": "invidious",
     "name": "Invidious",
     "icon": "fab fa-youtube",
@@ -86,27 +107,6 @@
     "summary": {
       "de": "Ein alternatives Twitter- und YouTube-Frontend.",
       "en": "An alternative Twitter- and YouTube-Frontend."
-    }
-  },
-  {
-    "id": "firefox-sync",
-    "name": "Firefox Sync",
-    "icon": "fab fa-firefox-browser",
-    "status": "https://sync.firefox.sp-codes.de/token/",
-    "summary": {
-      "de": "Ein Service um Firefox Einstellungen, Lesezeichen, offene Tabs und vieles mehr über verschiedene Geräte zu synchronisieren.",
-      "en": "A service to sync Firefox settings, bookmarks, open tabs and much more between multiple devices."
-    }
-  },
-  {
-    "id": "shields",
-    "name": "Shields",
-    "icon": "fas fa-tags",
-    "url": "https://shields.sp-codes.de",
-    "status": "https://shields.sp-codes.de",
-    "summary": {
-      "de": "Prägnante, konsistente und lesbare Badges im SVG- und Rasterformat.",
-      "en": "Concise, consistent, and legible badges in SVG and raster format."
     }
   }
 ]
