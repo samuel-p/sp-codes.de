@@ -1,6 +1,6 @@
 {%- for service in services %}
 <div class="col-12 col-md-6 col-lg-4 p-3">
-    <div class="service">
+    <div class="card service">
         <a class="link" {% if service.beta !=true %} href="/{{locale}}/services/{{service.id}}" {% endif %}></a>
         {% if service.beta == true %}
         <div class="beta">TEST-PHASE</div>

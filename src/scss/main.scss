@@ -84,11 +84,16 @@ a {
   flex: 1;
 }
 
-.service {
-  position: relative;
+.card {
   background-color: #222;
   border: 1px solid #fff;
+  padding: 1rem;
+}
+
+.service {
+  position: relative;
   height: 100%;
+  padding: 0;
 
   .link {
     position: absolute;
@@ -140,7 +145,6 @@ a {
 
     .inner {
       flex-direction: row;
-      //pointer-events: all;
       text-decoration: none;
 
       h2 {
@@ -196,6 +200,7 @@ pre {
 
 @media (max-width: 767.98px) {
   .matrix-icon {
+    margin: 0 4px;
     width: 2em;
     height: 2em;
   }
