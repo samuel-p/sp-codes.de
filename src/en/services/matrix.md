@@ -17,6 +17,20 @@ Feel free to create an account on my server or choose one from the list linked b
 
 On my blog (German) you will find a simple introduction to the Matrix network: [Werde Teil der Matrix](https://blog.sp-codes.de/werde-teil-der-matrix-matrix-teil-1/)
 
+## Why Matrix?
+
+Here I want to give some reasons why I use Matrix and prefer it over many other messengers:
+
+* Since the servers are decentralized, the network remains available even if one server fails.
+* You are free to choose your server provider and you are not dependent on a central provider.
+* Matrix can be used without a phone number or email address.
+* There are apps for all platforms (mobile, PC, Browser, etc.)
+* By default, messages in private chats and groups are end-to-end encrypted. This also makes it impossible for the server provider to read messages.
+* The protocol (the way data is transferred) is open, so anyone can check how it works or develop new apps that use this protocol.
+* The encryption algorithms are also publicly available and verifiable. They are not proprietary by any company.
+* Apps and servers are open source, which makes the functionality and further development transparent and traceable.
+* Matrix supports voice and video calls, both in private and group chats.
+
 ## More useful links
 
 * [Various Apps](https://matrix.org/clients)

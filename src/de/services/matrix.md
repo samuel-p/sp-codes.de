@@ -25,7 +25,7 @@ Hier möchte ich ein paar Gründe nennen, warum ich Matrix nutze und vielen ande
 * Du kannst dir deinen Server-Anbieter frei aussuchen und bist nicht auf einen zentralen Anbieter angewiesen.
 * Matrix ist ohne Telefonnummer oder E-Mail-Adresse nutzbar.
 * Es gibt Apps für alle Plattformen (Handy, PC, Browser, etc.)
-* Standardmäßig werden die Nachrichten in privaten Chats und Gruppen Ende-zu-Ende verschlüsselt. Dadurch ist es auch für den Server-Anbieter unmöglich Nachrichten mitzulesen.
+* Standardmäßig werden die Nachrichten in privaten Chats und Gruppen Ende-zu-Ende verschlüsselt. Dadurch ist es auch für den Server-Anbieter unmöglich, Nachrichten mitzulesen.
 * Das Protokoll (die Art wie Daten übertragen werden) ist frei, dadurch kann jeder die Funktionsweise überprüfen oder neue Apps entwickeln, die dieses Protokoll verwenden.
 * Auch die Verschlüsselungsalgorithmen sind öffentlich zugänglich und überprüfbar. Sie sind nicht patentgeschützt durch eine Firma.
 * Apps und Server sind quelloffen, wodurch die Funktionsweise und die Weiterentwicklung transparent nachvollziehbar sind.
