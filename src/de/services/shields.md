@@ -3,7 +3,7 @@ layout: base.njk
 key: shields
 title: Shields
 ---
-# Shields
+# <i class="fas fa-tags"></i> Shields
 
 Shields ist ein Service für prägnante, konsistente und lesbare Badges im SVG- und Rasterformat. Über eine URL können sie sehr einfach in Readmes oder jede andere Webseite eingebunden werden. Außerdem werden Integrationen zu verschiedenen Diensten oder Netzwerken bereitgestellt.
 
