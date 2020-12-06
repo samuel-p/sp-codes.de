@@ -17,6 +17,20 @@ Melde dich gerne auf meinem Server an oder suche dir einen aus der unten verlink
 
 Auf meinem Blog findest du einen einfachen Einstieg in das Matrix-Netzwerk: [Werde Teil der Matrix](https://blog.sp-codes.de/werde-teil-der-matrix-matrix-teil-1/)
 
+## Warum Matrix?
+
+Hier möchte ich ein paar Gründe nennen, warum ich Matrix nutze und vielen anderen Messengern vorziehe:
+
+* Da die Server dezentral verteilt sind, bleibt das Netzwerk bestehen, auch wenn ein Server ausfällt.
+* Du kannst dir deinen Server-Anbieter frei aussuchen und bist nicht auf einen zentralen Anbieter angewiesen.
+* Matrix ist ohne Telefonnummer oder E-Mail-Adresse nutzbar.
+* Es gibt Apps für alle Plattformen (Handy, PC, Browser, etc.)
+* Standardmäßig werden die Nachrichten in privaten Chats und Gruppen Ende-zu-Ende verschlüsselt. Dadurch ist es auch für den Server-Anbieter unmöglich Nachrichten mitzulesen.
+* Das Protokoll (die Art wie Daten übertragen werden) ist frei, dadurch kann jeder die Funktionsweise überprüfen oder neue Apps entwickeln, die dieses Protokoll verwenden.
+* Auch die Verschlüsselungsalgorithmen sind öffentlich zugänglich und überprüfbar. Sie sind nicht patentgeschützt durch eine Firma.
+* Apps und Server sind quelloffen, wodurch die Funktionsweise und die Weiterentwicklung transparent nachvollziehbar sind.
+* Matrix unterstützt Sprach- und Video-Telefonie, sowohl in privaten, als auch in Gruppen-Chats.
+
 ## Weitere nützliche Links
 
 * [Verschiedene Apps](https://matrix.org/clients)
