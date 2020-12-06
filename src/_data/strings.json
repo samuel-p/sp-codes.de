@@ -1,4 +1,8 @@
 {
+  "menu": {
+    "de": "Menü",
+    "en": "Menu"
+  },
   "imprint": {
     "de": "Impressum",
     "en": "Imprint"

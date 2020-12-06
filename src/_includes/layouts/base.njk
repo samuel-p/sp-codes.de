@@ -35,49 +35,80 @@ title: sp-codes
     <link rel="stylesheet" href="/css/main.css">
     <script async defer data-domain="sp-codes.de" src="https://plausible.sp-codes.de/js/plausible.js"></script>
 </head>
-  <body>
-    <div class="d-flex justify-content-start flex-wrap p-2 menu border-bottom">
-    {%- for entry in collections.all | eleventyNavigation %}
-      {% if not entry.url.startsWith("https") and entry.url.includes(locale) or entry.locale == locale %}
-        <div {% if entry.url == page.url %} class="active"{% endif %}>
-          <a href="{{ entry.url | url }}" class="mr-3">
-            {% if entry.icon %}<span class="fas fa-{{ entry.icon }} mr-1"></span>{% endif %}{{ entry.title }}
-          </a>
-        </div>
-      {% endif %}
-    {%- endfor %}
-    <div class="flex-grow-1"></div>
-    {% for language in site.languages %}
-      {% set translatedUrl = "/" + language.code + "/" %}
-      {% for item in collections.all %}
+<body>
+<nav class="nav menu border-bottom">
+    <div class="toggle">
+        <label for="menu" class="m-0"><span class="fas fa-bars fa-fw mr-1"></span>{{ strings.menu[locale] }}</label>
+
+        <div class="flex-grow-1"></div>
+
+        {% for language in site.languages %}
+        {% set translatedUrl = "/" + language.code + "/" %}
+        {% for item in collections.all %}
         {% if item.data.key == key and item.data.locale == language.code and not item.data.hidden %}
-          {% set translatedUrl = item.url %}
+        {% set translatedUrl = item.url %}
         {% endif %}
-      {% endfor%}
-      <div {% if language.code == locale %} class="active"{% endif %}>
-        <a href="{{ translatedUrl | url }}" class="ml-3">
-          <span class="flag-icon flag-icon-{{ language.icon }}" title="{{ language.label }}"></span>
-        </a>
-      </div>
-    {% endfor %}
+        {% endfor%}
+        <div {% if language.code== locale %} class="active" {% endif %}>
+            <a href="{{ translatedUrl | url }}" class="ml-3">
+                <span class="flag-icon flag-icon-{{ language.icon }}" title="{{ language.label }}"></span>
+            </a>
+        </div>
+        {% endfor %}
     </div>
-    <div class="content">
-      <div class="container">
+    <input type="checkbox" id="menu"/>
+
+    <div class="items">
+        {%- for entry in collections.all | eleventyNavigation %}
+        {% if not entry.url.startsWith("https") and entry.url.includes(locale) or entry.locale == locale %}
+        <div class="item{% if entry.url == page.url %} active{% endif %}">
+            <a href="{{ entry.url | url }}" class="mr-3">
+                {% if entry.icon %}<span class="fas fa-{{ entry.icon }} fa-fw mr-1"></span>{% endif %}{{ entry.title }}
+            </a>
+        </div>
+        {% endif %}
+        {%- endfor %}
+    </div>
+
+    <div class="flex-grow-1"></div>
+
+    <div class="lang-large">
+        {% for language in site.languages %}
+        {% set translatedUrl = "/" + language.code + "/" %}
+        {% for item in collections.all %}
+        {% if item.data.key == key and item.data.locale == language.code and not item.data.hidden %}
+        {% set translatedUrl = item.url %}
+        {% endif %}
+        {% endfor%}
+        <div {% if language.code== locale %} class="active" {% endif %}>
+            <a href="{{ translatedUrl | url }}" class="ml-3">
+                <span class="flag-icon flag-icon-{{ language.icon }}" title="{{ language.label }}"></span>
+            </a>
+        </div>
+        {% endfor %}
+    </div>
+</nav>
+<div class="content">
+    <div class="container">
         {{ content | safe }}
-      </div>
     </div>
-    <div class="d-flex justify-content-start flex-wrap p-2 menu border-top">
-        <div class="d-flex justify-content-start flex-wrap">
-            <div class="mr-3">Made with <span class="fas fa-heart highlight"></span> in Germany</div>
-            <div class="mr-3"><span class="far fa-copyright mr-1"></span>Samuel Philipp</div>
-        </div>
-        <div class="flex-sm-grow-1"></div>
-        <div class="d-flex justify-content-sm-start flex-wrap">
-            <div class="mr-3"><a href="/{{locale}}/imprint"><span class="fas fa-info-circle mr-1"></span>{{strings.imprint[locale]}}</a></div>
-            <div class="mr-3"><a href="/{{locale}}/privacy"><span class="fas fa-user-secret mr-1"></span>{{strings.privacy[locale]}}</a></div>
-            <div class="mr-3"><a target="_blank" href="https://git.sp-codes.de/samuel-p/sp-codes.de"><span class="fas fa-code mr-1"></span>{{strings.code[locale]}}</a></div>
-            <div><a target="_blank" href="https://plausible.sp-codes.de/sp-codes.de"><span class="fas fa-chart-line mr-1"></span>{{strings.stats[locale]}}</a></div>
-        </div>
+</div>
+<div class="d-flex justify-content-start flex-wrap p-2 menu border-top">
+    <div class="d-flex justify-content-start flex-wrap">
+        <div class="mr-3">Made with <span class="fas fa-heart highlight"></span> in Germany</div>
+        <div class="mr-3"><span class="far fa-copyright mr-1"></span>Samuel Philipp</div>
     </div>
-  </body>
+    <div class="flex-sm-grow-1"></div>
+    <div class="d-flex justify-content-sm-start flex-wrap">
+        <div class="mr-3"><a href="/{{locale}}/imprint"><span class="fas fa-info-circle mr-1"></span>{{strings.imprint[locale]}}</a>
+        </div>
+        <div class="mr-3"><a href="/{{locale}}/privacy"><span class="fas fa-user-secret mr-1"></span>{{strings.privacy[locale]}}</a>
+        </div>
+        <div class="mr-3"><a target="_blank" href="https://git.sp-codes.de/samuel-p/sp-codes.de"><span
+                class="fas fa-code mr-1"></span>{{strings.code[locale]}}</a></div>
+        <div><a target="_blank" href="https://plausible.sp-codes.de/sp-codes.de"><span
+                class="fas fa-chart-line mr-1"></span>{{strings.stats[locale]}}</a></div>
+    </div>
+</div>
+</body>
 </html>

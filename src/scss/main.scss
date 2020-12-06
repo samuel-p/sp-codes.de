@@ -5,6 +5,9 @@
 @import "node_modules/bootstrap/scss/utilities/display";
 @import "node_modules/bootstrap/scss/utilities/text";
 @import "node_modules/bootstrap/scss/utilities/float";
+@import "node_modules/bootstrap/scss/functions";
+@import "node_modules/bootstrap/scss/variables";
+@import "node_modules/bootstrap/scss/mixins/_breakpoints";
 
 $fa-font-path: "../font";
 @import "node_modules/@fortawesome/fontawesome-free/scss/fontawesome";
@@ -52,6 +55,67 @@ a {
   background-color: #fff;
   border-radius: 50%;
   border: 2px solid #000;
+}
+
+.nav {
+  display: flex;
+  justify-content: start;
+  flex-wrap: wrap;
+  padding: .5rem;
+
+  .toggle {
+    padding: .5rem;
+    display: none;
+  }
+
+  #menu {
+    display: none;
+  }
+
+  .items {
+    display: flex;
+  }
+
+  .lang-large {
+    display: flex;
+  }
+}
+
+@include media-breakpoint-down(xs) {
+  .nav {
+    display: block;
+    padding: 0;
+
+    .toggle {
+      display: flex;
+
+      label:hover {
+        text-decoration: underline;
+        cursor: pointer;
+      }
+    }
+
+    .items {
+      display: none;
+
+      .item {
+        border-top: 1px solid #fff;
+
+        a {
+          display: block;
+          padding: 0.5rem;
+        }
+      }
+    }
+
+    input:checked ~ .items {
+      display: block;
+    }
+
+    .lang-large {
+      display: none;
+    }
+  }
 }
 
 .menu {
@@ -111,7 +175,8 @@ a {
   .beta {
     position: absolute;
     top: 0;
-    right: -1rem;    font-weight: bold;
+    right: -1rem;
+    font-weight: bold;
     background-color: #fea500;
     color: #000000;
     padding: .5rem 1rem;
