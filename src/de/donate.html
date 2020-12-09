@@ -11,7 +11,7 @@ eleventyNavigation:
 <h1><i class="fas fa-hand-holding-heart"></i> Unterstützen</h1>
 
 <p>Alle öffentlichen Dienste sind kostenfrei nutzbar. Wenn du dich trotzdem an den Unkosten für Server-Infrastruktur
-    beteiligen oder mir eine kleine Anerkennung für meinen Blog zukommen lassen willst, kannst du mich gerne über die
+    beteiligen oder mir eine kleine Anerkennung für meinen Blog zukommen lassen willst, kannst du mich über die
     folgenden Wege unterstützen<sup>1</sup>:</p>
 
 <div class="row justify-content-center">
@@ -24,14 +24,27 @@ eleventyNavigation:
         </div>
         <div class="card mb-3">
             <h2><i class="fas fa-credit-card fa-fw m-2"></i>Banküberweisung</h2>
-            <div>Wenn Du mir etwas überweisen willst, schreib mir einfach eine kurze <a href="/de/imprint">Nachricht</a>.
-                Ich schicke dir dann schnellstmöglich meine Bankverbindung zu.
+            <div>Wenn Du mir etwas überweisen willst, schreib mir einfach eine kurze <a href="/{{locale}}/imprint">Nachricht</a>.
+                Ich schicke dir dann schnellstmöglich meine Bankverbindung zu. Ganz besonders freue ich mich auch über
+                einen Dauerauftrag.
             </div>
         </div>
         <div class="card mb-3">
             <h2><i class="fas fa-money-bill fa-fw m-2"></i>Bargeld</h2>
             <div>Wer mir etwas Bargeld zukommen lassen möchte, darf das gerne an die Adresse aus dem <a
-                    href="/de/imprint">Impressum</a> senden.
+                    href="/{{locale}}/imprint">Impressum</a> senden.
+            </div>
+        </div>
+        <div class="card mb-3">
+            <h2><i class="far fa-circle fa-fw m-2"></i>Open Collective</h2>
+            <div>Gerne kannst du mir auch über <a href="https://opencollective.com/sp-codes" target="_blank">Open
+                Collective</a> einen kleinen Betrag zukommen lassen. Wenn du willst kannst du mich dort auch mit einer
+                regelmäßigen Spende unterstützen.
+                <div class="mt-3 text-center">
+                    <a href="https://opencollective.com/sp-codes" target="_blank"><img
+                            alt="Open Collective {{ strings.supporters[locale] }}"
+                            src="https://shields.sp-codes.de/opencollective/all/sp-codes?label={{ strings.supporters[locale] }}&logo=open-collective"></a>
+                </div>
             </div>
         </div>
         <div class="card mb-3">

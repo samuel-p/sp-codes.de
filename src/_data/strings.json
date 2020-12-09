@@ -19,6 +19,10 @@
     "de": "Statistiken",
     "en": "Stats"
   },
+  "supporters": {
+    "de": "Unterstützer:innen",
+    "en": "Supporters"
+  },
   "state": {
     "de": "Status",
     "en": "State"
