@@ -158,6 +158,18 @@ a {
   padding: 1rem;
 }
 
+.card-list {
+  margin-bottom: 1rem;
+
+  .card {
+    border-bottom: none;
+  }
+
+  .card:last-child {
+    border-bottom: 1px solid #fff;
+  }
+}
+
 .service {
   position: relative;
   height: 100%;
