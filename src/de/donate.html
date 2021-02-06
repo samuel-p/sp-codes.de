@@ -27,12 +27,20 @@ eleventyNavigation:
             <div>Wenn Du mir etwas überweisen willst, schreib mir einfach eine kurze <a href="/{{locale}}/imprint">Nachricht</a>.
                 Ich schicke dir dann schnellstmöglich meine Bankverbindung zu. Ganz besonders freue ich mich auch über
                 einen Dauerauftrag.
+                <div class="mt-3 text-center">
+                    <img alt="Banküberweisung {{ strings.supporters[locale] }}"
+                         src="https://shields.sp-codes.de/badge/{{ strings.supporters[locale] }}-{{ donations.banktransfer.number }}-{{ donations.banktransfer.color }}">
+                </div>
             </div>
         </div>
         <div class="card mb-3">
             <h2><i class="fas fa-money-bill fa-fw m-2"></i>Bargeld</h2>
             <div>Wer mir etwas Bargeld zukommen lassen möchte, darf das gerne an die Adresse aus dem <a
                     href="/{{locale}}/imprint">Impressum</a> senden.
+                <div class="mt-3 text-center">
+                    <img alt="Bargeld {{ strings.supporters[locale] }}"
+                            src="https://shields.sp-codes.de/badge/{{ strings.supporters[locale] }}-{{ donations.cash.number }}-{{ donations.cash.color }}">
+                </div>
             </div>
         </div>
         <div class="card mb-3">
