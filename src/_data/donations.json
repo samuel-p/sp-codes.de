@@ -1,0 +1,10 @@
+{
+  "banktransfer": {
+    "number": 2,
+    "color": "success"
+  },
+  "cash": {
+    "number": 0,
+    "color": "inactive"
+  }
+}
