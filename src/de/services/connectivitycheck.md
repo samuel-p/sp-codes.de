@@ -48,6 +48,21 @@ Starte den _network-manager_ neu:
 sudo service network-manager restart
 ```
 
+## Einrichtung in Fedora
+
+Unter Fedora muss die Datei `/etc/NetworkManager/NetworkManager.conf` geändert werden. Füge die folgenden Zeilen hinzu oder passe sie entsprechend an:
+
+```
+[connectivity]
+uri=https://connectivitycheck.sp-codes.de/generate204
+```
+
+Starte den _NetworkManager_ neu:
+
+```
+sudo service NetworkManager restart 
+```
+
 ## Einrichtung in Firefox
 
 Tippe [about:config](about:config) in die Adresszeile von Firefox und suche anschließend nach `captivedetect.canonicalURL` und `network.connectivity-service`. Setze die URL-Werte auf `https://connectivitycheck.sp-codes.de/generate204`, die Domain-Werte auf `connectivitycheck.sp-codes.de`. Das war es schon.
