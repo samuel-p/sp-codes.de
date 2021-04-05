@@ -43,14 +43,8 @@ title: sp-codes
         <div class="flex-grow-1"></div>
 
         {% for language in site.languages %}
-        {% set translatedUrl = "/" + language.code + "/" %}
-        {% for item in collections.all %}
-        {% if item.data.key == key and item.data.locale == language.code and not item.data.hidden %}
-        {% set translatedUrl = item.url %}
-        {% endif %}
-        {% endfor%}
         <div {% if language.code== locale %} class="active" {% endif %}>
-            <a href="{{ translatedUrl | url }}" class="ml-3">
+            <a href="{% translatedUrl locale, language.code %}" class="ml-3">
                 <span class="flag-icon flag-icon-{{ language.icon }}" title="{{ language.label }}"></span>
             </a>
         </div>
@@ -74,20 +68,15 @@ title: sp-codes
 
     <div class="lang-large">
         {% for language in site.languages %}
-        {% set translatedUrl = "/" + language.code + "/" %}
-        {% for item in collections.all %}
-        {% if item.data.key == key and item.data.locale == language.code and not item.data.hidden %}
-        {% set translatedUrl = item.url %}
-        {% endif %}
-        {% endfor%}
         <div {% if language.code== locale %} class="active" {% endif %}>
-            <a href="{{ translatedUrl | url }}" class="ml-3">
+            <a href="{% translatedUrl locale, language.code %}" class="ml-3">
                 <span class="flag-icon flag-icon-{{ language.icon }}" title="{{ language.label }}"></span>
             </a>
         </div>
         {% endfor %}
     </div>
 </nav>
+<p>{{url}}</p>
 <div class="content">
     <div class="container">
         {{ content | safe }}
