@@ -11,6 +11,9 @@ module.exports = function(eleventyConfig) {
         "node_modules/@fortawesome/fontawesome-free/webfonts/": "font",
         "node_modules/flag-icon-css/flags/4x3/(de|us)*": "flags"
     });
+    eleventyConfig.addShortcode("translatedUrl", function(currentLocale, newLocale) {
+        return this.page.url.replace(new RegExp(`\/${currentLocale}\/`), `/${newLocale}/`);
+    });
 
     return {
         dir: {
