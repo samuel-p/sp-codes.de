@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "website for sp-codes.de",
   "scripts": {
-    "compile-sass": "node-sass --output-style compressed --importer=node_modules/node-sass-tilde-importer src/scss/main.scss dist/css/main.css",
+    "compile-sass": "node-sass --output-style compressed --importer=node_modules/node-sass-tilde-importer src/scss/ -o dist/css/",
     "watch:eleventy": "eleventy --serve",
     "watch:sass": "npm run compile-sass -- --watch",
     "start": "npm-run-all compile-sass --parallel watch:*",
