@@ -1,0 +1,41 @@
+.si {
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 0 8px;
+  width: 4em;
+  height: 4em;
+}
+
+@media (max-width: 767.98px) {
+  .si {
+    margin: 0 4px;
+    width: 2em;
+    height: 2em;
+  }
+}
+
+.h2si {
+  margin: 0;
+  width: 30px;
+  height: 24px;
+}
+
+@mixin svg-icon($name) {
+  .si-#{$name} {
+    content: ' ';
+    background-image: url("../img/#{$name}-white.svg");
+  }
+
+  @media screen and (prefers-color-scheme: light) {
+    .si-#{$name} {
+      background-image: url("../img/#{$name}.svg");
+    }
+  }
+}
+
+@include svg-icon('matrix');
+@include svg-icon('gitea');
+@include svg-icon('xmpp');
+@include svg-icon('threema');
+@include svg-icon('opencollective');
