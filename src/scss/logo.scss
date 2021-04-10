@@ -1,0 +1,49 @@
+// vivus instant logo animation
+
+.cEsZQnrx_0 {
+  stroke-dasharray: 1405 1407;
+  stroke-dashoffset: 1406;
+  animation: cEsZQnrx_draw 1300ms ease-out 0ms forwards;
+}
+
+.cEsZQnrx_1 {
+  stroke-dasharray: 572 574;
+  stroke-dashoffset: 573;
+  animation: cEsZQnrx_draw 1300ms ease-out 175ms forwards;
+}
+
+.cEsZQnrx_2 {
+  stroke-dasharray: 530 532;
+  stroke-dashoffset: 531;
+  animation: cEsZQnrx_draw 1300ms ease-out 350ms forwards;
+}
+
+.cEsZQnrx_3 {
+  stroke-dasharray: 620 622;
+  stroke-dashoffset: 621;
+  animation: cEsZQnrx_draw 1300ms ease-out 525ms forwards;
+}
+
+.cEsZQnrx_4 {
+  stroke-dasharray: 1088 1090;
+  stroke-dashoffset: 1089;
+  animation: cEsZQnrx_draw 1300ms ease-out 700ms forwards;
+}
+
+@keyframes cEsZQnrx_draw {
+  100% {
+    stroke-dashoffset: 0;
+  }
+}
+
+@keyframes cEsZQnrx_fade {
+  0% {
+    stroke-opacity: 1;
+  }
+  93.54838709677419% {
+    stroke-opacity: 1;
+  }
+  100% {
+    stroke-opacity: 0;
+  }
+}

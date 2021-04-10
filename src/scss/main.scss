@@ -54,11 +54,13 @@ a {
 .logo {
   display: block;
   margin: 0 auto;
-  max-width: 256px;
-  max-height: 256px;
-  background-color: #fff;
-  border-radius: 50%;
-  border: 2px solid #000;
+  max-width: 128px;
+  max-height: 128px;
+  transition: transform .5s ease-in-out;
+
+  &:hover {
+    transform: rotate(360deg);
+  }
 }
 
 .nav {
@@ -265,8 +267,8 @@ pre {
 
 @media (max-width: 767.98px) {
   .logo {
-    max-width: 128px;
-    max-height: 128px;
+    max-width: 96px;
+    max-height: 96px;
   }
   .fa-4x {
     font-size: 2em;
