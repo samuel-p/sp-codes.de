@@ -23,7 +23,7 @@
 
 @mixin svg-icon($name) {
   .si-#{$name}::before {
-    content: ' ';
+    content: '\200b';
     background-image: url("../img/#{$name}-white.svg");
     background-repeat: no-repeat;
     background-position: center;
