@@ -1,0 +1,37 @@
+.si, .si::before {
+  display: inline-block;
+  margin: 0 8px;
+  width: 4em;
+  height: 4em;
+  line-height: 1;
+  box-sizing: border-box;
+}
+
+@media (max-width: 767.98px) {
+  .si, .si::before {
+    margin: 0 4px;
+    width: 2em;
+    height: 2em;
+  }
+}
+
+.h2si, .h2si::before {
+  margin: 0;
+  width: 30px;
+  height: 24px;
+}
+
+@mixin svg-icon($name) {
+  .si-#{$name}::before {
+    content: '\200b';
+    background-image: url("../img/#{$name}-white.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+}
+
+@include svg-icon('matrix');
+@include svg-icon('gitea');
+@include svg-icon('xmpp');
+@include svg-icon('threema');
+@include svg-icon('opencollective');
