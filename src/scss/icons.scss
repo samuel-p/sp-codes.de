@@ -1,36 +1,32 @@
-.si {
+.si, .si::before {
   display: inline-block;
-  background-repeat: no-repeat;
-  background-position: center;
   margin: 0 8px;
   width: 4em;
   height: 4em;
+  line-height: 1;
+  box-sizing: border-box;
 }
 
 @media (max-width: 767.98px) {
-  .si {
+  .si, .si::before {
     margin: 0 4px;
     width: 2em;
     height: 2em;
   }
 }
 
-.h2si {
+.h2si, .h2si::before {
   margin: 0;
   width: 30px;
   height: 24px;
 }
 
 @mixin svg-icon($name) {
-  .si-#{$name} {
+  .si-#{$name}::before {
     content: ' ';
     background-image: url("../img/#{$name}-white.svg");
-  }
-
-  @media screen and (prefers-color-scheme: light) {
-    .si-#{$name} {
-      background-image: url("../img/#{$name}.svg");
-    }
+    background-repeat: no-repeat;
+    background-position: center;
   }
 }
 
