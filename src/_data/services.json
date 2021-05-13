@@ -107,5 +107,17 @@
       "de": "Ein alternatives Twitter- und YouTube-Frontend.",
       "en": "An alternative Twitter- and YouTube-Frontend."
     }
+  },
+  {
+    "id": "translate",
+    "name": "LibreTranslate",
+    "icon": "fas fa-language",
+    "url": "https://translate.sp-codes.de",
+    "status": "https://translate.sp-codes.de",
+    "beta": true,
+    "summary": {
+      "de": "Eine freie und quelloffene API für Übersetzung.",
+      "en": "A free and Open Source Machine Translation API."
+    }
   }
 ]

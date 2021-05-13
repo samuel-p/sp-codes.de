@@ -13,6 +13,10 @@ __Since the beginning of 2020 I run a public Matrix server: [matrix.sp-codes.de]
 
 You can read the server rules [here](https://matrix.sp-codes.de/_matrix/consent) (German). Feel free to create an account on my server or choose one from the lists linked below. I look forward to hear from you [@samuel-p:matrix.sp-codes.de](https://matrix.to/#/@samuel-p:matrix.sp-codes.de).
 
+<div class="text-center mb-3">
+<a class="card d-inline-block font-weight-bold" target="_blank" href="https://chat.sp-codes.de/#/register">Register now</a>
+</div>
+
 On my blog (German) you will find an article series for an easy start to Matrix: [Werde Teil der Matrix](https://blog.sp-codes.de/werde-teil-der-matrix-matrix-teil-1/)
 
 ## Why Matrix?
