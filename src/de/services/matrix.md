@@ -22,6 +22,10 @@ eine öffentliche Element-Web Instanz: [chat.sp-codes.de](https://chat.sp-codes.
 Die Serverregeln kannst du gerne [hier](https://matrix.sp-codes.de/_matrix/consent) nachlesen. Melde dich gerne auf meinem Server an oder suche dir einen aus den unten verlinkten Listen heraus. Ich freue mich auf
 deine Nachricht an [@samuel-p:matrix.sp-codes.de](https://matrix.to/#/@samuel-p:matrix.sp-codes.de).
 
+<div class="text-center mb-3">
+<a class="card d-inline-block font-weight-bold" target="_blank" href="https://chat.sp-codes.de/#/register">Jetzt registrieren</a>
+</div>
+
 ## Einstieg
 
 Auf meinem Blog findest du eine Artikelserie für einen einfachen Einstieg in Matrix:
