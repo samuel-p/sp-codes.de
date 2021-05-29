@@ -33,6 +33,18 @@
     }
   },
   {
+    "id": "mastodon",
+    "name": "Mastodon",
+    "icon": "fab fa-mastodon",
+    "url": "https://social.sp-codes.de",
+    "status": "https://social.sp-codes.de/health",
+    "beta": true,
+    "summary": {
+      "de": "Das dezentrale, soziale Netzwerk der Zukunft: Keine Werbung und keine Überwachung durch Unternehmen.",
+      "en": "The decentralized social network of the future: No ads, no corporate surveillance."
+    }
+  },
+  {
     "id": "gitea",
     "name": "Gitea",
     "icon": "fas fa-code",
@@ -75,6 +87,18 @@
     }
   },
   {
+    "id": "translate",
+    "name": "LibreTranslate",
+    "icon": "fas fa-language",
+    "url": "https://translate.sp-codes.de",
+    "status": "https://translate.sp-codes.de",
+    "beta": true,
+    "summary": {
+      "de": "Eine freie und quelloffene API für Übersetzung.",
+      "en": "A free and Open Source Machine Translation API."
+    }
+  },
+  {
     "id": "invidious",
     "name": "Invidious",
     "icon": "fab fa-youtube",
@@ -106,18 +130,6 @@
     "summary": {
       "de": "Ein alternatives Twitter- und YouTube-Frontend.",
       "en": "An alternative Twitter- and YouTube-Frontend."
-    }
-  },
-  {
-    "id": "translate",
-    "name": "LibreTranslate",
-    "icon": "fas fa-language",
-    "url": "https://translate.sp-codes.de",
-    "status": "https://translate.sp-codes.de",
-    "beta": true,
-    "summary": {
-      "de": "Eine freie und quelloffene API für Übersetzung.",
-      "en": "A free and Open Source Machine Translation API."
     }
   }
 ]
