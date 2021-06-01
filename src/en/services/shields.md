@@ -9,7 +9,7 @@ Shields is a service for concise, consistent and legible badges in SVG and raste
 
 __Since August 2020 I run a public Shields instance.__ Feel free to visit it and use the bagdes in your own projects. It is possible that not all integrations are activated.
 
-__Here is the link to Shelds: [shields.sp-codes.de](https://shields.sp-codes.de)__
+__Here is the link to Shields: [shields.sp-codes.de](https://shields.sp-codes.de)__
 
 ## More useful links
 
