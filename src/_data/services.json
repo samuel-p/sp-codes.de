@@ -119,17 +119,5 @@
       "de": "Ein alternatives Twitter-Frontend.",
       "en": "An alternative Twitter-Frontend."
     }
-  },
-  {
-    "id": "yotter",
-    "name": "Yotter",
-    "icon": "fas fa-desktop",
-    "url": "https://yotter.sp-codes.de",
-    "status": "https://yotter.sp-codes.de",
-    "beta": true,
-    "summary": {
-      "de": "Ein alternatives Twitter- und YouTube-Frontend.",
-      "en": "An alternative Twitter- and YouTube-Frontend."
-    }
   }
 ]
