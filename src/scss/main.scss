@@ -228,22 +228,12 @@ a {
   }
 
   &.flat {
-    color: $primary !important;
-
-    &:hover {
-      color: $primary_dark !important;
-    }
-
     .inner {
       flex-direction: row;
       text-decoration: none;
 
       h2 {
         margin-left: 0.5rem;
-      }
-
-      a {
-        color: #fff;
       }
     }
   }
@@ -278,7 +268,19 @@ pre {
     max-width: 96px;
     max-height: 96px;
   }
-  .fa-4x {
-    font-size: 2em;
+}
+
+table.table {
+  width: 100%;
+  margin-bottom: 16px;
+  background-color: #111;
+
+  tr:nth-child(2n) {
+    background-color: #ffffff0b;
+  }
+
+  td, th {
+    padding: 6px 13px;
+    border: 1px solid #444;
   }
 }

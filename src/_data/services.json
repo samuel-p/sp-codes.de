@@ -13,7 +13,7 @@
   {
     "id": "matrix",
     "name": "Matrix",
-    "icon": "fas fa-comments",
+    "si": "matrix",
     "url": "https://chat.sp-codes.de",
     "status": "https://matrix.sp-codes.de/_matrix/static/",
     "summary": {
@@ -24,7 +24,7 @@
   {
     "id": "jitsi",
     "name": "Jitsi Meet",
-    "icon": "fas fa-users",
+    "si": "jitsi",
     "url": "https://jitsi.sp-codes.de",
     "status": "https://jitsi.sp-codes.de",
     "summary": {
@@ -35,7 +35,7 @@
   {
     "id": "mastodon",
     "name": "Mastodon",
-    "icon": "fab fa-mastodon",
+    "si": "mastodon",
     "url": "https://social.sp-codes.de",
     "status": "https://social.sp-codes.de/health",
     "beta": true,
@@ -47,7 +47,7 @@
   {
     "id": "gitea",
     "name": "Gitea",
-    "icon": "fas fa-code",
+    "si": "gitea",
     "url": "https://git.sp-codes.de",
     "status": "https://git.sp-codes.de",
     "summary": {

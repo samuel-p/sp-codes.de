@@ -27,7 +27,7 @@ eleventyNavigation:
                 will then send you my bank details as soon as possible. I am especially happy about a standing order.
                 <div class="mt-3 text-center">
                     <img alt="Bank transfer {{ strings.supporters[locale] }}"
-                         src="https://shields.sp-codes.de/badge/{{ strings.supporters[locale] }}-{{ donations.banktransfer.number }}-{{ donations.banktransfer.color }}">
+                         src="https://shields.sp-codes.de/badge/{{ strings.supporters[locale] }}-{{ donations | banktransfers }}-active">
                 </div>
             </div>
         </div>
@@ -37,12 +37,12 @@ eleventyNavigation:
                     href="/en/imprint">imprint</a>.
                 <div class="mt-3 text-center">
                     <img alt="Cash {{ strings.supporters[locale] }}"
-                         src="https://shields.sp-codes.de/badge/{{ strings.supporters[locale] }}-{{ donations.cash.number }}-{{ donations.cash.color }}">
+                         src="https://shields.sp-codes.de/badge/{{ strings.supporters[locale] }}-{{ donations | cash }}-inactive">
                 </div>
             </div>
         </div>
         <div class="card mb-3">
-            <h2><i class="si h2si si-opencollective m-2"></i>Open Collective</h2>
+            <h2><i class="si si-opencollective m-2"></i>Open Collective</h2>
             <div>You are also welcome to send me a small amount via <a href="https://opencollective.com/sp-codes"
                                                                        target="_blank">Open Collective</a>. If you like
                 you can also support me with a regular donation.
@@ -70,9 +70,13 @@ eleventyNavigation:
     </div>
 </div>
 
-<div class="mt-4">
-    <p>I maintain a list of all received donations <a target="_blank" href="https://git.sp-codes.de/sp-codes/expenses-donations/src/branch/master/donations.md">here</a>.</p>
-</div>
+<h2>Current Expenses</h2>
+{% include "expenses-current.html" %}
+
+<h2>Donations {{donations[0].year}}</h2>
+{% include "donations-current.html" %}
+
+<p><a href="/{{locale}}/all-donations/">&#10132; All Donations</a></p>
 
 <div class="border-top mt-5 pt-2">
     <p><small><sup>1</sup> The payments made are donations in terms of § 516 BGB, not tax-deductible donations in terms

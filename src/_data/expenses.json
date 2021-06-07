@@ -1,0 +1,50 @@
+[
+  {
+    "name": {
+      "en": "Websites",
+      "de": "Webseiten"
+    },
+    "type": "Webhosting",
+    "provider": "netcup",
+    "amount": 1.99
+  },
+  {
+    "name": "Diana",
+    "type": "VPS",
+    "provider": "Hetzner",
+    "amount": 2.96
+  },
+  {
+    "name": "Ceres",
+    "type": "VPS",
+    "provider": "netcup",
+    "amount": 5.5
+  },
+  {
+    "name": "Venus",
+    "type": "VPS",
+    "provider": "netcup",
+    "amount": 3.33
+  },
+  {
+    "name": "Luna",
+    "type": "Root-Server",
+    "provider": "netcup",
+    "amount": 14
+  },
+  {
+    "name": "Vesta",
+    "type": "Root-Server",
+    "provider": "netcup",
+    "amount": 11.49
+  },
+  {
+    "name": {
+      "en": "Additional IPv4",
+      "de": "Zusätzliche IPv4"
+    },
+    "type": "IPv4",
+    "provider": "netcup",
+    "amount": 1
+  }
+]

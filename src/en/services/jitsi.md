@@ -3,7 +3,7 @@ layout: base.njk
 key: jitsi
 title: Jitsi Meet
 ---
-# <i class="fas fa-users"></i> Jitsi Meet
+# <i class="si si-jitsi"></i> Jitsi Meet
 
 Jitsi-Meet is a platform for video conferences. You can start fully encrypted video chats without registration. Additionally, Jitsi-Meet offers the possibility to share the screen with other participants, invite new users with a simple link and send messages in the integrated chat.
 

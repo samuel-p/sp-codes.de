@@ -1,37 +1,38 @@
 .si, .si::before {
   display: inline-block;
-  margin: 0 8px;
-  width: 4em;
-  height: 4em;
+  width: 1.25em;
   line-height: 1;
   box-sizing: border-box;
 }
 
-@media (max-width: 767.98px) {
-  .si, .si::before {
-    margin: 0 4px;
-    width: 2em;
-    height: 2em;
-  }
+.si-2x {
+  font-size: 2em;
 }
 
-.h2si, .h2si::before {
-  margin: 0;
-  width: 30px;
-  height: 24px;
+.si-3x {
+  font-size: 3em;
+}
+
+.si-4x {
+  font-size: 4em;
+}
+
+.si::before {
+  content: '\200b';
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 @mixin svg-icon($name) {
   .si-#{$name}::before {
-    content: '\200b';
-    background-image: url("../img/#{$name}-white.svg");
-    background-repeat: no-repeat;
-    background-position: center;
+    background-image: url("../img/icon/#{$name}.svg");
   }
 }
 
-@include svg-icon('matrix');
 @include svg-icon('gitea');
-@include svg-icon('xmpp');
-@include svg-icon('threema');
+@include svg-icon('jitsi');
+@include svg-icon('mastodon');
+@include svg-icon('matrix');
 @include svg-icon('opencollective');
+@include svg-icon('threema');
+@include svg-icon('xmpp');

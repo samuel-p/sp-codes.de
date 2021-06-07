@@ -38,5 +38,49 @@
   "maintenance": {
     "de": "Wartung",
     "en": "Maintenance"
+  },
+  "date": {
+    "de": "Datum",
+    "en": "Date"
+  },
+  "amount": {
+    "de": "Betrag",
+    "en": "Amount"
+  },
+  "via": {
+    "de": "Via",
+    "en": "Via"
+  },
+  "from": {
+    "de": "Von",
+    "en": "Form"
+  },
+  "banktransfer": {
+    "de": "Überweisung",
+    "en": "Bank transfer"
+  },
+  "total": {
+    "de": "Gesamt",
+    "en": "Total"
+  },
+  "name": {
+    "de": "Name",
+    "en": "Name"
+  },
+  "type": {
+    "de": "Typ",
+    "en": "Type"
+  },
+  "provider": {
+    "de": "Anbieter",
+    "en": "Provider"
+  },
+  "month": {
+    "de": "Monat",
+    "en": "Month"
+  },
+  "year": {
+    "de": "Jahr",
+    "en": "Year"
   }
 }
