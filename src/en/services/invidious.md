@@ -3,7 +3,7 @@ layout: base.njk
 key: invidious
 title: Invidious
 ---
-# <i class="fab fa-youtube"></i> Invidious
+# <i class="si si-youtube"></i> Invidious
 
 Invidious is an alternative YouTube-Frontend. It establishes only the most necessary connections to YouTube and many of them are even made by the server itself. So Invidious increases the privacy of the users.
 

@@ -3,7 +3,7 @@ layout: base.njk
 key: searx
 title: Searx
 ---
-# <i class="fas fa-search"></i> Searx
+# <i class="si si-search"></i> Searx
 
 Searx is a free meta search engine, which uses other public search engines like Google, DuckDuckGo, StartPage and many others.
 

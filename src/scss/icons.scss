@@ -30,14 +30,20 @@
 }
 
 @include svg-icon('comments');
+@include svg-icon('envelope');
+@include svg-icon('firefox-browser');
 @include svg-icon('gitea');
+@include svg-icon('github');
+@include svg-icon('language');
 @include svg-icon('mastodon');
 @include svg-icon('matrix');
 @include svg-icon('opencollective');
+@include svg-icon('search');
+@include svg-icon('stackoverflow');
+@include svg-icon('tags');
 @include svg-icon('threema');
+@include svg-icon('twitter');
 @include svg-icon('users');
+@include svg-icon('wifi');
 @include svg-icon('xmpp');
-
-:root {
-  --currentColor: #fff;
-}
+@include svg-icon('youtube');
