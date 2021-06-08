@@ -3,7 +3,7 @@ layout: base.njk
 key: jitsi
 title: Jitsi Meet
 ---
-# <i class="si si-jitsi"></i> Jitsi Meet
+# <i class="si si-users"></i> Jitsi Meet
 
 Jitsi-Meet ist eine Plattform für Videokonferenzen. Ohne Anmeldung können vollständig verschlüsselte Video-Chats gestartet werden. Zusätzlich bietet Jitsi-Meet die Möglichkeit den Bildschirm für die anderen Teilnehmer:innen freizugeben, neue Benutzer:innen einfach per Link einzuladen und Nachrichten im integrierten Chat zu verschicken.
 

@@ -29,10 +29,15 @@
   }
 }
 
+@include svg-icon('comments');
 @include svg-icon('gitea');
-@include svg-icon('jitsi');
 @include svg-icon('mastodon');
 @include svg-icon('matrix');
 @include svg-icon('opencollective');
 @include svg-icon('threema');
+@include svg-icon('users');
 @include svg-icon('xmpp');
+
+:root {
+  --currentColor: #fff;
+}

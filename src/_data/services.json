@@ -13,7 +13,7 @@
   {
     "id": "matrix",
     "name": "Matrix",
-    "si": "matrix",
+    "si": "comments",
     "url": "https://chat.sp-codes.de",
     "status": "https://matrix.sp-codes.de/_matrix/static/",
     "summary": {
@@ -24,7 +24,7 @@
   {
     "id": "jitsi",
     "name": "Jitsi Meet",
-    "si": "jitsi",
+    "si": "users",
     "url": "https://jitsi.sp-codes.de",
     "status": "https://jitsi.sp-codes.de",
     "summary": {
