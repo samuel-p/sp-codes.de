@@ -40,7 +40,7 @@ title: sp-codes
 <body>
 <nav class="nav menu border-bottom">
     <div class="toggle">
-        <label for="menu" class="m-0"><span class="fas fa-bars fa-fw mr-1"></span>{{ strings.menu[locale] }}</label>
+        <label for="menu" class="m-0"><span class="si si-bars mr-1"></span>{{ strings.menu[locale] }}</label>
 
         <div class="flex-grow-1"></div>
 
@@ -59,7 +59,7 @@ title: sp-codes
         {% if not entry.url.startsWith("https") and entry.url.includes(locale) or entry.locale == locale %}
         <div class="item{% if entry.url == page.url %} active{% endif %}">
             <a href="{{ entry.url | url }}" class="mr-3">
-                {% if entry.icon %}<span class="fas fa-{{ entry.icon }} fa-fw mr-1"></span>{% endif %}{{ entry.title }}
+                {% if entry.icon %}<span class="{{ entry.icon }} mr-1"></span>{% endif %}{{ entry.title }}
             </a>
         </div>
         {% endif %}

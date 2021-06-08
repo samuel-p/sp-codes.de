@@ -6,11 +6,7 @@
         <div class="beta">TEST-PHASE</div>
         {% endif %}
         <div class="inner">
-            {% if service.si %}
-            <i class="si si-{{service.si}} fa-4x"></i>
-            {% else %}
-            <i class="{{service.icon}} fa-4x"></i>
-            {% endif %}
+            <i class="{{service.icon}} si-4x"></i>
             <h2 class="mt-2 mb-1">{{service.name}}{% if service.url %} <a href="{{service.url}}" target="_blank"><i
                     class="fas fa-external-link-alt"></i></a>{% endif %}</h2>
             {% if service.status %}

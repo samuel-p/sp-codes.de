@@ -29,17 +29,23 @@
   }
 }
 
+@include svg-icon('bars');
+@include svg-icon('book');
+@include svg-icon('comment-dots');
 @include svg-icon('comments');
 @include svg-icon('envelope');
 @include svg-icon('firefox-browser');
 @include svg-icon('gitea');
 @include svg-icon('github');
+@include svg-icon('hand-holding-heart');
+@include svg-icon('home');
 @include svg-icon('language');
 @include svg-icon('mastodon');
 @include svg-icon('matrix');
 @include svg-icon('opencollective');
 @include svg-icon('search');
 @include svg-icon('stackoverflow');
+@include svg-icon('server');
 @include svg-icon('tags');
 @include svg-icon('threema');
 @include svg-icon('twitter');
