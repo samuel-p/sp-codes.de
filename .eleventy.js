@@ -1,10 +1,6 @@
 const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
 
 module.exports = function (eleventyConfig) {
-    eleventyConfig.setLiquidOptions({
-        dynamicPartials: true,
-        // strict_filters: true,
-    });
     eleventyConfig.addWatchTarget("./src/scss/");
 
     eleventyConfig.addPlugin(eleventyNavigationPlugin);
@@ -27,8 +23,9 @@ module.exports = function (eleventyConfig) {
         return value.map(d => d.amount).reduce((a, b) => a + b);
     });
 
-    eleventyConfig.addFilter("amount", function (value, locale) {
-        return value.toLocaleString(locale, {minimumFractionDigits: 2});
+    eleventyConfig.addFilter("amount", function (value) {
+        // TODO update language dynamically
+        return value.toLocaleString('de', {minimumFractionDigits: 2});
     });
 
     eleventyConfig.addFilter("banktransfers", function (donations) {
