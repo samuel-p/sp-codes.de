@@ -270,6 +270,10 @@ pre {
   }
 }
 
+.table-container {
+  overflow-y: auto;
+}
+
 table.table {
   width: 100%;
   margin-bottom: 16px;

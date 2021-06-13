@@ -1,35 +1,36 @@
-{{locale}}
-<table class="table">
-    <thead>
-    <tr>
-        <th>{{strings.date[locale]}}</th>
-        <th>{{strings.via[locale]}}</th>
-        <th>{{strings.from[locale]}}</th>
-        <th>{{strings.amount[locale]}}</th>
-    </tr>
-    </thead>
-    <tbody>
-    {% for donation in donations[0].donations %}
-    <tr>
-        <td>{{donation.date}}</td>
-        {% if donation.via == 'opencollective' %}
-        <td><a href="https://opencollective.com/sp-codes" rel="nofollow">Open Collective</a></td>
-        {% else %}
-        <td>{{strings[donation.via][locale]}}</td>
-        {% endif %}
-        {% if donation.from %}
-        <td>{{donation.from}}</td>
-        {% else %}
-        <td>***</td>
-        {% endif %}
-        <td>{{donation.amount | amount}} €</td>
-    </tr>
-    {% endfor %}
-    </tbody>
-    <tfoot>
-    <tr>
-        <th colspan="3">{{strings.total[locale]}}</th>
-        <th>{{donations[0].donations | sum | amount}} €</th>
-    </tr>
-    </tfoot>
-</table>
+<div class="table-container">
+    <table class="table">
+        <thead>
+        <tr>
+            <th>{{strings.date[locale]}}</th>
+            <th>{{strings.via[locale]}}</th>
+            <th>{{strings.from[locale]}}</th>
+            <th>{{strings.amount[locale]}}</th>
+        </tr>
+        </thead>
+        <tbody>
+        {% for donation in donations[0].donations %}
+        <tr>
+            <td>{{donation.date}}</td>
+            {% if donation.via == 'opencollective' %}
+            <td><a href="https://opencollective.com/sp-codes" rel="nofollow">Open Collective</a></td>
+            {% else %}
+            <td>{{strings[donation.via][locale]}}</td>
+            {% endif %}
+            {% if donation.from %}
+            <td>{{donation.from}}</td>
+            {% else %}
+            <td>***</td>
+            {% endif %}
+            <td>{{donation.amount | amount}} €</td>
+        </tr>
+        {% endfor %}
+        </tbody>
+        <tfoot>
+        <tr>
+            <th colspan="3">{{strings.total[locale]}}</th>
+            <th>{{donations[0].donations | sum | amount}} €</th>
+        </tr>
+        </tfoot>
+    </table>
+</div>
