@@ -3,7 +3,7 @@ layout: base.njk
 key: connectivitycheck
 title: Captive Portal Check
 ---
-# <i class="fas fa-wifi"></i> Captive Portal Check
+# <i class="si si-wifi"></i> Captive Portal Check
 
 Ein Captive Portal ist eine Anmeldeseite in öffentlichen WLAN-Netzwerken, um den Internet-Zugriff an die Zustimmung bestimmter Nutzungsregeln zu binden. Wenn du in einem öffentlichen Netzwerk eine Anmeldeseite angezeigt bekommst, nutzt dein Gerät dafür einen Captive Portal Check. Dieser ermöglicht es dem Gerät, herauszufinden, ob du einen direkten Internetzugang hast oder nicht. Unter Android wird hierfür beispielsweise eine Anfrage an einen Google-Server gestellt.
 

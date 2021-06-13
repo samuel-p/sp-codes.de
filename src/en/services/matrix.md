@@ -3,7 +3,7 @@ layout: base.njk
 key: matrix
 title: Matrix
 ---
-# <i class="fas fa-comments"></i> Matrix
+# <i class="si si-comments"></i> Matrix
 
 Matrix is a modern, open source software for decentralized communication (like e-mail). Matrix offers end-to-end encryption, voice and video calls and much more. However, the most important thing is that there is not one Matrix server that all users have to use, like WhatsApp, Telegram and many other popular messengers.
 

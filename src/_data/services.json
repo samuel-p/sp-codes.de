@@ -2,7 +2,7 @@
   {
     "id": "searx",
     "name": "Searx",
-    "icon": "fas fa-search",
+    "icon": "si si-search",
     "url": "https://searx.sp-codes.de",
     "status": "https://searx.sp-codes.de",
     "summary": {
@@ -13,7 +13,7 @@
   {
     "id": "matrix",
     "name": "Matrix",
-    "icon": "fas fa-comments",
+    "icon": "si si-comments",
     "url": "https://chat.sp-codes.de",
     "status": "https://matrix.sp-codes.de/_matrix/static/",
     "summary": {
@@ -24,7 +24,7 @@
   {
     "id": "jitsi",
     "name": "Jitsi Meet",
-    "icon": "fas fa-users",
+    "icon": "si si-users",
     "url": "https://jitsi.sp-codes.de",
     "status": "https://jitsi.sp-codes.de",
     "summary": {
@@ -35,7 +35,7 @@
   {
     "id": "mastodon",
     "name": "Mastodon",
-    "icon": "fab fa-mastodon",
+    "icon": "si si-mastodon",
     "url": "https://social.sp-codes.de",
     "status": "https://social.sp-codes.de/health",
     "beta": true,
@@ -47,7 +47,7 @@
   {
     "id": "gitea",
     "name": "Gitea",
-    "icon": "fas fa-code",
+    "icon": "si si-gitea",
     "url": "https://git.sp-codes.de",
     "status": "https://git.sp-codes.de",
     "summary": {
@@ -58,7 +58,7 @@
   {
     "id": "connectivitycheck",
     "name": "Captive Portal Check",
-    "icon": "fas fa-wifi",
+    "icon": "si si-wifi",
     "status": "https://connectivitycheck.sp-codes.de/generate204",
     "summary": {
       "de": "Eine datenschutzfreundliches Tool, um Anmeldeseiten in WLAN-Netzwerken zu erkennen.",
@@ -68,7 +68,7 @@
   {
     "id": "firefox-sync",
     "name": "Firefox Sync",
-    "icon": "fab fa-firefox-browser",
+    "icon": "si si-firefox-browser",
     "status": "https://sync.firefox.sp-codes.de/token/",
     "summary": {
       "de": "Ein Service um Firefox Einstellungen, Lesezeichen, offene Tabs und vieles mehr über verschiedene Geräte zu synchronisieren.",
@@ -78,7 +78,7 @@
   {
     "id": "shields",
     "name": "Shields",
-    "icon": "fas fa-tags",
+    "icon": "si si-tags",
     "url": "https://shields.sp-codes.de",
     "status": "https://shields.sp-codes.de",
     "summary": {
@@ -89,7 +89,7 @@
   {
     "id": "translate",
     "name": "LibreTranslate",
-    "icon": "fas fa-language",
+    "icon": "si si-language",
     "url": "https://translate.sp-codes.de",
     "status": "https://translate.sp-codes.de",
     "beta": true,
@@ -101,7 +101,7 @@
   {
     "id": "invidious",
     "name": "Invidious",
-    "icon": "fab fa-youtube",
+    "icon": "si si-youtube",
     "url": "https://invidious.sp-codes.de",
     "status": "https://invidious.sp-codes.de",
     "summary": {
@@ -112,7 +112,7 @@
   {
     "id": "nitter",
     "name": "Nitter",
-    "icon": "fab fa-twitter",
+    "icon": "si si-twitter",
     "url": "https://nitter.sp-codes.de",
     "status": "https://nitter.sp-codes.de",
     "summary": {

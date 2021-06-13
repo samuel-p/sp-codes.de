@@ -4,7 +4,7 @@ key: matrix
 title: Matrix
 ---
 
-# <i class="fas fa-comments"></i> Matrix
+# <i class="si si-comments"></i> Matrix
 
 [Matrix](https://matrix.org) ist eine moderne, quelloffene Software für dezentrale Kommunikation (wie E-Mail). Matrix
 bietet von Haus aus Sprach- und Videoanrufe, inklusive Ende-zu-Ende Verschlüsselung und vieles mehr. Das Entscheidende
