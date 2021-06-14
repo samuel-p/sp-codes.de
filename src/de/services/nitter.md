@@ -3,7 +3,7 @@ layout: base.njk
 key: nitter
 title: Nitter
 ---
-# <i class="si si-twitter"></i> Nitter
+# <i class="i-twitter"></i> Nitter
 
 Eine freies und quelloffenes Twitter-Frontend, das auf Privatsphäre der Nutzer ausgerichtet ist. Die Verbindungen zu Twitter werden vom Server selber übernommen, um Tracking über IP oder JavaScript zu verhindern.
 

@@ -1,0 +1,225 @@
+@import "variables";
+
+@font-face {
+  font-family: '#{$icomoon-font-family}';
+  src: url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?9r0igb');
+  src: url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?9r0igb#iefix') format('embedded-opentype'),
+  url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff2?9r0igb') format('woff2'),
+  url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?9r0igb') format('woff'),
+  url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?9r0igb') format('truetype'),
+  url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?9r0igb##{$icomoon-font-family}') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="i-"], [class*=" i-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: '#{$icomoon-font-family}' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  /* own changes */
+  display: inline-block;
+}
+
+.i-fw {
+  width: 1.25em;
+  text-align: center;
+}
+
+.i-2x {
+  font-size: 2em;
+}
+
+.i-3x {
+  font-size: 3em;
+}
+
+.i-4x {
+  font-size: 4em;
+}
+
+.i-network-wired {
+  &:before {
+    content: $i-network-wired;
+  }
+}
+.i-money-bill {
+  &:before {
+    content: $i-money-bill;
+  }
+}
+.i-chart-line {
+  &:before {
+    content: $i-chart-line;
+  }
+}
+.i-info-circle {
+  &:before {
+    content: $i-info-circle;
+  }
+}
+.i-code {
+  &:before {
+    content: $i-code;
+  }
+}
+.i-xmpp {
+  &:before {
+    content: $i-xmpp;
+  }
+}
+.i-wifi {
+  &:before {
+    content: $i-wifi;
+  }
+}
+.i-youtube {
+  &:before {
+    content: $i-youtube;
+  }
+}
+.i-twitter {
+  &:before {
+    content: $i-twitter;
+  }
+}
+.i-threema {
+  &:before {
+    content: $i-threema;
+  }
+}
+.i-stackoverflow {
+  &:before {
+    content: $i-stackoverflow;
+  }
+}
+.i-search {
+  &:before {
+    content: $i-search;
+  }
+}
+.i-opencollective {
+  &:before {
+    content: $i-opencollective;
+  }
+}
+.i-mastodon {
+  &:before {
+    content: $i-mastodon;
+  }
+}
+.i-hand-holding-heart {
+  &:before {
+    content: $i-hand-holding-heart;
+  }
+}
+.i-github {
+  &:before {
+    content: $i-github;
+  }
+}
+.i-gitea {
+  &:before {
+    content: $i-gitea;
+  }
+}
+.i-firefox {
+  &:before {
+    content: $i-firefox;
+  }
+}
+.i-copyright {
+  &:before {
+    content: $i-copyright;
+  }
+}
+.i-book {
+  &:before {
+    content: $i-book;
+  }
+}
+.i-matrix {
+  &:before {
+    content: $i-matrix;
+  }
+}
+.i-server {
+  &:before {
+    content: $i-server;
+  }
+}
+.i-credit-card {
+  &:before {
+    content: $i-credit-card;
+  }
+}
+.i-external-link {
+  &:before {
+    content: $i-external-link;
+  }
+}
+.i-heart {
+  &:before {
+    content: $i-heart;
+  }
+}
+.i-home {
+  &:before {
+    content: $i-home;
+  }
+}
+.i-tags {
+  &:before {
+    content: $i-tags;
+  }
+}
+.i-comments {
+  &:before {
+    content: $i-comments;
+  }
+}
+.i-users {
+  &:before {
+    content: $i-users;
+  }
+}
+.i-bars {
+  &:before {
+    content: $i-bars;
+  }
+}
+.i-envelope {
+  &:before {
+    content: $i-envelope;
+  }
+}
+.i-language {
+  &:before {
+    content: $i-language;
+  }
+}
+.i-user-secret {
+  &:before {
+    content: $i-user-secret;
+  }
+}
+.i-heartbeat {
+  &:before {
+    content: $i-heartbeat;
+  }
+}
+.i-commenting {
+  &:before {
+    content: $i-commenting;
+  }
+}

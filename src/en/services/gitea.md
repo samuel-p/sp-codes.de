@@ -3,7 +3,7 @@ layout: base.njk
 key: gitea
 title: Gitea
 ---
-# <i class="si si-gitea"></i> Gitea
+# <i class="i-gitea"></i> Gitea
 
 Gitea is a simple code hosting platform like GitHub or GitLab. It is open source and under continuous development. __Since the end of 2019 I have my own Gitea instance, to manage my projects.__ For example this website. Feel free to have a look at the source code and leave some feedback.
 

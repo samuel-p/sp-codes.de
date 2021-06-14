@@ -9,13 +9,10 @@
 @import "node_modules/bootstrap/scss/variables";
 @import "node_modules/bootstrap/scss/mixins/_breakpoints";
 
-$fa-font-path: "../font";
-@import "node_modules/@fortawesome/fontawesome-free/scss/fontawesome";
-@import "node_modules/@fortawesome/fontawesome-free/scss/solid";
-@import "node_modules/@fortawesome/fontawesome-free/scss/brands";
-@import "node_modules/@fortawesome/fontawesome-free/scss/regular";
-$flag-icon-rect-path: '';
-@import "node_modules/flag-icon-css/sass/flag-icon";
+$icomoon-font-path: "../font";
+@import "icons/style";
+$flag-icon-path: '../img';
+@import "icons/flags";
 
 $primary: #fea500;
 $primary_dark: #e5a52e;
