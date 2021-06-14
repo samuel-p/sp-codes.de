@@ -9,7 +9,7 @@
     "watch:eleventy": "eleventy --serve",
     "watch:sass": "npm-run-all compile-sass minify-css -- --watch",
     "start": "npm-run-all compile-sass minify-css --parallel watch:*",
-    "build": "npm run compile-sass && npm run strip-css && eleventy && npm run move-index && npm run minify-css",
+    "build": "npm run compile-sass && eleventy && npm run move-index && npm run minify-css",
     "move-index": "cpx dist/de/index.html dist/"
   },
   "author": "samuel-p",
@@ -21,7 +21,7 @@
     "browser-sync": "^2.26.14"
   },
   "devDependencies": {
-    "@11ty/eleventy": "^1.0.0-canary.32",
+    "@11ty/eleventy": "^1.0.0-canary.33",
     "@11ty/eleventy-navigation": "^0.2.0",
     "cpx": "^1.5.0",
     "node-sass": "^6.0.0",
