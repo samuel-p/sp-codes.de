@@ -7,7 +7,8 @@ module.exports = function (eleventyConfig) {
     eleventyConfig.setUseGitIgnore(false);
     eleventyConfig.addPassthroughCopy({
         "src/img": "img",
-        "src/font": "font"
+        "src/font": "font",
+        "src/favicon.*": "",
     });
     eleventyConfig.addShortcode("translatedUrl", function (currentLocale, newLocale) {
         return this.page.url.replace(new RegExp(`\/${currentLocale}\/`), `/${newLocale}/`);
