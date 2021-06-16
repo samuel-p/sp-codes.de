@@ -3,7 +3,7 @@ layout: base.njk
 key: nitter
 title: Nitter
 ---
-# <i class="si si-twitter"></i> Nitter
+# <i class="i-twitter"></i> Nitter
 
 A free and open source Twitter frontend that is focussed on user privacy. Connections to Twitter are handled by the server itself to prevent tracking by IP or JavaScript.
 

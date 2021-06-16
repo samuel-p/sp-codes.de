@@ -3,11 +3,12 @@
   "version": "1.0.0",
   "description": "website for sp-codes.de",
   "scripts": {
-    "compile-sass": "node-sass --output-style compressed --importer=node_modules/node-sass-tilde-importer src/scss/ -o dist/css/",
+    "compile-sass": "node-sass --output-style compressed --importer=node_modules/node-sass-tilde-importer src/scss/main.scss -o dist/css/",
+    "minify-css": "uncss -n -H dist/ -o dist/css/main.css dist/**/*.html dist/**/**/*.html dist/**/**/**/*.html",
     "watch:eleventy": "eleventy --serve",
-    "watch:sass": "npm run compile-sass -- --watch",
-    "start": "npm-run-all compile-sass --parallel watch:*",
-    "build": "npm run compile-sass && eleventy && npm run move-index",
+    "watch:sass": "npm-run-all compile-sass minify-css -- --watch",
+    "start": "npm-run-all compile-sass minify-css --parallel watch:*",
+    "build": "npm run compile-sass && eleventy && npm run move-index && npm run minify-css && node .compress-all.js",
     "move-index": "cpx dist/de/index.html dist/"
   },
   "author": "samuel-p",
@@ -19,16 +20,20 @@
     "browser-sync": "^2.26.14"
   },
   "devDependencies": {
-    "@11ty/eleventy": "^1.0.0-canary.32",
+    "@11ty/eleventy": "^1.0.0-canary.35",
     "@11ty/eleventy-navigation": "^0.2.0",
+    "@node-minify/core": "^6.2.0",
+    "@node-minify/crass": "^6.2.0",
+    "@node-minify/html-minifier": "^6.2.0",
     "cpx": "^1.5.0",
+    "glob": "^7.1.7",
+    "minify": "^7.0.2",
     "node-sass": "^6.0.0",
     "node-sass-tilde-importer": "^1.0.2",
-    "npm-run-all": "^4.1.5"
+    "npm-run-all": "^4.1.5",
+    "uncss": "^0.17.3"
   },
   "dependencies": {
-    "@fortawesome/fontawesome-free": "^5.15.3",
-    "bootstrap": "^4.6.0",
-    "flag-icon-css": "^3.5.0"
+    "bootstrap": "^4.6.0"
   }
 }

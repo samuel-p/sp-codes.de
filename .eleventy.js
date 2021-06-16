@@ -8,8 +8,7 @@ module.exports = function (eleventyConfig) {
     eleventyConfig.addPassthroughCopy({
         "src/img": "img",
         "src/font": "font",
-        "node_modules/@fortawesome/fontawesome-free/webfonts/": "font",
-        "node_modules/flag-icon-css/flags/4x3/(de|us)*": "flags"
+        "src/favicon.*": "",
     });
     eleventyConfig.addShortcode("translatedUrl", function (currentLocale, newLocale) {
         return this.page.url.replace(new RegExp(`\/${currentLocale}\/`), `/${newLocale}/`);

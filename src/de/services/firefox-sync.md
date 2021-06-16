@@ -3,7 +3,7 @@ layout: base.njk
 key: firefox-sync
 title: Firefox Sync
 ---
-# <i class="si si-firefox-browser"></i> Firefox Sync
+# <i class="i-firefox-browser"></i> Firefox Sync
 
 Nutzt du Firefox auf mehreren Geräten zum Surfen? Dann kannst du mit Firefox Sync deine Browserdaten (Lesezeichen, offene Tabs, die Suchhistorie, uvm.) zwischen all deinen Geräten synchronisieren.
 

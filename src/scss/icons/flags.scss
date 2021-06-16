@@ -1,0 +1,24 @@
+// flag-icon-css
+$flag-icon-path: "" !default;
+
+[class^="fi-"], [class*=" fi-"] {
+  position: relative;
+  display: inline-block;
+  width: 1.33333em;
+  line-height: 1em;
+  background-size: contain;
+  background-position: 50%;
+  background-repeat: no-repeat;
+
+  &::before {
+    content: '\00a0';
+  }
+}
+
+.fi-us {
+  background-image: url('#{$flag-icon-path}/us.svg');
+}
+
+.fi-de {
+  background-image: url('#{$flag-icon-path}/de.svg');
+}

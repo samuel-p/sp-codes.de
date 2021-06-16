@@ -31,23 +31,22 @@ title: sp-codes
     <meta name="twitter:title" content="sp-codes">
     <meta name="twitter:description" content="Samuel Philipp - Software Engineer from Magdeburg">
     <meta name="twitter:image" content="https://sp-codes.de/img/sp-codes.jpg">
-    <link rel="shortcut icon" href="img/sp-codes.ico">
-    <link rel="stylesheet" href="/css/logo.css">
-    <link rel="stylesheet" href="/css/icons.css">
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="icon" type="image/png" href="favicon.png">
     <link rel="stylesheet" href="/css/main.css">
     <script async defer data-domain="sp-codes.de" src="https://plausible.sp-codes.de/js/plausible.outbound-links.js"></script>
 </head>
 <body>
 <nav class="nav menu border-bottom">
     <div class="toggle">
-        <label for="menu" class="m-0"><span class="si si-bars mr-1"></span>{{ strings.menu[locale] }}</label>
+        <label for="menu" class="m-0"><span class="i-bars mr-1"></span>{{ strings.menu[locale] }}</label>
 
         <div class="flex-grow-1"></div>
 
         {% for language in site.languages %}
         <div {% if language.code== locale %} class="active" {% endif %}>
             <a href="{% translatedUrl locale, language.code %}" class="ml-3">
-                <span class="flag-icon flag-icon-{{ language.icon }}" title="{{ language.label }}"></span>
+                <span class="fi-{{ language.icon }}" title="{{ language.label }}"></span>
             </a>
         </div>
         {% endfor %}
@@ -72,7 +71,7 @@ title: sp-codes
         {% for language in site.languages %}
         <div {% if language.code== locale %} class="active" {% endif %}>
             <a href="{% translatedUrl locale, language.code %}" class="ml-3">
-                <span class="flag-icon flag-icon-{{ language.icon }}" title="{{ language.label }}"></span>
+                <span class="fi-{{ language.icon }}" title="{{ language.label }}"></span>
             </a>
         </div>
         {% endfor %}
@@ -86,19 +85,19 @@ title: sp-codes
 </div>
 <div class="d-flex justify-content-start flex-wrap p-2 menu border-top">
     <div class="d-flex justify-content-start flex-wrap">
-        <div class="mr-3">Made with <span class="fas fa-heart highlight"></span> in Germany</div>
-        <div class="mr-3"><a href="https://samuel-philipp.de"><span class="far fa-copyright mr-1"></span>Samuel Philipp</a></div>
+        <div class="mr-3">Made with <span class="i-heart highlight"></span> in Germany</div>
+        <div class="mr-3"><a href="https://samuel-philipp.de"><span class="i-copyright mr-1"></span>Samuel Philipp</a></div>
     </div>
     <div class="flex-sm-grow-1"></div>
     <div class="d-flex justify-content-sm-start flex-wrap">
-        <div class="mr-3"><a href="/{{locale}}/imprint"><span class="fas fa-info-circle mr-1"></span>{{strings.imprint[locale]}}</a>
+        <div class="mr-3"><a href="/{{locale}}/imprint"><span class="i-info-circle mr-1"></span>{{strings.imprint[locale]}}</a>
         </div>
-        <div class="mr-3"><a href="/{{locale}}/privacy"><span class="fas fa-user-secret mr-1"></span>{{strings.privacy[locale]}}</a>
+        <div class="mr-3"><a href="/{{locale}}/privacy"><span class="i-user-secret mr-1"></span>{{strings.privacy[locale]}}</a>
         </div>
         <div class="mr-3"><a target="_blank" href="https://git.sp-codes.de/samuel-p/sp-codes.de"><span
-                class="fas fa-code mr-1"></span>{{strings.code[locale]}}</a></div>
+                class="i-code mr-1"></span>{{strings.code[locale]}}</a></div>
         <div><a target="_blank" href="https://plausible.sp-codes.de/sp-codes.de"><span
-                class="fas fa-chart-line mr-1"></span>{{strings.stats[locale]}}</a></div>
+                class="i-chart-line mr-1"></span>{{strings.stats[locale]}}</a></div>
     </div>
 </div>
 </body>
