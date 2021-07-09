@@ -17,7 +17,7 @@ You can read the server rules [here](https://matrix.sp-codes.de/_matrix/consent)
 <a class="card d-inline-block font-weight-bold" target="_blank" href="https://chat.sp-codes.de/#/register">Register now</a>
 </div>
 
-On my blog (German) you will find an article series for an easy start to Matrix: [Werde Teil der Matrix](https://blog.sp-codes.de/werde-teil-der-matrix-matrix-teil-1/)
+On my blog (German) you will find an article series for an easy start to Matrix: [Werde Teil der Matrix](https://samuels-blog.de/werde-teil-der-matrix-matrix-teil-1/)
 
 ## Why Matrix?
 

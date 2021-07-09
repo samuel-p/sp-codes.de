@@ -56,6 +56,18 @@
     }
   },
   {
+    "id": "gotify",
+    "name": "Gotify",
+    "icon": "i-server",
+    "url": "https://push.sp-codes.de",
+    "status": "https://push.sp-codes.de",
+    "beta": true,
+    "summary": {
+      "de": "Ein einfacher Dienst zum Senden und Empfangen von Nachrichten in Echtzeit.",
+      "en": "A simple service for sending and receiving messages in real-time."
+    }
+  },
+  {
     "id": "connectivitycheck",
     "name": "Captive Portal Check",
     "icon": "i-wifi",

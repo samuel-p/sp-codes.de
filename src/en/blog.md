@@ -4,7 +4,7 @@ eleventyNavigation:
   key: blog
   title: Blog
   icon: i-book
-  url: https://blog.sp-codes.de/
+  url: https://samuels-blog.de/
   locale: en
   order: 1
 permalink: false
