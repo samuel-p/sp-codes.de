@@ -71,10 +71,10 @@ eleventyNavigation:
 </div>
 
 <h2>Current Expenses</h2>
-{% include expenses-current.html %}
+{% include "expenses-current.html" %}
 
 <h2>Donations {{donations[0].year}}</h2>
-{% include donations-current.html %}
+{% include "donations-current.html" %}
 
 <p><a href="/{{locale}}/all-donations/">&#10132; All Donations</a></p>
 

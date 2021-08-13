@@ -38,7 +38,6 @@
     "icon": "i-mastodon",
     "url": "https://social.sp-codes.de",
     "status": "https://social.sp-codes.de/health",
-    "beta": true,
     "summary": {
       "de": "Das dezentrale, soziale Netzwerk der Zukunft: Keine Werbung und keine Überwachung durch Unternehmen.",
       "en": "The decentralized social network of the future: No ads, no corporate surveillance."
