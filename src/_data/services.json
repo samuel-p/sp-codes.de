@@ -44,6 +44,18 @@
     }
   },
   {
+    "id": "peertube",
+    "name": "PeerTube",
+    "icon": "i-peertube",
+    "url": "https://tube.sp-codes.de",
+    "status": "https://tube.sp-codes.de",
+    "beta": true,
+    "summary": {
+      "de": "Ein Netzwerk aus mehreren föderierten, interoperablen Video-Hosting-Anbietern. Werbefrei und ohne Bindung an einen bestimmten Anbieter.",
+      "en": "A network of multiple federated, interoperable video hosting providers. Ad-free and without vendor lock-in."
+    }
+  },
+  {
     "id": "gitea",
     "name": "Gitea",
     "icon": "i-gitea",

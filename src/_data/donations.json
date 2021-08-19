@@ -3,6 +3,13 @@
     "year": 2021,
     "donations": [
       {
+        "date": "18.08.2021",
+        "amount": 30,
+        "via": "banktransfer",
+        "from": null,
+        "first": true
+      },
+      {
         "date": "02.08.2021",
         "amount": 10,
         "via": "banktransfer",
