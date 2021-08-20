@@ -37,7 +37,7 @@ Here I want to give some reasons why I use Matrix and prefer it over many other 
 
 * [Various Apps](https://matrix.org/clients)
 * [List of public rooms](https://view.matrix.org/)
-* Lists with public matrix servers
+* Lists with public Matrix servers
   * [hello-matrix.net](https://www.hello-matrix.net/public_servers.php)
   * [anchel.nl](https://publiclist.anchel.nl/)
   * [the-federation.info](https://the-federation.info/protocol/matrix)
