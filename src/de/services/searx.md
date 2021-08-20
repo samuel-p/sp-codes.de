@@ -15,9 +15,7 @@ __Seit November 2019 betreibe ich eine öffentliche Searx Instanz.__ Schau gerne
 
 __Hier gehts zu Searx: [searx.sp-codes.de](https://searx.sp-codes.de)__
 
-Tor Hidden Service: [searxbi3f73mmdeb.onion](http://searxbi3f73mmdeb.onion)
-
-Wenn du Searx als Standardsuchmaschine nutzen willst, findest du auf meinem Blog eine Anleitung dafür: [Nur noch Searx](https://blog.sp-codes.de/nur-noch-searx/)
+Wenn du Searx als Standardsuchmaschine nutzen willst, findest du auf meinem Blog eine Anleitung dafür: [Nur noch Searx](https://samuels-blog.de/nur-noch-searx/)
 
 ## Weitere nützliche Links
 

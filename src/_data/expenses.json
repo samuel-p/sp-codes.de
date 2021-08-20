@@ -39,6 +39,12 @@
     "amount": 11.49
   },
   {
+    "name": "Backup",
+    "type": "Storage Box",
+    "provider": "Hetzner",
+    "amount": 3.45
+  },
+  {
     "name": {
       "en": "Additional IPv4",
       "de": "Zusätzliche IPv4"

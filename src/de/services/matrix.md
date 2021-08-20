@@ -34,10 +34,10 @@ Auf meinem Blog findest du eine Artikelserie für einen einfachen Einstieg in Ma
 <div class="col-12 col-md-10 col-lg-8">
 <div class="card-list">
 <div class="card">
-<a href="https://blog.sp-codes.de/werde-teil-der-matrix-matrix-teil-1/">Teil 1: Werde Teil der Matrix</a>
+<a href="https://samuels-blog.de/werde-teil-der-matrix-matrix-teil-1/">Teil 1: Werde Teil der Matrix</a>
 </div>
 <div class="card">
-<a href="https://blog.sp-codes.de/sichere-chats-mit-matrix-matrix-teil-2/">Teil 2: Sichere Chats mit Matrix</a>
+<a href="https://samuels-blog.de/sichere-chats-mit-matrix-matrix-teil-2/">Teil 2: Sichere Chats mit Matrix</a>
 </div>
 </div>
 </div>

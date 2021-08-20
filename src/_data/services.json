@@ -38,10 +38,21 @@
     "icon": "i-mastodon",
     "url": "https://social.sp-codes.de",
     "status": "https://social.sp-codes.de/health",
-    "beta": true,
     "summary": {
       "de": "Das dezentrale, soziale Netzwerk der Zukunft: Keine Werbung und keine Überwachung durch Unternehmen.",
       "en": "The decentralized social network of the future: No ads, no corporate surveillance."
+    }
+  },
+  {
+    "id": "peertube",
+    "name": "PeerTube",
+    "icon": "i-peertube",
+    "url": "https://tube.sp-codes.de",
+    "status": "https://tube.sp-codes.de",
+    "beta": true,
+    "summary": {
+      "de": "Ein Netzwerk aus mehreren föderierten, interoperablen Video-Hosting-Anbietern. Werbefrei und ohne Bindung an einen bestimmten Anbieter.",
+      "en": "A network of multiple federated, interoperable video hosting providers. Ad-free and without vendor lock-in."
     }
   },
   {
@@ -53,6 +64,18 @@
     "summary": {
       "de": "Eine leichtgewichtige Code-Hosting-Plattform für git.",
       "en": "A lightweight code hosting platform for git."
+    }
+  },
+  {
+    "id": "gotify",
+    "name": "Gotify",
+    "icon": "i-server",
+    "url": "https://push.sp-codes.de",
+    "status": "https://push.sp-codes.de",
+    "beta": true,
+    "summary": {
+      "de": "Ein einfacher Dienst zum Senden und Empfangen von Nachrichten in Echtzeit.",
+      "en": "A simple service for sending and receiving messages in real-time."
     }
   },
   {

@@ -48,6 +48,11 @@
   font-size: 4em;
 }
 
+.i-peertube {
+  &:before {
+    content: $i-peertube;
+  }
+}
 .i-network-wired {
   &:before {
     content: $i-network-wired;
