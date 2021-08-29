@@ -3,6 +3,13 @@
     "year": 2021,
     "donations": [
       {
+        "date": "26.08.2021",
+        "amount": 18.27,
+        "via": "opencollective",
+        "from": "Skoop",
+        "first": true
+      },
+      {
         "date": "18.08.2021",
         "amount": 30,
         "via": "banktransfer",

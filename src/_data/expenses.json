@@ -42,7 +42,7 @@
     "name": "Backup",
     "type": "Storage Box",
     "provider": "Hetzner",
-    "amount": 3.45
+    "amount": 5.83
   },
   {
     "name": {
