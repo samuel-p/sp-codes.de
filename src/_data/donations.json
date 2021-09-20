@@ -3,6 +3,13 @@
     "year": 2021,
     "donations": [
       {
+        "date": "20.09.2021",
+        "amount": 20,
+        "via": "banktransfer",
+        "from": "Clemi",
+        "first": true
+      },
+      {
         "date": "26.08.2021",
         "amount": 18.27,
         "via": "opencollective",
