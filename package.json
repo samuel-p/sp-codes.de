@@ -26,7 +26,7 @@
     "@node-minify/crass": "^6.2.0",
     "@node-minify/html-minifier": "^6.2.0",
     "cpx": "^1.5.0",
-    "glob": "^7.1.7",
+    "glob": "^7.2.0",
     "minify": "^7.1.0",
     "node-sass": "^6.0.1",
     "node-sass-tilde-importer": "^1.0.2",
