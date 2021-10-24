@@ -44,10 +44,18 @@ module.exports = function (eleventyConfig) {
     });
 
     return {
+        // Pre-process *.md files with: (default: `liquid`)
+        markdownTemplateEngine: "njk",
+        // Pre-process *.html files with: (default: `liquid`)
+        htmlTemplateEngine: "njk",
+        // Opt-out of pre-processing global data JSON files: (default: `liquid`)
+        dataTemplateEngine: false,
+
         dir: {
             input: "src",
             includes: "_includes",
             layouts: "_includes/layouts",
+            data: "_data",
             output: "dist"
         }
     };
