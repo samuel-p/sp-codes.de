@@ -17,7 +17,7 @@
     "url": "https://git.sp-codes.de/samuel-p/sp-codes.de"
   },
   "optionalDependencies": {
-    "browser-sync": "^2.27.5"
+    "browser-sync": "^2.27.6"
   },
   "devDependencies": {
     "@11ty/eleventy": "^1.0.0-canary.44",
