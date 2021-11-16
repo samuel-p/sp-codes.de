@@ -3,6 +3,20 @@
     "year": 2021,
     "donations": [
       {
+        "date": "16.11.2021",
+        "amount": 120,
+        "via": "banktransfer",
+        "from": "poetaster",
+        "first": true
+      },
+      {
+        "date": "16.11.2021",
+        "amount": 25,
+        "via": "banktransfer",
+        "from": null,
+        "first": true
+      },
+      {
         "date": "20.09.2021",
         "amount": 20,
         "via": "banktransfer",

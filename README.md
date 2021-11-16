@@ -1,6 +1,6 @@
 # sp-codes.de
 
-[![Build Status](https://ci.sp-codes.de/api/badges/samuel-p/sp-codes.de/status.svg)](https://ci.sp-codes.de/samuel-p/sp-codes.de)
+[![Build Status](https://ci.sp-codes.de/api/badges/samuel-p/sp-codes.de/status.svg?branch=main)](https://ci.sp-codes.de/samuel-p/sp-codes.de)
 
 Website for [sp-codes.de](https://sp-codes.de)
 
