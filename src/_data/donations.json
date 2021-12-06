@@ -3,6 +3,13 @@
     "year": 2021,
     "donations": [
       {
+        "date": "30.11.2021",
+        "amount": 5,
+        "via": "banktransfer",
+        "from": "Rumo",
+        "first": false
+      },
+      {
         "date": "16.11.2021",
         "amount": 120,
         "via": "banktransfer",
