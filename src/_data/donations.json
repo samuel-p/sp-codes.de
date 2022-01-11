@@ -1,5 +1,17 @@
 [
   {
+    "year": 2022,
+    "donations": [
+      {
+        "date": "03.01.2022",
+        "amount": 10,
+        "via": "banktransfer",
+        "from": "TeomaHK",
+        "first": true
+      }
+    ]
+  },
+  {
     "year": 2021,
     "donations": [
       {

@@ -1,16 +1,5 @@
 [
   {
-    "id": "searx",
-    "name": "Searx",
-    "icon": "i-search",
-    "url": "https://searx.sp-codes.de",
-    "status": "https://searx.sp-codes.de",
-    "summary": {
-      "de": "Eine privatsphären-respektierende, hackbare Metasuchmaschine.",
-      "en": "A privacy-respecting, hackable metasearch engine."
-    }
-  },
-  {
     "id": "matrix",
     "name": "Matrix",
     "icon": "i-comments",
@@ -67,6 +56,16 @@
     }
   },
   {
+    "id": "connectivitycheck",
+    "name": "Captive Portal Check",
+    "icon": "i-wifi",
+    "status": "https://connectivitycheck.sp-codes.de/generate204",
+    "summary": {
+      "de": "Eine datenschutzfreundliches Tool, um Anmeldeseiten in WLAN-Netzwerken zu erkennen.",
+      "en": "A privacy friendly Service to detect captive portals in WIFI networks."
+    }
+  },
+  {
     "id": "gotify",
     "name": "Gotify",
     "icon": "i-server",
@@ -76,16 +75,6 @@
     "summary": {
       "de": "Ein einfacher Dienst zum Senden und Empfangen von Nachrichten in Echtzeit.",
       "en": "A simple service for sending and receiving messages in real-time."
-    }
-  },
-  {
-    "id": "connectivitycheck",
-    "name": "Captive Portal Check",
-    "icon": "i-wifi",
-    "status": "https://connectivitycheck.sp-codes.de/generate204",
-    "summary": {
-      "de": "Eine datenschutzfreundliches Tool, um Anmeldeseiten in WLAN-Netzwerken zu erkennen.",
-      "en": "A privacy friendly Service to detect captive portals in WIFI networks."
     }
   },
   {
@@ -110,6 +99,17 @@
     }
   },
   {
+    "id": "searx",
+    "name": "Searx",
+    "icon": "i-search",
+    "url": "https://searx.sp-codes.de",
+    "status": "https://searx.sp-codes.de",
+    "summary": {
+      "de": "Eine privatsphären-respektierende, hackbare Metasuchmaschine.",
+      "en": "A privacy-respecting, hackable metasearch engine."
+    }
+  },
+  {
     "id": "translate",
     "name": "Translate",
     "icon": "i-language",
@@ -130,17 +130,6 @@
     "summary": {
       "de": "Ein alternatives YouTube-Frontend.",
       "en": "An alternative YouTube-Frontend."
-    }
-  },
-  {
-    "id": "nitter",
-    "name": "Nitter",
-    "icon": "i-twitter",
-    "url": "https://nitter.sp-codes.de",
-    "status": "https://nitter.sp-codes.de",
-    "summary": {
-      "de": "Ein alternatives Twitter-Frontend.",
-      "en": "An alternative Twitter-Frontend."
     }
   }
 ]
