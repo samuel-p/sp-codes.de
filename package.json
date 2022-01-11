@@ -20,7 +20,7 @@
     "browser-sync": "^2.27.7"
   },
   "devDependencies": {
-    "@11ty/eleventy": "^1.0.0-canary.49",
+    "@11ty/eleventy": "^1.0.0",
     "@11ty/eleventy-navigation": "^0.3.2",
     "@node-minify/core": "^6.2.0",
     "@node-minify/crass": "^6.2.0",
