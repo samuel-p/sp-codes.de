@@ -3,6 +3,13 @@
     "year": 2022,
     "donations": [
       {
+        "date": "17.01.2022",
+        "amount": 1,
+        "via": "banktransfer",
+        "from": "Jonathan Klatt",
+        "first": true
+      },
+      {
         "date": "03.01.2022",
         "amount": 10,
         "via": "banktransfer",
