@@ -16,14 +16,21 @@ erstellen und trotzdem mit allen Matrix-Nutzern:innen kommunizieren, nicht nur m
 verschickten Nachrichten werden so nur auf den beteiligten Servern gespeichert. Auch die Anrufe laufen nur über die
 beteiligten Server.
 
-__Seit Anfang 2020 betreibe ich einen öffentlichen Matrix-Server: [matrix.sp-codes.de](https://matrix.sp-codes.de/) und
-eine öffentliche Element-Web Instanz: [chat.sp-codes.de](https://chat.sp-codes.de/)__
+__Seit Anfang 2020 betreibe ich einen öffentlichen Matrix-Server: [matrix.sp-codes.de](https://matrix.sp-codes.de/) und eine öffentliche Element-Web Instanz: [chat.sp-codes.de](https://chat.sp-codes.de/)__
 
 Die Serverregeln kannst du gerne [hier](https://matrix.sp-codes.de/_matrix/consent) nachlesen. Melde dich gerne auf meinem Server an oder suche dir einen aus den unten verlinkten Listen heraus. Ich freue mich auf
 deine Nachricht an [@samuel-p:matrix.sp-codes.de](https://matrix.to/#/@samuel-p:matrix.sp-codes.de).
 
 <div class="text-center mb-3">
 <a class="card d-inline-block font-weight-bold" target="_blank" href="https://chat.sp-codes.de/#/register">Jetzt registrieren</a>
+</div>
+
+Wenn du einen eigenen Matrix-Server für dich, deine Familie oder deine Firma betreiben willst unterstütze ich dich gerne mit meiner Firma <a href="https://ossrox.org" target="_blank">Ossrox</a> damit. Schau dir gerne unser Angebot dazu auf unserer Webseite an oder schreib mir eine Nachricht dazu.
+
+<div class="text-center mb-3">
+    <a href="https://ossrox.org/" target="_blank">
+        <img src="https://static.ossrox.org/banner/ossrox.svg" alt="Ossrox" width="200px">
+    </a>
 </div>
 
 ## Einstieg
