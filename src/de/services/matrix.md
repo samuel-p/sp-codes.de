@@ -25,11 +25,11 @@ deine Nachricht an [@samuel-p:matrix.sp-codes.de](https://matrix.to/#/@samuel-p:
 <a class="card d-inline-block font-weight-bold" target="_blank" href="https://chat.sp-codes.de/#/register">Jetzt registrieren</a>
 </div>
 
-Wenn du einen eigenen Matrix-Server für dich, deine Familie oder deine Firma betreiben willst unterstütze ich dich gerne mit meiner Firma <a href="https://ossrox.org" target="_blank">Ossrox</a> damit. Schau dir gerne unser Angebot dazu auf unserer Webseite an oder schreib mir eine Nachricht dazu.
+Wenn du einen eigenen Matrix-Server für dich, deine Familie oder deine Firma betreiben willst, unterstütze ich dich gerne mit meiner Firma <a href="https://ossrox.org" target="_blank">Ossrox</a> damit. Schau dir gerne unser Angebot dazu auf unserer Webseite an oder schreib mir eine Nachricht dazu.
 
 <div class="text-center mb-3">
-    <a href="https://ossrox.org/" target="_blank">
-        <img src="https://static.ossrox.org/banner/ossrox.svg" alt="Ossrox" width="200px">
+    <a href="https://ossrox.org/category/matrix" target="_blank">
+        <img class="ossrox" src="/img/ossrox.svg" alt="Ossrox">
     </a>
 </div>
 
