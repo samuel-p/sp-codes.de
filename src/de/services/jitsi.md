@@ -11,6 +11,14 @@ __Seit Juli 2020 betreibe ich eine eigene Jitsi-Meet Instanz. Du findest sie unt
 
 Gerne darfst du die Instanz mit anderen Leuten nutzen.
 
+Wenn du einen eigenen Jitsi-Server für dich, deine Familie oder deine Firma betreiben willst, unterstütze ich dich gerne mit meiner Firma <a href="https://ossrox.org" target="_blank">Ossrox</a> damit. Schau dir gerne unser Angebot dazu auf unserer Webseite an oder schreib mir eine Nachricht dazu.
+
+<div class="text-center mb-3">
+    <a href="https://ossrox.org/store/jitsi" target="_blank">
+        <img class="ossrox" src="/img/ossrox.svg" alt="Ossrox">
+    </a>
+</div>
+
 ## Weitere nützliche Links
 
 * [Jitsi Webseite](https://jitsi.org/)
