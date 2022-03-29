@@ -11,14 +11,6 @@ __Since July 2020 I run my own Jitsi-Meet instance. You can find it at [jitsi.sp
 
 You are welcome to use the instance with other people.
 
-If you want to have your own Jitsi server for you, your family or your company, I would be happy to support you with my company <a href="https://ossrox.org" target="_blank">Ossrox</a>. Please have a look at our services on our website or send me a message.
-
-<div class="text-center mb-3">
-    <a href="https://ossrox.org/category/jitsi" target="_blank">
-        <img class="ossrox" src="/img/ossrox.svg" alt="Ossrox">
-    </a>
-</div>
-
 ## More useful links
 
 * [Jitsi Website](https://jitsi.org/)

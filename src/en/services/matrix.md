@@ -20,7 +20,7 @@ You can read the server rules [here](https://matrix.sp-codes.de/_matrix/consent)
 If you want to have your own matrix server for you, your family or your company, I would be happy to support you with my company <a href="https://ossrox.org" target="_blank">Ossrox</a>. Please have a look at our services on our website or send me a message.
 
 <div class="text-center mb-3">
-    <a href="https://ossrox.org/category/matrix" target="_blank">
+    <a href="https://ossrox.org/store/matrix" target="_blank">
         <img class="ossrox" src="/img/ossrox.svg" alt="Ossrox">
     </a>
 </div>
