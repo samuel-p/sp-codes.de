@@ -21,7 +21,7 @@
   },
   "devDependencies": {
     "@11ty/eleventy": "^1.0.1",
-    "@11ty/eleventy-navigation": "^0.3.2",
+    "@11ty/eleventy-navigation": "^0.3.3",
     "@node-minify/core": "^6.2.0",
     "@node-minify/crass": "^6.2.0",
     "@node-minify/html-minifier": "^6.2.0",
