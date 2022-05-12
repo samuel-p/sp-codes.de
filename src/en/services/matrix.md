@@ -17,7 +17,28 @@ You can read the server rules [here](https://matrix.sp-codes.de/_matrix/consent)
 <a class="card d-inline-block font-weight-bold" target="_blank" href="https://chat.sp-codes.de/#/register">Register now</a>
 </div>
 
-On my blog (German) you will find an article series for an easy start to Matrix: [Werde Teil der Matrix](https://samuels-blog.de/werde-teil-der-matrix-matrix-teil-1/)
+If you want to have your own matrix server for you, your family or your company, I would be happy to support you with my company <a href="https://ossrox.org" target="_blank">Ossrox</a>. Please have a look at our services on our website or send me a message.
+
+<div class="text-center mb-3">
+    <a href="https://ossrox.org/store/matrix" target="_blank">
+        <img class="ossrox" src="/img/ossrox.svg" alt="Ossrox">
+    </a>
+</div>
+
+On my blog (German) you will find an article series for an easy start to Matrix: 
+
+<div class="row justify-content-center">
+<div class="col-12 col-md-10 col-lg-8">
+<div class="card-list">
+<div class="card">
+<a href="https://samuels-blog.de/werde-teil-der-matrix-matrix-teil-1/">Part 1: Werde Teil der Matrix</a>
+</div>
+<div class="card">
+<a href="https://samuels-blog.de/sichere-chats-mit-matrix-matrix-teil-2/">Part 2: Sichere Chats mit Matrix</a>
+</div>
+</div>
+</div>
+</div>
 
 ## Why Matrix?
 
