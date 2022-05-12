@@ -3,6 +3,41 @@
     "year": 2022,
     "donations": [
       {
+        "date": "11.05.2022",
+        "amount": 20,
+        "via": "banktransfer",
+        "from": "ub1x",
+        "first": true
+      },
+      {
+        "date": "03.05.2022",
+        "amount": 10,
+        "via": "banktransfer",
+        "from": "TeomaHK",
+        "first": false
+      },
+      {
+        "date": "04.04.2022",
+        "amount": 10,
+        "via": "banktransfer",
+        "from": "TeomaHK",
+        "first": false
+      },
+      {
+        "date": "15.03.2022",
+        "amount": 1,
+        "via": "banktransfer",
+        "from": "Jonathan Klatt",
+        "first": false
+      },
+      {
+        "date": "10.03.2022",
+        "amount": 1.42,
+        "via": "banktransfer",
+        "from": "Jonathan Klatt",
+        "first": false
+      },
+      {
         "date": "03.03.2022",
         "amount": 10,
         "via": "banktransfer",
